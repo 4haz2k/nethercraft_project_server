@@ -28,3 +28,150 @@
 14:37:04 [INFO] Disabling plugins
 14:37:04 [INFO] Closing IO threads
 14:37:06 [INFO] Thank you and goodbye
+18:46:32 [INFO] Using standard Java JCE cipher.
+18:46:32 [INFO] Using standard Java compressor.
+18:46:32 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+18:46:32 [INFO] [BotFilter] Проверяю наличее обновлений
+18:46:33 [INFO] §c[BotFilter] §aНайдена новая версия!
+18:46:33 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+18:46:33 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+18:46:36 [INFO] [BotFilter] Генерирую капчу [0/900]
+18:46:37 [INFO] [BotFilter] Генерирую капчу [225/900]
+18:46:38 [INFO] [BotFilter] Генерирую капчу [501/900]
+18:46:39 [INFO] [BotFilter] Генерирую капчу [805/900]
+18:46:40 [INFO] [BotFilter] Капча сгенерированна за 4 081 мс
+18:46:40 [INFO] [BotFilter] Подключаюсь к датабазе...
+18:46:40 [INFO] [BotFilter] Подключено (61 мс)
+18:46:40 [INFO] [BotFilter] Очищено 0 аккаунтов
+18:46:40 [INFO] [BotFilter] Белый список игроков успешно загружен (0)
+18:46:41 [INFO] Couldn't detect bungee version. Custom build?
+18:46:41 [WARNING] Forced host server pvp is not defined
+18:46:41 [INFO] Listening on /25.84.122.64:25565
+18:47:43 [INFO] [/25.84.122.64:60759] <-> InitialHandler has pinged
+18:47:45 [INFO] [/25.84.122.64:60760] <-> InitialHandler has connected
+18:47:45 [INFO] [BotFilter] Maximum packet size: 2097152
+18:47:45 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+18:47:45 [INFO] [Zytia|25.84.122.64] <-> BotFilter has connected
+18:47:50 [INFO] [BotFilter] Игрок (Zytia|25.84.122.64) успешно прошёл проверку
+18:47:50 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+18:54:58 [INFO] Closing listener [id: 0x2effea61, L:/25.84.122.64:25565]
+18:54:58 [INFO] Closing pending connections
+18:54:58 [INFO] Disconnecting 1 connections
+18:54:58 [INFO] [Zytia] disconnected with: §aСервер перезагружается....
+18:54:58 [INFO] [Zytia] -> UpstreamBridge has disconnected
+18:54:58 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+18:54:58 [INFO] Disabling plugins
+18:54:58 [INFO] Closing IO threads
+18:55:00 [INFO] Thank you and goodbye
+18:55:19 [INFO] Using standard Java JCE cipher.
+18:55:19 [INFO] Using standard Java compressor.
+18:55:19 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+18:55:19 [INFO] [BotFilter] Проверяю наличее обновлений
+18:55:19 [INFO] §c[BotFilter] §aНайдена новая версия!
+18:55:19 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+18:55:19 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+18:55:23 [INFO] [BotFilter] Генерирую капчу [0/900]
+18:55:24 [INFO] [BotFilter] Генерирую капчу [219/900]
+18:55:25 [INFO] [BotFilter] Генерирую капчу [491/900]
+18:55:26 [INFO] [BotFilter] Генерирую капчу [774/900]
+18:55:27 [INFO] [BotFilter] Капча сгенерированна за 4 089 мс
+18:55:27 [INFO] [BotFilter] Подключаюсь к датабазе...
+18:55:27 [INFO] [BotFilter] Подключено (59 мс)
+18:55:27 [INFO] [BotFilter] Очищено 0 аккаунтов
+18:55:27 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+18:55:27 [INFO] Couldn't detect bungee version. Custom build?
+18:55:27 [WARNING] Forced host server pvp is not defined
+18:55:27 [INFO] Listening on /25.84.122.64:25565
+18:56:37 [INFO] [/25.84.122.64:60973] <-> InitialHandler has connected
+18:56:37 [INFO] [BotFilter] Maximum packet size: 2097152
+18:56:37 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+18:56:37 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+19:00:59 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:00:59 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+19:01:01 [INFO] [/25.84.122.64:61021] <-> InitialHandler has pinged
+19:01:33 [INFO] Closing listener [id: 0x7c9a6f08, L:/25.84.122.64:25565]
+19:01:33 [INFO] Closing pending connections
+19:01:33 [INFO] Disconnecting 0 connections
+19:01:33 [INFO] Disabling plugins
+19:01:33 [INFO] Closing IO threads
+00:41:56 [INFO] Using standard Java JCE cipher.
+00:41:56 [INFO] Using standard Java compressor.
+00:41:56 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+00:41:56 [INFO] [BotFilter] Проверяю наличее обновлений
+00:41:57 [INFO] §c[BotFilter] §aНайдена новая версия!
+00:41:57 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+00:41:57 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+00:42:00 [INFO] [BotFilter] Генерирую капчу [0/900]
+00:42:01 [INFO] [BotFilter] Генерирую капчу [121/900]
+00:42:02 [INFO] [BotFilter] Генерирую капчу [328/900]
+00:42:03 [INFO] [BotFilter] Генерирую капчу [589/900]
+00:42:04 [INFO] [BotFilter] Генерирую капчу [871/900]
+00:42:05 [INFO] [BotFilter] Капча сгенерированна за 5 088 мс
+00:42:05 [INFO] [BotFilter] Подключаюсь к датабазе...
+00:42:06 [INFO] [BotFilter] Подключено (210 мс)
+00:42:06 [INFO] [BotFilter] Очищено 0 аккаунтов
+00:42:06 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+00:42:06 [INFO] Couldn't detect bungee version. Custom build?
+00:42:06 [WARNING] Forced host server pvp is not defined
+00:42:06 [WARNING] Could not bind to host /25.84.122.64:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Unknown Source)
+00:42:23 [INFO] Closing pending connections
+00:42:23 [INFO] Disconnecting 0 connections
+00:42:23 [INFO] Disabling plugins
+00:42:23 [INFO] Closing IO threads
+00:42:25 [INFO] Thank you and goodbye
+00:43:03 [INFO] Using standard Java JCE cipher.
+00:43:03 [INFO] Using standard Java compressor.
+00:43:03 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+00:43:03 [INFO] [BotFilter] Проверяю наличее обновлений
+00:43:03 [INFO] §c[BotFilter] §aНайдена новая версия!
+00:43:03 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+00:43:03 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+00:43:07 [INFO] [BotFilter] Генерирую капчу [0/900]
+00:43:08 [INFO] [BotFilter] Генерирую капчу [178/900]
+00:43:09 [INFO] [BotFilter] Генерирую капчу [437/900]
+00:43:10 [INFO] [BotFilter] Генерирую капчу [674/900]
+00:43:11 [INFO] [BotFilter] Капча сгенерированна за 4 084 мс
+00:43:11 [INFO] [BotFilter] Подключаюсь к датабазе...
+00:43:11 [INFO] [BotFilter] Подключено (128 мс)
+00:43:11 [INFO] [BotFilter] Очищено 0 аккаунтов
+00:43:11 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+00:43:11 [INFO] Couldn't detect bungee version. Custom build?
+00:43:11 [WARNING] Forced host server pvp is not defined
+00:43:11 [INFO] Listening on /25.84.122.64:25565
+00:56:59 [INFO] [/25.84.122.64:65351] <-> InitialHandler has pinged
+00:57:00 [INFO] [/25.84.122.64:65354] <-> InitialHandler has connected
+00:57:00 [INFO] [BotFilter] Maximum packet size: 2097152
+00:57:00 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+00:57:02 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+00:57:02 [INFO] [Zytia] -> UpstreamBridge has disconnected
+00:57:24 [INFO] [/25.84.122.64:65361] <-> InitialHandler has connected
+00:57:26 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+00:57:26 [INFO] [Zytia] -> UpstreamBridge has disconnected
+00:58:41 [INFO] [/25.84.122.64:65429] <-> InitialHandler has connected
+00:58:43 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+00:58:43 [INFO] [Zytia] -> UpstreamBridge has disconnected
+00:58:54 [INFO] Closing listener [id: 0x07b28bf2, L:/25.84.122.64:25565]
+00:58:54 [INFO] Closing pending connections
+00:58:54 [INFO] Disconnecting 0 connections
+00:58:55 [INFO] Disabling plugins
+00:58:55 [INFO] Closing IO threads
+00:58:57 [INFO] Thank you and goodbye
