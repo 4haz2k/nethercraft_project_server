@@ -5,7 +5,7 @@ bot-filter-version: "3.8.4"
 
 # Не используйте '\n', используйте %nl%
 messages:
-  prefix: "&b&lBot&d&lFilter"
+  prefix: "&4&lNetherCraft"
   checking: "%prefix%&7>> &aОжидайте завершения проверки..."
   checking-captcha: "%prefix%&7>> &aВведите номер с картинки в чат"
   checking-captcha-wrong: "%prefix%&7>> &cВы ввели капчу неправильно, пожалуйста попробуйте ещё раз. У вас &a%s &c%s"
