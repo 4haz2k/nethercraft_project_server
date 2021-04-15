@@ -1,0 +1,32 @@
+lastlocation:
+  world: NetherCraft2
+  x: -777.4980591023779
+  y: 63.0
+  z: 911.3134570996958
+  yaw: 170.47977
+  pitch: 26.180222
+lastAccountName: Electronick_mix
+timestamps:
+  login: 1617555371358
+  logout: 1617557960705
+  lastteleport: 1617556702452
+  kits:
+    starter: 1617549408081
+    tools: 1617553164001
+    food: 1617549425032
+ipAddress: 213.87.130.249
+logoutlocation:
+  world: NetherCraft2
+  x: -878.3000000119209
+  y: 21.0
+  z: -244.69999998807907
+  yaw: 6.6778336
+  pitch: 39.163048
+homes:
+  home:
+    world: NetherCraft2
+    x: -652.481742329192
+    y: 70.0
+    z: -318.3139076709158
+    yaw: -244.40533
+    pitch: 41.54056

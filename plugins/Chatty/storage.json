@@ -1,0 +1,15 @@
+{
+  "prefix": {
+    "Zytia": "\u00266Ilfat_lox ",
+    "ExoManic": "Леха Лох "
+  },
+  "suffix": {
+    "ExoManic": " ЛехаПидорас"
+  },
+  "chat": {
+    "ExoManic": "global",
+    "Zytia": "global",
+    "b5e20ef4-e04f-3988-9cbd-890969bf6aa4": "local",
+    "4ba59776-eb4c-39f0-ac65-fbfee71ecf6c": "local"
+  }
+}

@@ -1,0 +1,17 @@
+bounceback: true
+teleport_entities: true
+send_no_destination_message: true
+send_disabled_portal_message: true
+worlds:
+  NetherCraft:
+    portalgoesto:
+      NETHER: NetherCraft_nether
+      ENDER: NetherCraft_the_end
+  NetherCraft2:
+    portalgoesto:
+      NETHER: NetherCraft2_nether
+      ENDER: NetherCraft2_the_end
+  NetherCraft3:
+    portalgoesto:
+      NETHER: NetherCraft3_nether
+      ENDER: NetherCraft3_the_end

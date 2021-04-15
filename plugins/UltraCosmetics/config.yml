@@ -1,0 +1,2881 @@
+# If set to true, will check for updates
+Check-For-Updates: false
+# List of the enabled categories.
+Categories-Enabled:
+  Gadgets: false
+  Particle-Effects: true
+  Mounts: true
+  Pets: true
+  Morphs: false
+  Hats: true
+  Suits: false
+  Emotes: true
+# Other settings for categories:
+# - The Item in Main Menu.
+# - Do you want a BackToMainMenu Arrow in it?
+Categories:
+  Gadgets:
+    Main-Menu-Item: '409:0'
+    Go-Back-Arrow: true
+    # You wanna show the cooldown of current gadget in actionbar?
+    Cooldown-In-ActionBar: true
+  Particle-Effects:
+    Main-Menu-Item: '399:0'
+    Go-Back-Arrow: true
+  Mounts:
+    Main-Menu-Item: '329:0'
+    Go-Back-Arrow: true
+  Pets:
+    Main-Menu-Item: '352:0'
+    Go-Back-Arrow: true
+  Morphs:
+    Main-Menu-Item: '334:0'
+    Go-Back-Arrow: true
+  Hats:
+    Main-Menu-Item: '314:0'
+    Go-Back-Arrow: true
+  Suits:
+    Main-Menu-Item: '299:0'
+    Go-Back-Arrow: true
+  Emotes:
+    Go-Back-Arrow: true
+  Clear-Cosmetic-Item: '152:0'
+  # Previous Page Item
+  Previous-Page-Item: '368:0'
+  # Next Page Item
+  Next-Page-Item: '381:0'
+  # Back to Main Menu Item
+  Back-Main-Menu-Item: '262:0'
+  Self-View-Item:
+    # Item in Morphs Menu when Self View enabled.
+    When-Enabled: '381:0'
+    # Item in Morphs Menu when Self View disabled.
+    When-Disabled: '368:0'
+  Gadgets-Item:
+    # Item in Gadgets Menu when Gadgets enabled.
+    When-Enabled: '351:10'
+    # Item in Gadgets Menu when Gadgets disabled.
+    When-Disabled: '351:8'
+  # Item in Pets Menu to rename current pet.
+  Rename-Pet-Item: '421:0'
+  # Should GUI close after selecting a cosmetic?
+  Close-GUI-After-Select: false
+  Back-To-Main-Menu-Custom-Command:
+    Enabled: false
+    Command: cc open custommenu.yml {player}
+# The economy that should be used. Supports 'Vault' or 'PlayerPoints'
+Economy: Vault
+# Treasure Chests Settings.
+# /uc reload will not be enough to toggle them!
+# 
+# NOTE: Money will be given
+#       to player even if disabled in case
+#       there is nothing to give!
+# 
+# 
+# About Treasure Chests designs:
+# For a list of effect: http://pastebin.com/CVKkufck
+# For the chest-types: NORMAL or ENDER
+# Material syntax: 'id:data'
+# You CAN make more designs just copy one, paste it and modify.
+# Not twice same name!
+# 
+# Some infos:
+# center-block: The block on the center.
+# around-center: Blocks around the center
+# third-BLOCKS: BLOCKS "around around" the center.
+# below-chests: Block below the chests.
+# barriers: the barrier.
+# chest-type: The chest type (NORMAL or ENDER)
+# effect: The effect (complete list: http://pastebin.com/CVKkufck)
+# 
+# For permission command:
+# Change it to correspond to your Permissions plugin!
+# Default one is Pex's.
+# 
+TreasureChests:
+  Enabled: false
+  Key-Price: 1000
+  Loots:
+    Money:
+      Enabled: true
+      Min: 15
+      Max: 100
+      Chance: 10
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found %money%$'
+    Gadgets-Ammo:
+      Enabled: true
+      Min: 20
+      Max: 100
+      Chance: 60
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found %ammo% %gadget% ammo'
+    Gadgets:
+      Enabled: true
+      Chance: 20
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found gadget %gadget%'
+    Mounts:
+      Enabled: true
+      Chance: 10
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found rare %mount%'
+    Pets:
+      Enabled: true
+      Chance: 10
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found rare %pet%'
+    Morphs:
+      Enabled: true
+      Chance: 4
+      Message:
+        enabled: true
+        message: '%prefix% &6&l%name% found legendary %morph%'
+    Effects:
+      Enabled: true
+      Chance: 4
+      Message:
+        enabled: true
+        message: '%prefix% &6&l%name% found legendary %effect%'
+    Hats:
+      Enabled: true
+      Chance: 10
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found rare %hat%'
+    Suits:
+      Enabled: true
+      Chance: 5
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found rare %suit%'
+    Emotes:
+      Enabled: true
+      Chance: 5
+      Message:
+        enabled: false
+        message: '%prefix% &6&l%name% found rare %emote%'
+    Commands:
+      shoutout:
+        Name: '&d&lShoutout'
+        Material: NETHER_STAR
+        Enabled: false
+        Chance: 100
+        Message:
+          enabled: false
+          message: '%prefix% &6&l%name% found a rare shoutout!'
+        Cancel-If-Permission: 'no'
+        Commands:
+        - say %name% is awesome!
+      flower:
+        Name: '&e&lFlower'
+        Material: YELLOW_FLOWER
+        Enabled: false
+        Chance: 100
+        Message:
+          enabled: false
+          message: '%prefix% &6&l%name% found a flower!'
+        Cancel-If-Permission: example.yellowflower
+        Commands:
+        - give %name% yellow_flower 1
+        - pex user %name% add example.yellowflower
+  Designs:
+    Classic:
+      center-block: '169:0'
+      around-center: '5:0'
+      third-blocks: '5:1'
+      below-chests: '17:0'
+      barriers: '85:0'
+      chest-type: NORMAL
+      effect: FLAME
+    Modern:
+      center-block: '169:0'
+      around-center: '159:11'
+      third-blocks: '155:0'
+      below-chests: '159:11'
+      barriers: '160:3'
+      chest-type: ENDER
+      effect: REDSTONE
+    Nether:
+      center-block: '89:0'
+      around-center: '88:0'
+      third-blocks: '87:0'
+      below-chests: '112:0'
+      barriers: '113:0'
+      chest-type: NORMAL
+      effect: SMOKE_NORMAL
+  Permission-Add-Command: pex user %name% add %permission%
+# This option will fill the blank slots of inventories
+# with a custom item!
+Fill-Blank-Slots-With-Item:
+  Enabled: false
+  Item: '160:15'
+# Toggle this to allow players to rename pets.
+# 
+# Permission-Required:
+# If true, the permission:
+# ultracosmetics.pets.rename
+# will be required to rename a pet.
+# 
+# Requires Money:
+# If true, money will be required
+# to rename a pet.
+Pets-Rename:
+  Enabled: false
+  Permission-Required: false
+  Requires-Money:
+    Enabled: true
+    Price: 100
+# Do pets drop items? (not pickable up by players)
+Pets-Drop-Items: true
+# Are pets babies?
+Pets-Are-Babies: true
+# Do you want the mounts
+# that normally make block trails
+# to do so?
+Mounts-Block-Trails: true
+# This option allows to use ammo
+# for gadgets, for limited uses.
+# Ammo can be given with /uc give ammo
+# or bought from menu when activating gadget.
+# 
+# For the system: 'file' or 'mysql'
+# 
+# If you set mysql, please fill the MySQL infos.
+Ammo-System-For-Gadgets:
+  Enabled: false
+  System: file
+  MySQL:
+    hostname: localhost
+    username: root
+    password: password
+    port: '3306'
+    database: UltraCosmetics
+  # Do you want that in the gadgets menu
+  # each gadget item has an amount
+  # corresponding to your ammo.
+  Show-Ammo-In-Menu-As-Item-Amount: true
+# The menu item settings.
+# 
+# List for type: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+Menu-Item:
+  Give-On-Join: true
+  Give-On-Respawn: true
+  Slot: 7
+  Type: ENDER_CHEST
+  Data: 0
+  Displayname: '&6&lВолшебный ящик'
+# Settings related to permissions.
+# 
+# List for "Type" https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+No-Permission:
+  Show-In-Lore: true
+  Lore-Message-Yes: '&7Разрешение: &6&lЕсть'
+  Lore-Message-No: '&7Разрешение: &4&lНет'
+  Dont-Show-Item: false
+  Custom-Item:
+    enabled: false
+    Type: INK_SACK
+    Data: 8
+    Name: '&c&l{cosmetic-name}'
+    Lore:
+    - ''
+    - '&c&lУ вас нет на это разрешения!'
+    - ''
+# If set to true, in messages the cosmetics' names
+# won't be colored.
+# Example:
+# With true: &a&lYou activated &9&lPaintball Gun!
+# With false: &a&lYou activated Paintball Gun!
+Chat-Cosmetic-PlaceHolder-Color: true
+# What is the slot for gadgets?
+Gadget-Slot: 4
+# If toggled to true,
+# players will be able to remove
+# their current gadget by pressing
+# their drop key.
+Remove-Gadget-With-Drop: false
+# [BETA]
+# Allows for players to auto-equip on join cosmetics they had before disconnecting.
+# At the moment, only works while the server is up. Upon shutdown, the cosmetics saved states
+# are reset! Soon it will support shutdowns.
+Auto-Equip-Cosmetics:
+  is-enabled: false
+# List of commands that won't work when holding a cosmetic, wearing an emote, or wearing a hat.
+# Type commands in lowercase without slashes.
+Disabled-Commands:
+- hat
+# List of the worlds
+# where cosmetics are enabled!
+Enabled-Worlds:
+- world_hub
+Gadgets:
+  BatBlaster:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЗапускайте волны назойливых летучих мышей'
+    - '&7&oк людям, которые тебе не нравятся!'
+    Cooldown: 8.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Chickenator:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтреляй взрывными КУРИЦАМИ.'
+    Cooldown: 6.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  DiscoBall:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПросто танцевать!'
+    Cooldown: 45.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  EtherealPearl:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПрокатись по небесам'
+    - '&7&oна твоей собственной эфирной Жемчужине!'
+    Cooldown: 2.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  FleshHook:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЗаводите новых друзей, бросая крючок'
+    - '&7&oпрямо им в лицо и тяните за собой'
+    - '&7&oк вам!'
+    Cooldown: 5.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  MelonThrower:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВосхитительно весело!'
+    Cooldown: 2.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  BlizzardBlaster:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oОтпусти ситуацию!'
+    Cooldown: 12.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  PortalGun:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТорт - это ложь!'
+    Cooldown: 2.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  ExplosiveSheep:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oА вы уверены,'
+    - '&7&oчто он должен так мерцать?'
+    Cooldown: 25.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  PaintballGun:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПИУ ПИУ ПИУ ПИУ!!!'
+    Cooldown: 0.5
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    # With what block will it paint?
+    Block-Type: STAINED_CLAY
+    Particle:
+      # Should it display particles?
+      Enabled: false
+      # what particles? (List: http://pastebin.com/CVKkufck)
+      Effect: FIREWORKS_SPARK
+    # The radius of painting.
+    Radius: 2
+    # A list of the BLOCKS that
+    # can't be painted.
+    BlackList:
+    - REDSTONE_BLOCK
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  ThorHammer:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПолучить настоящий Мьелльнир'
+    Cooldown: 8.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  AntiGravity:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТебе не нравится гравитация?'
+    - '&7&oТогда этот гаджет сделан для вас!'
+    Cooldown: 30.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  SmashDown:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oИ ЗОВУТ ЕГО ИМЕННО ТАК... ДЖОН СИНА!!'
+    Cooldown: 15.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Rocket:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХьюстон, у нас возникла проблема..'
+    Cooldown: 60.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Tsunami:
+    # Description of this cosmetic.
+    Description:
+    - '&9&oЦУНАМИ!!'
+    - '&7&oПРЫГАТЬ!'
+    - '&7&oПойдем!'
+    Cooldown: 12.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  TNT:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВзорвать несколько человек!'
+    - '&7&oБУМ!'
+    Cooldown: 10.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  FunGun:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУх ты! Так много веселья в пистолете!'
+    Cooldown: 4.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Parachute:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oДжеронимооо!'
+    Cooldown: 60.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  QuakeGun:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКупите настоящую рельсовую пушку'
+    - '&7&oи поражайте игроков и мобов!'
+    Cooldown: 3.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  GhostParty:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКому Ты Собираешься Звонить?'
+    - '&f&lПризрак &4&lБАСТЕРЫ!'
+    Cooldown: 45.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Firework:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНужно отпраздновать это событие?'
+    - '&7&oИспользование пиротехнических средств!'
+    Cooldown: 0.2
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  ChristmasTree:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВот вам и Рождество'
+    - '&7&oДерево для тебя!'
+    Cooldown: 20.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  FreezeCannon:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПревратите пол в каток!'
+    Cooldown: 8.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Snowball:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПрисоединяйтесь к праздничному веселью с помощью'
+    - '&7&oбросков снега в людей!'
+    Cooldown: 0.5
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  PartyPopper:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПразднуйте, взрывая конфетти'
+    - '&7&oв глаза людей!'
+    Cooldown: 2.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  ColorBomb:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКрасочная бомба!'
+    Cooldown: 25.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  Trampoline:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтроит батут!'
+    - '&7&oэто посылает вас и ваших'
+    - '&7&oдрузей в воздух!'
+    Cooldown: 75.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+  BlackHole:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВы не должны попадаться ему на глаза..'
+    Cooldown: 35.0
+    # Should it affect players? (Velocity, etc.)
+    Affect-Players: true
+    # if true, the gadget will be enabled.
+    Enabled: true
+    # if true, the description of gadget will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
+Mounts:
+  DruggedHorse:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПссс... У меня кое-что есть'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  InfernalHorror:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭтот дьявол взялся напрямую из... АДА!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  GlacialSteed:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПриямком из северного полиса!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  WalkingDead:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oГрааааа...'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  MountOfFire:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oИЗ ОГНЯ!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Snake:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБерегись! Он может укусить..'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Dragon:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтань всадником на драконе!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Slime:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oШлепок! Шлепок!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  HypeCart:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКогда-нибудь хотел ездить на F1?'
+    - '&7&oТеперь вы можете!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Spider:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВы -паук!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Rudolph:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКаким будет Рождество'
+    - '&7&oбез Рудольфа оленя?'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  MoltenSnake:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oГлубоко под поверхностью Земли'
+    - '&7&oсуществует мифический вид расплавленных змей.'
+    - '&7&oБудет служить вам вечно'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  MountOfWater:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oГора Посейдона!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  NyanSheep:
+    # Description of this cosmetic.
+    Description:
+    - '&4&lНянь &6&lНянь &e&lНянь'
+    - '&a&lНянь &3&lНянь &9&lНянь'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  EcologistHorse:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтать экологом!'
+    # if true, the mount will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+Particle-Effects:
+  SnowCloud:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПрогноз погоды'
+    - '&7&oпредсказывает мне, что пойдет снег.'
+    # if true, the effect will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  BloodHelix:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oДревняя легенда гласит, что это магия'
+    - '&7&oэта магия наделяет кровь ее,'
+    - '&7&oвладельца божественной силой..'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  FrostLord:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ-всемогущий Повелитель Мороза!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  FlameRings:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБерегись! Они такие горячие!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  GreenSparks:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМаленькие и зеленые искрящиеся блёстки!'
+    # if true, the effect will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  FrozenWalk:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУ меня так замерзли ноги!'
+    # if true, the effect will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Music:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМного музыки!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Enchanted:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтань всемогущим чародеем!'
+    # if true, the effect will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Inferno:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭффект, созданный самим Сатаной!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  AngelWings:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтать ангелом!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  SuperHero:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтань Суперменом!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  SantaHat:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтань Дедом!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  EnderAura:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭти мистические частицы присущи'
+    - '&7&oтолько самым легендарным игрокам!'
+    # if true, the effect will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  FlameFairy:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭЙ!!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  RainCloud:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПрогноз погоды'
+    - '&7&oпредсказывает мне, что пойдет дождь.'
+    # if true, the effect will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  CrushedCandyCane:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНет такого понятия'
+    - '&7&oкак слишком много рождественских'
+    - '&7&конфет. Не слушайте своего дантиста.'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  InLove:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oОМГ Вау, я влюблен!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  MagicalRods:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПусть эти волшебные жезлы защитят тебя!'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  FireWaves:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНекоторые говорят, что эти волны огня действуют как щит...'
+    # if true, the effect will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+Pets:
+  Piggy:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХрю-хрю! Хрю-хрю!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  EasterBunny:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУже наступила Пасха?'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Cow:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМуууу!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Mooshroom:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oMуууу!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Kitty:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМяу'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Dog:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oГав!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Chick:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБваак!!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Pumpling:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПросто маленькая плавающая тыква'
+    # if true, the pet will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  ChristmasElf:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ могу сделать тебе подарок!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  IronGolem:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ люблю цветы'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Snowman:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБольшой, мускулистый, белый'
+    - '&7&oснеговик.... А ты чего ожидал?'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Villager:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХмммммммм...'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Bat:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ предпочитаю пещеры...'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  PolarBear:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ предпочитаю холодные места'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Llama:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВ тебя плюнуть?'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Parrot:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХочу печеньки!'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Sheep:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБээээээээээ...'
+    # if true, the pet will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+  Wither:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБерегись меня..'
+    # if true, the pet will be enabled.
+    Enabled: false
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: false
+Hats:
+  Astronaut:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХьюстон, у нас проблемы...'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Scared:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oО боже, это меня так напугало!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Angel:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТебе было больно, когда ты упала с небес?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Embarassed:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМеня это немного смущает.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Kissy:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХочешь поцеловаться?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Sad:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМне так грустно.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cool:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ такой классный парень.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Surprised:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНичего себе, не ожидал такого!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Dead:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПздц...'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Crying:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ плачу :('
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  BigSmile:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ действительно счастлив(-а)!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Wink:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТы же понимаешь, что я имею в виду ;)'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Derp:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСумасшедший дергает всех вокруг!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Smile:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНу, потому что я счастлив(-а)'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Iron:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТвердая, как железо!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Gold:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМоя драгоценная!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Diamond:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭто действительно сильно!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Piston:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУ тебя есть красный камень?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  CommandBlock:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКонтролируйте с его помощью весь мир!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Music:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТы такая музыкальная.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Squid:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБуль-Буль!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Chicken:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБВАААКККК!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Pig:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХрю-Хрю!!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Blaze:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБерегись огня!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Sheep:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБаааа, Баа'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Golem:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ - твоя стража.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Enderman:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТеперь я здесь, теперь я там.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Mario:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭто же я! Марио!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Luigi:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВремя Луиджи!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Batman:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oIm Batman!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Chest:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oОткрыть и закрыть'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Skull:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКто же теперь безголовый?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Ghost:
+    # Description of this cosmetic.
+    Description:
+    - '&7&o2Приииизраааак!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  JackOLantern:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНемного тыквы'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  ScaryClown:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНадеюсь, вы не боитесь клоунов?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Santa:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХоу Хоу Хоу! Счастливого Рождества!'
+    # if true, the hat will be enabled.
+    Enabled: false
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Snowman:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУ меня нет черепа.. или кости'
+    # if true, the hat will be enabled.
+    Enabled: false
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Present:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oОт Санты - к тебе!'
+    # if true, the hat will be enabled.
+    Enabled: false
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Elf:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ работаю на Санту!'
+    # if true, the hat will be enabled.
+    Enabled: false
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Bedrock:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНесокрушимый!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Bread:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСвежевыпеченный'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cheese:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУлыбочку!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Pancakes:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЛучше с сиропом!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cake:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМммм, торт.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cookie:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВ комплект входит шоколадная стружка!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  CandyCane:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКариес...'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Chocolate:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНе корми этим свою собаку!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  WhiteChocolate:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЧуть больше сливок'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Apple:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТолько не компания'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Melon:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНе разбей его своей головой'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  CarvedPumpkin:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oКто же выключил эту штуку?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Strawberry:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНеужели эти твари растут на деревьях?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Coconut:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oРайское наслаждение!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Taco:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oДавай съедим немного тако!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Bacon:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oС беконом все гораздо лучше.'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Fries:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЛучший друг гамбургера'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Hamburger:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭта штука сделана из настоящего мяса?'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Popcorn:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПриведите некоторые из них к обсуждению'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  WhiteDonut:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТак много удовольствия в такой мелочи'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  PinkDonut:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЛюбимчики Гомера'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  ChocolateDonut:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТакой же как и все остальные, но шоколадный'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Pie:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ люблю пирог'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  A:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПервая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  B:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВторая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  C:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТретья буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  D:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Четвертая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  E:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Пятая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  F:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Шестая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  G:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Седьмая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  H:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Восьмая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  I:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Девятая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  J:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Десятая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  K:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Одиннадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  L:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двенадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  M:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Тринадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  N:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Четырнадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  O:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Пятнадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  P:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Шестнадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Q:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Семнадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  R:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Восемнадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  S:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Девятнадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  T:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцатая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  U:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцать первая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  V:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцать вторая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  W:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцать третья буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  X:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцать четвертая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Y:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцать пятая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Z:
+    # Description of this cosmetic.
+    Description:
+    - '&7&9Двадцать шестая буква в алфавите!'
+    # if true, the hat will be enabled.
+    Enabled: true
+    # if true, the description of this hat will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+Suits:
+  Rave:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТакие удивительные цвета!'
+    # if true, the suit will be enabled.
+    Enabled: false
+    # if true, the description of this suit will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Astronaut:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХьюстон?'
+    # if true, the suit will be enabled.
+    Enabled: false
+    # if true, the description of this suit will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Diamond:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПокажите свои навыки добычи полезных'
+    - '&7&oископаемых с этим удивительным нарядом!'
+    # if true, the suit will be enabled.
+    Enabled: false
+    # if true, the description of this suit will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Santa:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтаньте Сантой и доставляйте подарки!'
+    # if true, the suit will be enabled.
+    Enabled: false
+    # if true, the description of this suit will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Frozen:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭтот костюм принадлежит'
+    - повелителю замерзших земель!
+    # if true, the suit will be enabled.
+    Enabled: false
+    # if true, the description of this suit will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+Emotes:
+  Cry:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТебе действительно грустно? :('
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Angry:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПокажите свою ярость другим игрокам!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Happy:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНе волнуйся, будь счастлива!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cheeky:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oТебе нравится быть дерзкой? Чтож, эта эмоция для вас!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Love:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oУ тебя красивые глаза, ты это знаешь?'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  DealWithIt:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХочешь покрасоваться? Эта эмоция для тебя!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cool:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСохраняй хладнокровие парень!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Surprised:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oО ГОСПОДИ!!!'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Wink:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oВесело проводишь время? Пусть кто-нибудь знает, что вы в курсе этой шутки'
+    # if true, the mount will be enabled.
+    Enabled: true
+    # if true, the description will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+Morphs:
+  Bat:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтань летучей мышью!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Blaze:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭто может быть жарко там..'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Chicken:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтать курицей!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Pig:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНадо держать свою морковку!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Enderman:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ иду оттуда туда'
+    - '&7&oа потом ты меня потерял..'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Slime:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oШлепок шлепок!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Creeper:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЭй, что это за "ссссссс"?'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Snowman:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтать Олаф!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  ElderGuardian:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oСтать старшим стражем!!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Cow:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oMууу!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Mooshroom:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oMoooo!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Villager:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oХММММММммм'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Witch:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oМуахахахаха'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  PolarBear:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oЯ предпочитаю холодные места'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Llama:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oНужно ли мне что-нибудь нести?'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Parrot:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПолли хочет крекер?'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  Sheep:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oБаааа, Баа'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+  WitherSkeleton:
+    # Description of this cosmetic.
+    Description:
+    - '&7&oПросто обычный скелет..'
+    - '&7&oно из преисподнеи!'
+    # if true, the morph will be enabled.
+    Enabled: false
+    # if true, the description of this morph will be showed.
+    Show-Description: true
+    # if true, it'll be possible to find
+    # it in treasure chests
+    Can-Be-Found-In-Treasure-Chests: true
+allow-damage-to-players-on-mounts: false

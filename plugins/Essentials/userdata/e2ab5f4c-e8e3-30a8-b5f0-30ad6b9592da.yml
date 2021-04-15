@@ -1,0 +1,32 @@
+lastAccountName: Limbo_02
+timestamps:
+  login: 1616179150643
+  logout: 1616185304597
+  kits:
+    starter: 1616176276833
+    tools: 1616176293762
+    dibbyk: 1616179197979
+  lastteleport: 1616184853971
+ipAddress: 25.89.6.137
+lastlocation:
+  world: NetherCraft
+  x: -1375.480223143812
+  y: 72.0
+  z: 1780.9499619644623
+  yaw: 34.415405
+  pitch: 19.199879
+logoutlocation:
+  world: NetherCraft
+  x: -1126.8398717288262
+  y: 63.0
+  z: 1622.7735990253252
+  yaw: -159.3835
+  pitch: 4.050303
+homes:
+  home:
+    world: NetherCraft
+    x: -1118.4581337557213
+    y: 64.0
+    z: 1642.714903841785
+    yaw: 5.765941
+    pitch: 11.849861

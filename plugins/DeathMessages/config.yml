@@ -1,0 +1,320 @@
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# About Plugin/Author #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
+# Plugin Name: DeathMessages
+# Author: Jose Manuel Gassin Perez-Traverso
+# Bukkit Profile: http://dev.bukkit.org/profiles/Mayhem777/
+# Description: Change the Default Bukkit Death Messages as you wish, including colors, victim name, killer name and weapon/material/name...  also other General messages as Join/Kick/Leave.
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# About Plugin/Author #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Plugin Version #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
+# Don't change this!: Incorrect config versions will be renamed to "old_config.yml" and a correct config.yml version will be created into the plugin folder.
+Version: '3.1.1'
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Plugin Version #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Useful Links #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
+### Plugin Main Page:
+# -> http://dev.bukkit.org/bukkit-plugins/death-messages/
+#
+### ChangeLog:
+# -> http://dev.bukkit.org/bukkit-plugins/death-messages/pages/changelog/
+#
+### Plugin Forum: BUGS? SUGGESTIONS? IDEAS FOR NEW FEATURES?
+# -> http://dev.bukkit.org/bukkit-plugins/death-messages/forum/plugins/death_messages/
+#
+### More Info about DEFAULT SERVER Death Messages: http://minecraft.gamepedia.com/Server#Death_messages
+#
+### Parse errors?
+# Remember to write with a correct YML indentation/rules: http://en.wikipedia.org/wiki/YAML
+# Also i recommend advanced editors like Notepad++ or Brackets, i don't get a $ with this is just a recommendation.
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Useful Links #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Commands & Permissions #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
+# /dm					|		deathmessages.user				|		Shows a list of commands.
+# /dm all				|		deathmessages.user				|		Toggles on/off both, Death and General Messages for the player.
+# /dm dm				|		deathmessages.user				|		Toggles on/off Death Messages for the player.
+# /dm gm				|		deathmessages.user				|		Toggles on/off General Messages for the player.
+# /dm reload			|		deathmessages.admin				|		Reloads this file.
+# ...					|		deathmessages.silent.join		|		Allows to silent join (no join message).
+# ...					|		deathmessages.silent.quit		|		Allows to silent quit (no quit message).
+#
+### Note: you can use both /dm or /deathmessages for commands.
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Commands & Permissions #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Help & Hints #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
+### Non-English characters:
+# The bukkit yaml parser doesn't allow non-english characters, due to this, i've coded a way to add any UNICODE characters:
+# Example: %u2623 -> biohazard sign -> (http://www.fileformat.info/info/unicode/char/2623/index.htm)
+#
+### Empty messages:
+# You can disable any message by leaving it empty just with '', useful when you don't want some death causes to throw a message, or want join messages but not quit messages(for example).
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Help & Hints #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Debugging #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
+### Enabling this option will BROADCAST extra data about the Death Process, which will be useful to find plugins conflicting with Minecraft standard events.
+# You'll be able to check: Victim Name, World Name, Last Damage Cause Type, Last Damage Cause (Reason), and Damager.
+Debug: false
+#
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# Debugging #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+
+
+#======================================[ PvP Messages ]======================================#
+### What to do with PvP Death Messages?
+# 1 = Don't Show any of Them.
+# 2 = Show them as Usual.
+# 3 = ONLY show PvP Death Messages.
+PvP_Death_Messages_Handling: 1
+
+
+#======================================[ World Settings ]======================================#
+### Notes:
+# IMPORTANT: World names are CASE SENSITIVE!
+# Total World Silence: You can add the same world to Muted and Deaf worlds, meaning that the world will NOT send or receive any message(Death/Join/Quit/Kick).
+
+### World Aliases:
+# This allows to change world name in messages ("%world" variable) to a custom name instead of the "folder" world name.
+World_Aliases:
+  world: 'Survival'
+  world_nether: 'NetherWorld'
+  world_the_end: 'The Moon'
+  your_awesome_world: 'Cookie Land'
+  
+### Muted Worlds: disables ALL(Death/Join/Quit/Kick) outgoing messages from worlds in this list.
+Muted_Worlds:
+  Enable: true
+  World_List:
+  - world_hub
+  - world_hub_nether
+  - world_hub_the_end
+  - world_nethercraft
+  - world_nethercraft_nether
+  - world_nethercraft_the_end
+  - world_nethercraft2
+  - world_nethercraft2_nether
+  - world_nethercraft2_the_end  
+  - world_nethercraft3
+  - world_nethercraft3_nether
+  - world_nethercraft3_the_end
+  
+### Deaf Worlds: disables ALL(Death/Join/Quit/Kick) incoming messages to worlds in this list.
+Deaf_Worlds:
+  Enable: false
+  World_List:
+  - bed_land
+  - puzzle_games
+
+### Linking worlds allows worlds to share death/general messages, worlds out of this list will ONLY see it's own messages.
+# NOTE: IN A FUTURE I'LL ADD MULTIPLE LINKED GROUPS OF WORLDS! VOTE(POLL) IN THE MAIN PLUGIN PAGE FOR IT!
+# Example: as you can see in this list, the worlds "world", "world_nether" and "world_the_end" are linked, so Death and General messages will be shared, if we have another world called "new_world", will only be able to see it's own Death and General Messages.
+Linked_Worlds:
+  Enable: false
+  World_List:
+  - world
+  - world_nether
+  - world_the_end
+
+  
+#======================================[ General Messages ]======================================#
+### General Messages variables:
+# %player  = player name involved in the event.
+# %dplayer = player display name.
+# %world   = world name in which the player joins/from which player quits/is kicked.
+
+### Enable/Disable custom General Messages:
+General_Messages:
+  Enable: false
+  First_Join: '&5>>> &6The Player &b%player &6has joined the Server for FIRST TIME! &5<<<'
+  Recurrent_Join: '&5>>> &aThe Player &b%player &ahas joined the Server! &5<<<'
+  Quit: '&5>>> &cThe Player &b%player &chas left the Server! &5<<<'
+  Kick: '&5>>> &cThe Player &b%player &chas been Kicked! &5<<<'
+
+
+#======================================[ Death Messages ]======================================#
+### Death Messages variables(tags):
+# %player  = victim player name.
+# %dplayer = victim player display name.
+# %killer  = assassin name (only for player kills, PvP).
+# %dkiller  = assassin display name (only for player kills, PvP).
+# %weapon_material = material name of the weapon wielded by the killer (only for player kills, PvP).
+# %weapon_name = custom display name of the weapon, if there's no name it'll show the material name (only for player kills, PvP).
+# %world = world name in which the player died, can be used in any message.
+# %mob_type = shows entity type name identified by the server, NOT SUPPORTED FOR RANGED ATTACKS YET! Example: blazes, skeletons etc
+
+### Don't forget to use bukkit colors if you want ===>    http://dev.bukkit.org/media/images/42/45/Colors.png
+# And other Bukkit Formats ===>    &n = Underlined   ||   &o = Italic   ||   &m = Strike-through   ||   &l = Bold   ||   &k = Magic   ||   &r = Reset Format
+
+### Some Examples:
+# Example for Creeper Message = '&2%player &Elikes to hug &CCreepers&E, he is a pill of dust now...'
+# Example for PvP Message = '&2%player &Ewas slain by &Ckiller&E, wielding his mighty &C%weapon_material'
+
+### Finally, you can add/modify/remove all the random messages you wish, when a death occurs, a random message from the list will be chosen.
+# By default (as you can see below) each death cause has 1-3 random messages, but you can add from 0 to infinite (0 means no message).
+
+Death_Messages:
+  Mobs:
+    Blaze:
+    - '&2%player &Ewas fireballed by &CBlaze'
+    - '&2%player &Eate a &CBlaze &2 fireball!'
+    Cave_Spider:
+    - '&2%player &Ewas slain by &CCave Spider'
+    - '&2%player &Ewas bitten by &CCave Spider'
+    Creeper:
+    - '&2%player &Eblew up by a &CCreeper'
+    - '&2%player &Eexploded because embraced a Creeper&E!'
+    Ender_Dragon:
+    - '&2%player &Ewas slain by &CEnder Dragon'
+    - '&2%player &Etried to ride the &CEnder Dragon'
+    Enderman:
+    - '&2%player &Ewas slain by &CEnderman'
+    - '&2%player &Ewas shocked by &CEnderman'
+    Endermite:
+    - '&2%player &Ewas killed by &CEndermite'
+    - '&2%player &Ewas killed by an &CEndermite&E, really?'
+    Ghast:
+    - '&2%player &Ewas fireballed by &CGhast'
+    - '&2%player &Eate a &CGhast &2 fireball!'
+    Giant:
+    - '&2%player &Ewas slain by &CGiant'
+    - '&2%player &Ewas stomped by &CGiant'
+    Guardian:
+    - '&2%player was killed by &CGuardian &Eusing magic'
+    Iron_Golem:
+    - '&2%player &Ewas slain by &CGolem'
+    - '&2%player &Ewas drilled by &CGolem'
+    Magma_Cube:
+    - '&2%player &Ewas slain by &CMagma Cube'
+    - '&2%player &Ewas crumpled by &CMagma Cube'
+    Silverfish:
+    - '&2%player &Ewas slain by &CSilverfish'
+    - '&2%player &Ewas killed by a &CSilverfish&E, really?'
+    Skeleton:
+      Bow:
+      - '&2%player &Ewas shot by &CSkeleton'
+      - '&2%player &Ewas head shotted by a &CSkeleton'
+      Melee:
+      - '&2%player &Ewas slain by &CSkeleton'
+      - '&2%player &Ewas punched by &CSkeleton&E, without bow!'
+    Slime:
+    - '&2%player &Ewas slain by &CSlime'
+    - '&2%player &Ewas basted by &CSlime'
+    # Snow Golems can't really kill players because snowballs deals 0 damage, anyway that can be modified with plugins so i added this one.
+    Snow_Golem:
+    - '&2%player &Ewas freezed by &CSnowman'
+    Spider:
+    - '&2%player &Ewas slain by &CSpider'
+    - '&2%player &Ewas bitten by &CSpider'
+    # Available for Guardians and other mobs with Thorns Enchantment on their armor.
+    Thorns:
+    - '&2%player &Ewas killed while trying to hurt &C%mob_type'
+    Witch:
+    - '&2%player was killed by &CWitch &Eusing magic'
+    - '&2%player &Ewas cursed by &CWitch'
+    Wolf:
+    - '&2%player &Ewas slain by &CWolf'
+    - '&2%player &Ewas bitten by &CWolf'
+    Zombie:
+    - '&2%player &Ewas slain by &CZombie'
+    - '&EA &CZombie &Eate &2%player''s &Ebrain!'
+    Wither:
+      Skull:
+      - '&2%player &Eblew up'
+      - '&2%player &Ewhat?'
+      Effect:
+      - '&2%player &Ewithered away'
+      - '&2%player &Epum! pam! puf!'
+    Wither_Skeleton:
+    - '&2%player &Ewas slain by a &CWither Skeleton'
+    - '&2%player &Ewas crushed by a &CWither Skeleton'
+    Zombie_Pigman:
+    - '&2%player &Ewas slain by &CZombie Pigman'
+    - '&2%player &Ewas slashed by &CZombie Pigman'
+
+  Players_(PvP):
+    Weapon:
+    - '&2%player &Ewas slain by &C%killer'
+    - '&2%player &Ewas slashed by &C%killer &Ewielding his mighty &B%weapon_name'
+    - '&2%player &Ewas killed by &C%killer &Ewith a &B%weapon_material'
+    Fist:
+    - '&2%player &Ewas slain by &C%killer'
+    - '&2%player &Ewas punched by &C%killer'
+    Bow:
+    - '&2%player &Ewas shot by &C%killer'
+    Thorns_Enchantment:
+    - '&2%player &Ewas killed while trying to hurt &C%killer'
+
+  Other:
+    Anvil:
+    - '&2%player &Ewas squashed by a falling anvil'
+    - '&2%player &Etried to kiss a falling anvil'
+    Cactus:
+    - '&2%player &Ewas pricked to death'
+    - '&2%player &Ehugged a cactus!'
+    # Dispenser only has 1 message for deaths but i added another one if player dies by a small fireball ;)
+    Dispenser:
+      Arrow:
+      - '&2%player &Ewas shot by arrow'
+      - '&EA dispenser filled &2%player''s &Ebody with iron!'
+      Fireball:
+      - '&EA &CDispenser &Ehas fried &2%player'
+      - '&EA dispenser burned &2%player &Eto death!'
+    Drowning:
+    - '&2%player &Edrowned'
+    - '&2%player &Eforget to buy gills!'
+    Fall:
+      5_or_less_blocks_of_altitude:
+      - '&2%player &Ehit the ground too hard'
+      6_or_more_blocks_of_altitude:
+      - '&2%player &Efell from a high place'
+    Fire:
+      # This message appears if the player died while in the source of the fire
+      Block:
+      - '&2%player &Ewent up in flames'
+      # This message appears if the player died while on fire, but not in the source
+      Effect:
+      - '&2%player &Eburned to death'
+    Lava:
+    - '&2%player &Etried to swim in &Clava'
+    # Death by direct damage from a lightning, you can also die from fire (Fire Effect) if the lightning also ignites the player.
+    Lightning:
+    - '&2%player &Ewent up in flames'
+    Melting:
+    - '&2%player &Ewas freezed by melting &CSnowman'
+    # In Minecraft you can't die from normal Poison, you just get to half heart, anyway it a Poison Potion hits you when u're with low health and kills you or by other plugins this could happen.
+    Poison:
+    - '&2%player &Eate contaminated food'
+    # Only happens when the potion is shot from a dispenser, by drinking it, or with the effect command
+    Potion_of_Harming:
+    - '&2%player &Ewas killed by magic'
+    Starvation:
+    - '&2%player &Estarved to death'
+    Suffocation:
+    - '&2%player &Esuffocated in a wall'
+    # Suicide message is only possible when player uses /suicide or /kill <himself>
+    Suicide:
+    - '&2%player &Edied'
+    TNT:
+    - '&2%player &Ethought a &CTNT &Ewas a cake and blew up!'
+    Void:
+    - '&2%player &Efell out of the world'
+
+  # Other causes: death by other commands and/or no real damager, other weird plugin reasons etc
+  Unknown:
+  - '&2%player &Efell out of the world'
+
+
+
+### Disabled for 1.8, wait for more updates!
+# Weird causes like killed by EnderPearl, Eggs and Snowballs.
+# Snowmans can't kill players because Snowballs have no damage, anyway some servers change this mechanic for fun so i added it too.
+Others:
+- '&2%player &Ewas pummeled'

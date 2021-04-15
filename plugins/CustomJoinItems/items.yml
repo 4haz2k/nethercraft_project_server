@@ -1,0 +1,11 @@
+menu:
+  name: '&4NetherCraft Menu'
+  id: 347
+  slot: 9
+  command: 'menu'
+  permission: 'joinitem.menu'
+  allow-drop: false
+  give-at-respawn: true
+  block-movement: false
+  first-join-only: false
+  give-on-world-change: true

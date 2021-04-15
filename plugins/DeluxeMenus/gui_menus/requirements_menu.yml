@@ -1,0 +1,45 @@
+#Менюшка для миров из multiverse
+menu_title: 'Доступные миры'
+open_command: menuworlds
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.shop
+      deny_commands:
+        - '[message] &cУ вас нет прав, чтобы сделать это!'
+items:
+  'world1':
+    material: GRASS_BLOCK
+    display_name: 'Классическое выживание №1'
+    slot: 0
+    lore:
+    - '&aКлассическое выживание №1'
+    left_click_commands:
+    - '[player] mv tp NetherCraft'
+#Чтобы не было проблем с телепортом, нужно установить спавнпоинт в этом мире /mv spawnpoint
+  'world2':
+    material: GRASS_BLOCK
+    display_name: 'Классическое выживание №2'
+    slot: 1
+    lore:
+    - '&aКлассическое выживание №2'
+    left_click_commands:
+    - '[player] mv tp NetherCraft2'
+  'world3': 
+    material: GRASS_BLOCK
+    display_name: 'Классическое выживание №3'
+    slot: 2
+    lore:
+    - '&aКлассическое выживание №3'
+    left_click_commands:
+    - '[player] mv tp NetherCraft3'
+  'return':
+    material: OAK_DOOR
+    display_name: 'Вернуться назад'
+    slot: 8
+    lore:
+    - ''
+    left_click_commands:
+    - '[player] menu'

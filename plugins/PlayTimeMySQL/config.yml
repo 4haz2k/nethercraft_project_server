@@ -1,0 +1,15 @@
+# host: can be 'localhost' or an IP that links to your MySQL database
+# port: the port to your MySQL database. The default port is '3306'.
+# database: the name of the database. DO NOT put your database table name here.
+# username: the username to log into the database.
+# password: the password to log into the database.
+# table: the name of the table that you will use to store your data.
+# timezone: the timezone where new rows are created for new dates. They will be created at midnight of your chosen timezone.
+
+host: localhost
+port: 3306
+database: players
+username: root
+password: root
+table: timer
+timezone: Europe/Moscow

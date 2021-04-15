@@ -1,0 +1,20 @@
+lastAccountName: kotangens
+timestamps:
+  login: 1617086976423
+  logout: 1617087409522
+ipAddress: 176.59.195.113
+lastlocation:
+  world: world_hub
+  x: 668.3465710639701
+  y: 28.0
+  z: 113.02815166527002
+  yaw: 88.7995
+  pitch: 17.400002
+money: '500.0'
+logoutlocation:
+  world: world_hub
+  x: 739.3000000119209
+  y: 40.0
+  z: 78.71051042310262
+  yaw: 66.00037
+  pitch: 7.5000324

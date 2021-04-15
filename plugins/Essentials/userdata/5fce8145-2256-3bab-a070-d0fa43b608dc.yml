@@ -1,0 +1,32 @@
+lastAccountName: teperyaemo
+timestamps:
+  login: 1616187775141
+  logout: 1616188064384
+  lastteleport: 1616186960798
+  kits:
+    starter: 1616176258634
+    tools: 1616180452287
+    food: 1616176286284
+ipAddress: 25.89.144.164
+lastlocation:
+  world: NetherCraft
+  x: -1139.1652455026037
+  y: 64.0
+  z: 1629.4355764735917
+  yaw: -27.89392
+  pitch: 36.499176
+logoutlocation:
+  world: NetherCraft
+  x: -1138.519464438311
+  y: 64.0
+  z: 1628.5579528018764
+  yaw: -6.982239
+  pitch: 29.723728
+homes:
+  home:
+    world: NetherCraft
+    x: -1119.663273693483
+    y: 65.0
+    z: 1645.0648885745945
+    yaw: 235.87025
+    pitch: 38.46999

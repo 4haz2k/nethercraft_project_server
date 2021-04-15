@@ -1,0 +1,30 @@
+Config: 
+  Animations: 
+    Refresh-Delay: 2
+    Rainbow-Delay: 10
+    Title-Delay: 2
+  Disabled-Worlds: 
+    - ExampleWorld
+    - ExampleWorld2
+  Scoreboard: 
+    world: 
+      Lines: 
+        - ''
+        - '&4&lИгрок'
+        - ' &7&l• %displayname%'
+        - ' &7&l• &fБаланс: &a%money%$'
+        - ' &7&l• &6Кол-во убийств: &4%kills%'
+        - ' &7&l• &cКол-во смертей: &4%deaths%'
+        - ' &7&l• &aВыполнено квестов: &4%quests_player_current_quest_amount%'
+        - ' &7&l• &5Квестовых монет: &a%quests_player_quest_points%'
+        - " "
+        - '&4&lСервер'
+        - ' &7&l• &fВремя на сервере: &a%time%'
+        - ' &7&l• &fТекущий онлайн: &a%online%'
+        - ''
+        - "&6&r%rainbow%&l&m--------------------"
+        - "       &4&lNetherCraft.fun"
+        - "&c&r%rainbow%&l&m--------------------"
+
+      Title: 
+        - " &4&l&nNetherCraft&r "

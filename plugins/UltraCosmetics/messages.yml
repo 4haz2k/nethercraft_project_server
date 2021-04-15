@@ -1,0 +1,627 @@
+Prefix: '&l&oNetherCraft >&r'
+No-Permission: '%prefix% &c&lУ вас нет разрешений!'
+Cosmetic-Disabled: '%prefix% &c&lЭто средство отключено!'
+Invalid-Gadget: '%prefix% &c&lНеверный Гаджет!'
+Invalid-Pet: '%prefix% &c&lНеверный Питомец!'
+Invalid-Mount: '%prefix% &c&lНедопустимое Крепление!'
+Invalid-Effect: '%prefix% &c&lНедопустимый Эффект!'
+Invalid-Morph: '%prefix% &c&lНеверный Морф!'
+Invalid-Hat: '%prefix% &c&lНеверный Головной убор!'
+Invalid-Suit: '%prefix% &c&lНеверный Костюм!'
+Invalid-Emote: '%prefix% &c&lНеверный Пульт Дистанционного Управления!'
+Invalid-Menu: '%prefix% &c&lНеверное меню!'
+Ammo: '&7У вас в наличии: &e%ammo%'
+Purchase: '&a&lПокупка'
+Cancel: '&c&lОтменить'
+Buy-Ammo-Description: '&e&lКупить %amount% %gadgetname% амуницию &e&lза %price%$'
+Right-Click-Buy-Ammo: '&7Щелкните ПКМ, чтобы купить амуницию'
+Not-Enough-Money: '%prefix% &c&lУ вас недостаточно денег!'
+Successful-Purchase: '%prefix% &a&lУдачная покупка!'
+Buy-Treasure-Key: '&lКупите ключ от сокровищ'
+Treasure-Keys: '&7&lКлючи От Сокровищ'
+Treasure-Chests: '&6&lСундук с сокровищами'
+Dont-Have-Key: '&4&lВам нужен ключ!'
+Click-Open-Chest: '&aНажмите, чтобы открыть сундук'
+Click-Buy-Key: '&aНажмите, чтобы купить ключ'
+Your-Keys: '&7&oВаши ключи: &f&l%keys%'
+Buy-Treasure-Key-ItemName: '&e&l1 &7&lКлюч от сокровищ  &e&lза %price%$'
+Found-Legendary: '%prefix% &c&l%name% нашли легендарный %found%'
+Chest-Not-Enough-Space: '%prefix% &c&lЗдесь не хватит места для сундука с сокровищами!'
+Too-Close-To-Other-Chest: '%prefix% &c&lВы находитесь слишком близко к другому сундуку с сокровищами!'
+You-Won-Treasure-Chests: '%prefix% &f&lТы победил: %name%!'
+Clear-Cosmetics: '&c&lОчистить косметику'
+Clear-Gadget: '&c&lОчистить текущий гаджет'
+Clear-Pet: '&c&lОчистить текущего питомца'
+Clear-Mount: '&c&lОчистить текущий транспорт'
+Clear-Effect: '&c&lОчистить текущий эффект'
+Clear-Morph: '&c&lОчистить текущий морф'
+Clear-Hat: '&c&lОчистить текущий эффект головы'
+Clear-Suit: '&c&lОчистить текущий костюм'
+Clear-Emote: '&c&lОчистить текущую эмоцию'
+Rename-Pet-Purchase: '&c&lПереименовать питомца &f&l%name% &c&lза &e&l%price%$'
+Active-Pet-Needed: '&c&lВам нужно призвать домашнее животное, чтобы переименовать его'
+Rename-Pet: '&c&lНажмите, чтобы переименовать: %petname%'
+Treasure-Chests-Loot:
+  Ammo: '%ammo% %name% амуниция'
+  Pet: '%pet% питомец'
+  Mount: '%mount% транспорт'
+  Effect: '%effect% эффект'
+  Morph: '%morph% морф'
+  Hat: '%hat% Голова'
+  Money: '&e&l%money%$'
+  gadget: '%gadget% гаджет'
+  Suit: '%suit%'
+  Emote: '%emote% эмоция'
+  Nothing: '&c&lНичего'
+Menus:
+  Main-Menu: '&lГлавное меню'
+  Pets: '&lПитомцы'
+  Gadgets: '&lГаджеты'
+  Mounts: '&lТранспорт'
+  Morphs: '&lПеревоплощения'
+  Hats: '&lГоловы'
+  Particle-Effects: '&lЭффекты'
+  Suits: '&lКостюмы'
+  Emotes: '&lЭмоции'
+  Buy-Ammo: '&lКупить Амуницию'
+  Rename-Pet: '&lПереименовать Питомца'
+Disable-Gadgets: '&c&lОтключить Гаджеты'
+Enable-Gadgets: '&a&lВключить Гаджеты'
+Disable-Third-Person-View: '&c&lОтключить Морфы Вид От Третьего Лица'
+Enable-Third-Person-View: '&a&lВключить Просмотр Морфов От Третьего Лица'
+Gadgets-Enabled-Needed: '%prefix% &c&lВам нужно включить гаджеты!'
+Gadgets:
+  Equip: '%prefix% &9Вы экипированы %gadgetname%'
+  Unequip: '%prefix% &9Вы необорудованны %gadgetname%'
+  Countdown-Message: '%prefix% &c&lПодождите %time%с!'
+  PaintballGun:
+    name: '&b&lПейнтбольный маркер'
+  BatBlaster:
+    name: '&7&lБластер Летучей Мыши'
+  MelonThrower:
+    name: '&a&lМетатель Арбуза'
+    Wait-For-Finish: '%prefix% &c&lПодождите, пока ваша предыдущая дыня не закончит взрываться!'
+  EtherealPearl:
+    name: '&5&lЭфирный Перл'
+  FleshHook:
+    name: '&7&lМясной Крючок'
+  DiscoBall:
+    name: '&d&lДискотечный Шар'
+    Already-Active: '&c&lТам уже есть активный диско-шар!'
+    Not-Space-Above: '&c&lНад вами недостаточно места!'
+  ColorBomb:
+    name: '&d&lЦветная Бомба'
+  Chickenator:
+    name: '&f&lКурица Метатель'
+  PortalGun:
+    name: '&c&lПортальная Пушка'
+    No-Block-Range: '%prefix% &c&lНикаких блоков в пределах досягаемости!'
+    Different-Worlds: '%prefix% &c&lПорталы должны быть в одном и том же мире!'
+  BlizzardBlaster:
+    name: '&b&lЛедяная Пушка'
+  ThorHammer:
+    name: '&f&lМолот Тора'
+  SmashDown:
+    name: '&c&lРазбейся Вдребезги'
+  ExplosiveSheep:
+    name: '&4&lВзрывоопасная Овца'
+    Already-Active: '&c&lТам уже есть взрывоопасная овца активная!'
+  AntiGravity:
+    name: '&d&lАнтигравитация'
+  Tsunami:
+    name: '&9&lЦунами'
+  Rocket:
+    name: '&4&lРакета'
+    Not-Enough-Space: '%prefix% &c&lНе хватает места вокруг и над тобой!'
+    Not-On-Ground: '%prefix% &c&lВы должны быть на земле!'
+    Takeoff: '&4&lВЗЛЕТ!!'
+  BlackHole:
+    name: '&1&lЧерная дыра'
+  TNT:
+    name: '&4&lT&f&lN&4&lT'
+  FunGun:
+    name: '&6&lВеселая Пушка'
+  Parachute:
+    name: '&f&lПарашют'
+  QuakeGun:
+    name: '&5&lТолчковая Пушка'
+  GhostParty:
+    name: '&f&lВечеринка Призраков'
+  Firework:
+    name: '&c&lФейерверк'
+  ChristmasTree:
+    name: '&2&lРождественская елка'
+    Click-On-Block: '%prefix% &c&lПожалуйста, нажмите на блок!'
+  FreezeCannon:
+    name: '&b&lЗамораживающая Пушка'
+  Snowball:
+    name: '&f&lСнежок'
+  PartyPopper:
+    name: '&e&lПартия Поппер'
+  Trampoline:
+    name: '&9&lБатут'
+  Gadget-Ready-ActionBar: '%gadgetname% &f&lвсе готово!'
+  Lore: '&9Гаджет'
+Mounts:
+  DruggedHorse:
+    menu-name: '&2&lНакуренная лошадь &6(Ларая+)'
+    entity-displayname: '&6Накуренная лошадь игрока %playername%'
+  InfernalHorror:
+    menu-name: '&4&lДьявольская лошадь &4(Сатана)'
+    entity-displayname: '&4&lДьявольская Лошадь Сатаны %playername%'
+  GlacialSteed:
+    menu-name: '&b&lЛедяной Конь'
+    entity-displayname: '&6%playername%'' Ледяной Конь'
+  WalkingDead:
+    menu-name: '&2&lЗомби Конь &6(Ларая+)'
+    entity-displayname: '&6Зомби Конь игрока %playername%'
+  MountOfFire:
+    menu-name: '&c&lОгненная Лошадь'
+    entity-displayname: '&l%playername%''Огненная Лошадь'
+  MountOfWater:
+    menu-name: '&9&lВодяная Лошадь'
+    entity-displayname: '&l%playername%''Водяная Лошадь'
+  EcologistHorse:
+    menu-name: '&a&lТравяная Лошадь'
+    entity-displayname: '&l%playername%''Травяная Лошадь'
+  NyanSheep:
+    menu-name: '&4&lРаду&6&lж&н&lая &a&lО&b&lв&d&lца'
+    entity-displayname: '&l%playername%''Радужная овца'
+  Snake:
+    menu-name: '&6&lОвцы'
+    entity-displayname: '&l%playername%''Овцы'
+  Dragon:
+    menu-name: '&5&lДракон'
+    entity-displayname: '&l%playername%''Дракон'
+  SkySquid:
+    menu-name: '&9&lНебесный Кальмар'
+    entity-displayname: '&l%playername%''Небесный Кальмар'
+  HypeCart:
+    menu-name: '&7&lРекламная Тележка'
+    entity-displayname: '&l%playername%''Рекламная Тележка'
+  Slime:
+    menu-name: '&a&lСлизь'
+    entity-displayname: '&l%playername%''Слизь'
+  Spider:
+    menu-name: '&8&lПаук'
+    entity-displayname: '&l%playername%''Паук'
+  Rudolph:
+    menu-name: '&f&lОлень&4&l &a(Диббук+)'
+    entity-displayname: '&aОлень игрока %playername% '
+  MoltenSnake:
+    menu-name: '&c&lРасплавленная Змея'
+    entity-displayname: '&l%playername%''Расплавленная Змея'
+  FlyingShip:
+    menu-name: '&a&lЛетучий корабль'
+    entity-displayname: '&l%playername%''Летучий корабль'
+  Spawn: '%prefix% &9Вы призвали %mountname%'
+  Despawn: '%prefix% &9Вы отозвали %mountname%'
+Particle-Effects:
+  Summon: '%prefix% &9Вы создали %effectname%'
+  Unsummon: '%prefix% &9Вы удалили %effectname%'
+  RainCloud:
+    name: '&9&lДождевое облако'
+  SnowCloud:
+    name: '&f&lСнежное Облако &6(Ларая+)'
+  BloodHelix:
+    name: '&4&lКровавая Спираль'
+  FrostLord:
+    name: '&b&lПовелитель Мороза'
+  FlameRings:
+    name: '&c&lОгненные Кольца'
+  GreenSparks:
+    name: '&a&lЗеленые Искры &a(Диббук+)'
+  InLove:
+    name: '&c&lЛюбовь'
+  FrozenWalk:
+    name: '&b&lЛедяная ходьба &a(Диббук+)'
+  Enchanted:
+    name: '&7&lЗачарованние &4(Сатана)'
+  Music:
+    name: '&9&lМузыкальный'
+  Inferno:
+    name: '&4&lДьявол'
+  AngelWings:
+    name: '&f&lАнгельские крылья'
+  SuperHero:
+    name: '&4&lСупергерой'
+  SantaHat:
+    name: '&4&lШляпа Санты'
+  CrushedCandyCane:
+    name: '&4&lДробленый Леденец'
+  EnderAura:
+    name: '&d&lЭндер Аура &6(Ларая+)'
+  FlameFairy:
+    name: '&6&lОгненная Фея'
+  MagicalRods:
+    name: '&8&lВолшебные Жезлы'
+  FireWaves:
+    name: '&e&lОгненные Волны'
+Pets:
+  Piggy:
+    menu-name: '&d&lПоросенок'
+    entity-displayname: '&6Поросенок игрока %playername%'
+  Sheep:
+    menu-name: '&f&lОвца'
+    entity-displayname: '&6Овца игрока %playername%'
+  EasterBunny:
+    menu-name: '&6&lПасхальный кролик &a(Диббук+)'
+    entity-displayname: '&6Пасхальный кролик игрока %playername%'
+  Cow:
+    menu-name: '&c&lКорова'
+    entity-displayname: '&6Корова игрока %playername%'
+  Kitty:
+    menu-name: '&9&lКотенок'
+    entity-displayname: '&6Котенок игрока %playername%'
+  Dog:
+    menu-name: '&7&lСобака'
+    entity-displayname: '&lСобака игрока %playername%'
+  Chick:
+    menu-name: '&e&lПтенец'
+    entity-displayname: '&6Птенец игрока %playername%'
+  Wither:
+    menu-name: '&8&lВизер'
+    entity-displayname: '&6Визер игрока %playername%'
+  Pumpling:
+    menu-name: '&6&lТыква'
+    entity-displayname: '&6Тыква игрока %playername%'
+  CompanionCube:
+    menu-name: '&d&lКуб-Компаньон'
+    entity-displayname: '&6Куб-Компаньон игрока %playername%'
+  ChristmasElf:
+    menu-name: '&a&lРождественский Эльф &a(Диббук+)'
+    entity-displayname: '&6Рождественский Эльф игрока %playername%'
+  Mooshroom:
+    menu-name: '&4&lГрибная-Корова &a(Диббук+)'
+    entity-displayname: '&6Грибная-Корова игрока %playername%'
+  IronGolem:
+    menu-name: '&7&lЖелезный Голем &a(Диббук+)'
+    entity-displayname: '&6Железный Голем игрока %playername%'
+  Snowman:
+    menu-name: '&f&lСнеговик'
+    entity-displayname: '&6Снеговик игрока %playername%'
+  Villager:
+    menu-name: '&a&lСельский житель'
+    entity-displayname: '&6Сельский житель игрока %playername%'
+  Bat:
+    menu-name: '&8&lЛетучая мышь'
+    entity-displayname: '&6Летучая мышь игрока %playername%'
+  PolarBear:
+    menu-name: '&b&lПолярный медведь &a(Диббук+)'
+    entity-displayname: '&6Полярный медведь игрока %playername%'
+  Llama:
+    menu-name: '&7&lЛама &a(Диббук+)'
+    entity-displayname: '&6Лама игрока %playername%'
+  Parrot:
+    menu-name: '&a&lПопугай'
+    entity-displayname: '&6Попугай игрока %playername%'
+  Spawn: '%prefix% &9Вы призвали %petname%'
+  Despawn: '%prefix% &9Вы отозвали %petname%'
+Morphs:
+  Blaze:
+    name: '&6&lИнфернал'
+    skill: '&eSHIFT&7 чтобы: &aУскорится'
+  Chicken:
+    name: '&f&lКурица'
+    skill: '&eSHIFT&7 чтобы: &aОткладывать яйца'
+  Slime:
+    name: '&a&lСлизь'
+    skill: '&eSHIFT&7 чтобы: &aПодпрыгивать'
+  Pig:
+    name: '&d&lСвинья'
+    skill: '&eSHIFT&7 чтобы: &aПодпрыгнуть '
+  Enderman:
+    name: '&5&lЭндерман'
+    skill: '&eДвойной прыжок&7 чтобы: &aТелепорт'
+  Bat:
+    name: '&8&lЛетучая мышь'
+    skill: '&eДвойной прыжок&7 чтобы: &aВзлететь'
+  Creeper:
+    name: '&a&lКрипер'
+    skill: '&eSHIFT&7 чтобы: &aВзрыватся'
+    charging: '&a&lЗарядка: %chargelevel%/100'
+    release-to-explode: '&f&lОтпустите, чтобы взорваться!'
+  Snowman:
+    name: '&f&lСнеговик'
+    skill: '&eЛКМ&7 чтобы: &aБросить Снежок'
+  Morph: '%prefix% &9Вы превратились в %morphname%'
+  Unmorph: '%prefix% &9Вы отменили превращение в %morphname%'
+  WitherSkeleton:
+    name: '&8&lВизер Скелет'
+    skill: '&eSHIFT&7 чтобы: &aКостяная Бомба'
+  ElderGuardian:
+    name: '&8&lСтарший Хранитель'
+    skill: '&eЛКМ7: &aЛазер'
+  Cow:
+    name: '&8&lКорова'
+    skill: '&eЛКМ&7: &aМычать'
+  Sheep:
+    name: '&f&lОвца &a(Диббук+)'
+    skill: '&eЛКМ&7: &aПоменять цвет'
+  Mooshroom:
+    name: '&c&lГрибная Корова'
+    skill: '&eSHIFT&7: &aКинуть Суп'
+  Villager:
+    name: '&a&lСельский житель'
+    skill: '&eЛКМ&7: &aИзумрудный Бросок'
+  Witch:
+    name: '&5&lВедьма'
+    skill: '&eЛКМ&7: &aБросок Зелья'
+  PolarBear:
+    name: '&f&lПолярный медведь'
+    skill: '&eЛКМ&7: &aМетель'
+  Llama:
+    name: '&3&lЛама'
+    skill: '&eЛКМ&7: &aПлевать'
+  Parrot:
+    name: '&a&lПопугай'
+    skill: '&eДвойной прижок&7: &aВзлететь'
+Hats:
+  Equip: '%prefix% &9Вы экипировали %hatname% &9на голову!'
+  Unequip: '%prefix% &9Вы сняли %hatname% &9с головы!'
+  Astronaut:
+    Name: '&7&lАстронавт'
+  Scared:
+    Name: '&4&lНапуганный'
+  Angel:
+    Name: '&f&lАнгел'
+  Embarassed:
+    Name: '&7&lСмущенный'
+  Kissy:
+    Name: '&c&lЧмоки'
+  Sad:
+    Name: '&9&lПечальный'
+  Cool:
+    Name: '&6&lКруто'
+  Surprised:
+    Name: '&4&lУдивленный'
+  Dead:
+    Name: '&8&lМертвый'
+  Crying:
+    Name: '&9&lПлачущий'
+  BigSmile:
+    Name: '&6&lБольшая улыбка'
+  Wink:
+    Name: '&e&lПодмигивать'
+  Derp:
+    Name: '&3&lСумасшедший'
+  Smile:
+    Name: '&e&lУлыбка'
+  Iron:
+    Name: '&7&lЖелезо'
+  Gold:
+    Name: '&e&lЗолото'
+  Diamond:
+    Name: '&b&lАлмаз'
+  CommandBlock:
+    Name: '&7&lКомандный Блок'
+  Music:
+    Name: '&9&lМузыка'
+  Squid:
+    Name: '&3&lКальмар'
+  Chicken:
+    Name: '&f&lКурица'
+  Blaze:
+    Name: '&6&lПламя'
+  Piston:
+    Name: '&7&lПоршень'
+  Sheep:
+    Name: '&f&lОвца'
+  Pig:
+    Name: '&d&lСвинья'
+  Golem:
+    Name: '&7&lГолем'
+  Enderman:
+    Name: '&5&lЭндерман'
+  Mario:
+    Name: '&4&lМарио'
+  Luigi:
+    Name: '&2&lЛуиджы'
+  Batman:
+    Name: '&8&lБэтмэн'
+  Chest:
+    Name: '&6&lСундук'
+  Skull:
+    Name: '&f&lЧереп'
+  JackOLantern:
+    Name: '&6&lФонарь Джека'
+  Ghost:
+    Name: '&f&lПривидение'
+  ScaryClown:
+    Name: '&4&lСтрашный Клоун'
+  Santa:
+    Name: '&4&lСанта'
+  Snowman:
+    Name: '&f&lСнеговик'
+  Present:
+    Name: '&c&lПодарок'
+  Elf:
+    Name: '&a&lЭльф'
+  Bedrock:
+    Name: '&8&lКоренная порода'
+  Bread:
+    Name: '&f&lХлеб'
+  Cheese:
+    Name: '&e&lСыр'
+  Pancakes:
+    Name: '&f&lБлины'
+  Cake:
+    Name: '&c&lТорт'
+  Cookie:
+    Name: '&6&lПеченье'
+  CandyCane:
+    Name: '&c&lКонфета &f&lна палочке'
+  Chocolate:
+    Name: '&a&lШоколад'
+  WhiteChocolate:
+    Name: '&f&lБелый шоколад'
+  Apple:
+    Name: '&4&lЯблоко'
+  Melon:
+    Name: '&a&lДыня'
+  CarvedPumpkin:
+    Name: '&6&lРезанная Тыква'
+  Strawberry:
+    Name: '&c&lКлубника'
+  Coconut:
+    Name: '&f&lКокос'
+  Taco:
+    Name: '&e&lТако'
+  Bacon:
+    Name: '&f&lБекон'
+  Fries:
+    Name: '&6&lКартофель фри'
+  Hamburger:
+    Name: '&6&lГамбургер'
+  Popcorn:
+    Name: '&6&lПопкорн'
+  WhiteDonut:
+    Name: '&f&lБелый Пончик'
+  PinkDonut:
+    Name: '&d&lРозовый Пончик'
+  ChocolateDonut:
+    Name: '&a&lШоколадный Пончик'
+  Pie:
+    Name: '&4&lПирог'
+  A:
+    Name: '&6&lA'
+  B:
+    Name: '&4&lB'
+  C:
+    Name: '&2&lC'
+  D:
+    Name: '&b&lD'
+  E:
+    Name: '&e&lE'
+  F:
+    Name: '&5&lF'
+  G:
+    Name: '&d&lG'
+  H:
+    Name: '&a&lH'
+  I:
+    Name: '&6&lI'
+  J:
+    Name: '&4&lJ'
+  K:
+    Name: '&2&lK'
+  L:
+    Name: '&b&lL'
+  M:
+    Name: '&e&lM'
+  N:
+    Name: '&5&lN'
+  O:
+    Name: '&d&lO'
+  P:
+    Name: '&a&lP'
+  Q:
+    Name: '&6&lQ'
+  R:
+    Name: '&4&lR'
+  S:
+    Name: '&2&lS'
+  T:
+    Name: '&b&lT'
+  U:
+    Name: '&e&lU'
+  V:
+    Name: '&5&lV'
+  W:
+    Name: '&d&lW'
+  X:
+    Name: '&a&lX'
+  Y:
+    Name: '&6&lY'
+  Z:
+    Name: '&4&lZ'
+  Must-Remove-Hat: '%prefix% &c&lВы должны снять шлем, чтобы надеть шляпу!'
+Suits:
+  Rave:
+    whole-equip: '&f&lВесь &b&lКо&a&lст&e&lю&6&lм &f&lцветной'
+    helmet-name: '&b&lЦв&a&lу&e&lе&6&lа &f&lШлем'
+    chestplate-name: '&b&lЦв&a&lу&e&lе&6&lа &f&lГрудь'
+    leggings-name: '&b&lЦв&a&lу&e&lе&6&lа &f&lШтаны'
+    boots-name: '&b&lЦв&a&lу&e&lе&6&lаe &f&lБотинки'
+  Astronaut:
+    whole-equip: '&f&lВесь &f&lКостюм &f&lКосмонавта'
+    helmet-name: '&f&lКосмонавта &f&lШлем'
+    chestplate-name: '&f&lКосмонавта &f&lГрудь'
+    leggings-name: '&f&lКосмонавта &f&lШтаны'
+    boots-name: '&f&lКосмонавта &f&lБотинки'
+  Diamond:
+    whole-equip: '&f&lВесь &b&lАлмазный &f&lкостюм'
+    helmet-name: '&b&lАлмазный &f&lШлем'
+    chestplate-name: '&b&lАлмазный &f&lГрудь'
+    leggings-name: '&b&lАлмазный &f&lШтаны'
+    boots-name: '&b&lАлмазный &f&lБотинки'
+  Santa:
+    whole-equip: '&f&lВесь &4&lкостюм &f&lсанты'
+    helmet-name: '&4&lСанты &f&lШлем'
+    chestplate-name: '&4&lСанты &f&lГрудь'
+    leggings-name: '&4&lСанты &f&lШтаны'
+    boots-name: '&4&lСанты &f&lБотинки'
+  Frozen:
+    whole-equip: '&f&lВесь &b&lЛедяной &f&lкостюм'
+    helmet-name: '&b&lЛедяной &f&lШлем'
+    chestplate-name: '&b&lЛедяной &f&lГрудь'
+    leggings-name: '&b&lЛедяной &f&lШтаны'
+    boots-name: '&b&lЛедяной &f&lБотинки'
+  Equip: '%prefix% &9Вы одели %suitname%!'
+  Unequip: '%prefix% &9Вы сняли %suitname%!'
+  Suit-Part-Lore: '&9Часть Костюмов'
+  Whole-Equip-Lore: '&7&oОборудуйте весь костюм!'
+Emotes:
+  Equip: '%prefix% &9Вы экипировали %emotename%'
+  Unequip: '%prefix% &9Вы сняли %emotename%'
+  Cry:
+    Name: '&9&lПлач'
+  Angry:
+    Name: '&c&lСердитый'
+  Happy:
+    Name: '&e&lСчастливый'
+  Cheeky:
+    Name: '&6&lНахальный'
+  Love:
+    Name: '&4&lЛюбовь'
+  DealWithIt:
+    Name: '&7&lКрутой'
+  Cool:
+    Name: '&9&lКруто'
+  Surprised:
+    Name: '&6&lУдивленный'
+  Wink:
+    Name: '&a&lПодмигивать'
+  Must-Remove-Helmet: '%prefix% &c&lВы должны снять свой шлем, чтобы оборудовать эмоцию!'
+Menu:
+  Gadgets: '&9&lГаджеты'
+  Particle-Effects: '&b&lЭффекты частиц'
+  Mounts: '&6&lТранспорт'
+  Pets: '&a&lПитомцы'
+  Morphs: '&2&lПреврщения'
+  Hats: '&b&lГоловы'
+  Suits: '&c&lКостюмы'
+  Emotes: '&e&lЭмоции'
+  Main-Menu: '&c&lNetherCraft | &6Волшебный ящик'
+  Activate: '&b&lАктивировать'
+  Deactivate: '&c&lДеактивировать'
+  Spawn: '&b&lПризвать'
+  Despawn: '&c&lОтозвать'
+  Summon: '&b&lПризвать'
+  Unsummon: '&c&lОтозвать'
+  Equip: '&b&lНадеть'
+  Unequip: '&c&lСнять'
+  Morph: ''
+  Unmorph: ''
+  Previous-Page: '&c&lПредыдущая Страница'
+  Next-Page: '&a&lСледующая страница'
+Enabled-SelfMorphView: '%prefix% &9вы позволили посмотреть на морф!'
+Disabled-SelfMorphView: '%prefix% &9вы отключили самостоятельный просмотр для Морфов!'
+Enabled-Gadgets: '%prefix% &9вы включили гаджеты!'
+Disabled-Gadgets: '%prefix% &9вы отключили гаджеты!'
+Not-Allowed-From-Console: '&c&lЭто не может быть выполнено из консоли!'
+World-Disabled: '%prefix% &c&lКосметика в этом мире отключена!'
+Disabled-Command-Holding-Message: '%prefix% &c&lВы не можете использовать эту команду
+  удерживая косметику!'
+Disabled-Command-Wearing-Message: '%prefix% &c&lВы не можете использовать эту команду во
+  время ношения косметики!'

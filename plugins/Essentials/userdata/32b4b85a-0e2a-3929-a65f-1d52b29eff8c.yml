@@ -1,0 +1,33 @@
+lastlocation:
+  world: NetherCraft
+  x: -1572.5158946086674
+  y: 62.523265245545765
+  z: 4483.6756905054
+  yaw: -347.50266
+  pitch: 2.550074
+lastAccountName: Onyx377
+timestamps:
+  login: 1617456174625
+  kits:
+    starter: 1617369897010
+    tools: 1617039301458
+    food: 1617042870761
+  logout: 1617456378127
+  lastteleport: 1617372301649
+ipAddress: 95.28.144.166
+logoutlocation:
+  world: NetherCraft
+  x: -1539.2703504249519
+  y: 63.085693359375
+  z: 4441.627705641911
+  yaw: 293.50055
+  pitch: 66.30017
+homes:
+  home:
+    world: NetherCraft
+    x: -2297.001059338296
+    y: 64.0
+    z: 1893.3678994527718
+    yaw: -181.00568
+    pitch: 6.749783
+money: '5878.4499999999999319'

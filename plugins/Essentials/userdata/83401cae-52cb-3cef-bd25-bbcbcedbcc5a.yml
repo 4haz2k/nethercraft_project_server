@@ -1,0 +1,28 @@
+lastlocation:
+  world: NetherCraft
+  x: -797.9555132813401
+  y: 63.0
+  z: -368.4805811932396
+  yaw: -257.37946
+  pitch: 35.196533
+lastAccountName: NastyPanda_100
+timestamps:
+  login: 1616954039364
+  logout: 1616954068111
+  lastteleport: 1616952791347
+ipAddress: 188.168.215.30
+logoutlocation:
+  world: NetherCraft
+  x: -810.2585287090801
+  y: 68.0
+  z: -344.96669881405063
+  yaw: 256.87048
+  pitch: 20.26216
+homes:
+  home:
+    world: NetherCraft
+    x: -811.4858593113026
+    y: 64.0
+    z: -347.1535188883568
+    yaw: 179.07703
+    pitch: 35.106686

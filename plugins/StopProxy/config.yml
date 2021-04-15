@@ -1,0 +1,27 @@
+#STO[P]ROXY CONFIG FILE
+
+#Enable (true) or disable (false) protection
+protection: true
+
+#Automatically ban a BAD USER (true or false)
+autoban-mode: true
+
+#Custom maintenance mode (true or false)
+maintenance: false
+
+#Notify users who have permissions when someone connect to server. (true or false)
+notify-op: false
+
+#StopProxy welcome message (true or false)
+welcomemsg: false
+
+#Hide player join/left message (true or false)
+hidejoin: true
+
+#Custom messages
+MaintenanceMSG: В процессе выполнения...
+YesProxyMSG: Вы попытались войти с использованием прокси!
+NoProxyMSG: Запрещено использовать прокси!
+KickMSG: Подозрение на DDOS атаку!
+NoPermissionsMSG: У вас нет разрешений на использование этой команды!
+IPBanned: Забанен за подозрения в DDOS атаке!

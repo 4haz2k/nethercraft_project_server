@@ -1,0 +1,1522 @@
+================================
+Server Information
+================================
+
+Bukkit Version: 1.15.2-R0.1-SNAPSHOT
+Implementation: Paper git-Paper-379 (MC: 1.15.2)
+Player Count: 1/100
+Server Class Source: file:/D:/Desktop/server2/cache/patched_1.15.2.jar
+Spawning: 
+	Ambient Spawn Limit: 2
+	Animal Spawn Limit: 8
+	Monster Spawn Limit: 15
+	Ticks per Animal Spawn: 400
+	Ticks per Monster Spawn: 4
+Configuration: 
+	Nether Enabled?: true
+	The End Enabled?: true
+	Generate Structures?: true
+	Flight Allowed?: false
+	Connection Throttle: 4000
+	Idle Timeout: 0
+	Shutdown Message: Server closed
+	Default Game Mode: SURVIVAL
+	Main World Type: default
+	View Distance: 10
+Protection: Spawn Radius: 0
+
+================================
+Plugins
+================================
+
+Plugin Count: 37
+Plugin: LuckPerms: 
+	Enabled?: true
+	Full Name: LuckPerms v5.1.79
+	Version: 5.1.79
+	Website: https://luckperms.net
+	Description: A permissions plugin
+	Authors: Luck
+	Load Before: Vault
+	Dependencies: 
+	Soft Dependencies: LilyPad-Connect
+	Folder: D:\Desktop\server2\plugins\LuckPerms
+	Entry Point: me.lucko.luckperms.bukkit.LPBukkitBootstrap
+	Class: me.lucko.luckperms.bukkit.LPBukkitBootstrap
+	Class Source: file:/D:/Desktop/server2/plugins/LuckPerms-Bukkit-5.1.79.jar
+Plugin: WorldEdit: 
+	Enabled?: true
+	Full Name: WorldEdit v7.2.0+a51fa43
+	Version: 7.2.0+a51fa43
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Vault
+	Folder: D:\Desktop\server2\plugins\WorldEdit
+	Entry Point: com.sk89q.worldedit.bukkit.WorldEditPlugin
+	Class: com.sk89q.worldedit.bukkit.WorldEditPlugin
+	Class Source: file:/D:/Desktop/server2/plugins/worldedit-bukkit-7.2.0-dist.jar
+Plugin: Chunky: 
+	Enabled?: true
+	Full Name: Chunky v1.0.10
+	Version: 1.0.10
+	Website: https://www.spigotmc.org/resources/chunky.81534/
+	Description: Pre-generates chunks, quickly, efficiently, and safely
+	Authors: pop4959
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\Chunky
+	Entry Point: org.popcraft.chunky.Chunky
+	Class: org.popcraft.chunky.Chunky
+	Class Source: file:/D:/Desktop/server2/plugins/Chunky-1.0.10.jar
+Plugin: SAML: 
+	Enabled?: true
+	Full Name: SAML v2.0.0
+	Version: 2.0.0
+	Website: null
+	Description: 
+		Plugin for reducing performance impact of mobs and farms.
+	
+	Authors: froobynooby
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\SAML
+	Entry Point: com.froobworld.saml.Saml
+	Class: com.froobworld.saml.Saml
+	Class Source: file:/D:/Desktop/server2/plugins/SAML%202.0.0.jar
+Plugin: GFly: 
+	Enabled?: true
+	Full Name: GFly v[2.3.0.0]
+	Version: [2.3.0.0]
+	Website: null
+	Description: GFly
+	Authors: Gecolay
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\GFly
+	Entry Point: me.gfly.Main.GFlyMain
+	Class: me.gfly.Main.GFlyMain
+	Class Source: file:/D:/Desktop/server2/plugins/GFly.jar
+Plugin: PlaceholderAPI: 
+	Enabled?: true
+	Full Name: PlaceholderAPI v2.10.6
+	Version: 2.10.6
+	Website: null
+	Description: An awesome placeholder provider!
+	Authors: 
+		extended_clip
+		Glare
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\PlaceholderAPI
+	Entry Point: me.clip.placeholderapi.PlaceholderAPIPlugin
+	Class: me.clip.placeholderapi.PlaceholderAPIPlugin
+	Class Source: file:/D:/Desktop/server2/plugins/PlaceholderAPI-2.10.6.jar
+Plugin: AdvancedBan: 
+	Enabled?: true
+	Full Name: AdvancedBan v2.3.0
+	Version: 2.3.0
+	Website: null
+	Description: null
+	Authors: Leoko
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Vault
+	Folder: D:\Desktop\server2\plugins\AdvancedBan
+	Entry Point: me.leoko.advancedban.bukkit.BukkitMain
+	Class: me.leoko.advancedban.bukkit.BukkitMain
+	Class Source: file:/D:/Desktop/server2/plugins/AdvancedBan-Bundle-2.3.0-RELEASE.jar
+Plugin: ZNPCS: 
+	Enabled?: true
+	Full Name: ZNPCS v1.1
+	Version: 1.1
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: PlaceholderAPI
+	Folder: D:\Desktop\server2\plugins\ZNPCS
+	Entry Point: ak.znetwork.znpcservers.ServersNPC
+	Class: ak.znetwork.znpcservers.ServersNPC
+	Class Source: file:/D:/Desktop/server2/plugins/znpc-servers.jar
+Plugin: IllegalStack: 
+	Enabled?: true
+	Full Name: IllegalStack v2.1.7c
+	Version: 2.1.7c
+	Website: https://www.spigotmc.org/resources/44411/
+	Description: Closes some dupe bugs still present in vanilla  minecraft.
+	Authors: dNiym
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\IllegalStack
+	Entry Point: me.dniym.IllegalStack
+	Class: me.dniym.IllegalStack
+	Class Source: file:/D:/Desktop/server2/plugins/IllegalStack-2.1.7c.jar
+Plugin: Playtimes: 
+	Enabled?: true
+	Full Name: Playtimes v1.3.8
+	Version: 1.3.8
+	Website: null
+	Description: null
+	Authors: 
+		Cmaaxx
+		CodedRed
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		PlaceholdersAPI
+		PlaceholderAPI
+	Folder: D:\Desktop\server2\plugins\Playtimes
+	Entry Point: me.codedred.playtimes.PlayTimes
+	Class: me.codedred.playtimes.PlayTimes
+	Class Source: file:/D:/Desktop/server2/plugins/PlayTimes-1.3.8.jar
+Plugin: WorldGuard: 
+	Enabled?: true
+	Full Name: WorldGuard v7.0.3;5407315
+	Version: 7.0.3;5407315
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: WorldEdit
+	Soft Dependencies: CommandBook
+	Folder: D:\Desktop\server2\plugins\WorldGuard
+	Entry Point: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+	Class: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+	Class Source: file:/D:/Desktop/server2/plugins/worldguard-bukkit-7.0.3.jar
+Plugin: AdvancedPortals: 
+	Enabled?: true
+	Full Name: AdvancedPortals v0.5.8
+	Version: 0.5.8
+	Website: null
+	Description: An advanced portals plugin for bukkit.
+	Authors: sekwah41
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\AdvancedPortals
+	Entry Point: com.sekwah.advancedportals.bukkit.AdvancedPortalsPlugin
+	Class: com.sekwah.advancedportals.bukkit.AdvancedPortalsPlugin
+	Class Source: file:/D:/Desktop/server2/plugins/Advanced-Portals-0.5.8-snapshot.jar
+Plugin: FastAsyncWorldEdit: 
+	Enabled?: true
+	Full Name: FastAsyncWorldEdit v1.16.1
+	Version: 1.16.1
+	Website: null
+	Description: null
+	Authors: 
+		Empire92
+		MattBDev
+		IronApollo
+		dordsor21
+		NotMyFault
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\FastAsyncWorldEdit
+	Entry Point: com.boydti.fawe.Blank
+	Class: com.boydti.fawe.Blank
+	Class Source: file:/D:/Desktop/server2/plugins/DummyFawe.jar
+Plugin: PlayTimeMySQL: 
+	Enabled?: true
+	Full Name: PlayTimeMySQL v2.0.2
+	Version: 2.0.2
+	Website: null
+	Description: A playtimes mysql plugin
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\PlayTimeMySQL
+	Entry Point: playtimesmysql.Main
+	Class: playtimesmysql.Main
+	Class Source: file:/D:/Desktop/server2/plugins/PlayTimeMySQL.jar
+Plugin: DeluxeMenus: 
+	Enabled?: true
+	Full Name: DeluxeMenus v1.13.2-Release
+	Version: 1.13.2-Release
+	Website: null
+	Description: All in one inventory menu system
+	Authors: 
+		extended_clip
+		Glare
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		PlaceholderAPI
+		Vault
+	Folder: D:\Desktop\server2\plugins\DeluxeMenus
+	Entry Point: com.extendedclip.deluxemenus.DeluxeMenus
+	Class: com.extendedclip.deluxemenus.DeluxeMenus
+	Class Source: file:/D:/Desktop/server2/plugins/DeluxeMenus-1.13.2-Release.jar
+Plugin: LimitPillagers: 
+	Enabled?: true
+	Full Name: LimitPillagers v2.13.0
+	Version: 2.13.0
+	Website: null
+	Description: null
+	Authors: HexedHero
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\LimitPillagers
+	Entry Point: me.hexedhero.lp.LimitPillagers
+	Class: me.hexedhero.lp.LimitPillagers
+	Class Source: file:/D:/Desktop/server2/plugins/LimitPillagers-2.13.0.jar
+Plugin: ConditionalCommands: 
+	Enabled?: true
+	Full Name: ConditionalCommands v1.4
+	Version: 1.4
+	Website: https://github.com/konsolas/ConditionalCommands
+	Description: Excecute commands based on conditions. Useful in configured commands from other plugins
+	Authors: konsolas
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: AAC
+	Folder: D:\Desktop\server2\plugins\ConditionalCommands
+	Entry Point: me.konsolas.conditionalcommands.ConditionalCommands
+	Class: me.konsolas.conditionalcommands.ConditionalCommands
+	Class Source: file:/D:/Desktop/server2/plugins/ConditionalCommands-1.4-SNAPSHOT.jar
+Plugin: ViaVersion: 
+	Enabled?: true
+	Full Name: ViaVersion v3.0.1
+	Version: 3.0.1
+	Website: null
+	Description: Allow newer clients to join older server versions.
+	Authors: 
+		_MylesC
+		creeper123123321
+		Gerrygames
+		KennyTV
+		Matsv
+	Load Before: 
+		ProtocolLib
+		ProxyPipe
+		SpigotLib
+		SkinRestorer
+	Dependencies: 
+	Soft Dependencies: 
+		ProtocolSupport
+		PacketListenerApi
+	Folder: D:\Desktop\server2\plugins\ViaVersion
+	Entry Point: us.myles.ViaVersion.ViaVersionPlugin
+	Class: us.myles.ViaVersion.ViaVersionPlugin
+	Class Source: file:/D:/Desktop/server2/plugins/ViaVersion-3.0.1.jar
+Plugin: NBTAPI: 
+	Enabled?: true
+	Full Name: NBTAPI v2.4.1
+	Version: 2.4.1
+	Website: null
+	Description: null
+	Authors: tr7zw
+	Load Before: ItemNBTAPI
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\NBTAPI
+	Entry Point: de.tr7zw.nbtapi.plugin.NBTAPI
+	Class: de.tr7zw.nbtapi.plugin.NBTAPI
+	Class Source: file:/D:/Desktop/server2/plugins/item-nbt-api-plugin-2.4.1.jar
+Plugin: Prism: 
+	Enabled?: true
+	Full Name: Prism v2.1.7-SNAPSHOT-176
+	Version: 2.1.7-SNAPSHOT-176
+	Website: https://github.com/AddstarMC/Prism-Bukkit/wiki
+	Description: null
+	Authors: 
+		AddstarMC
+		add5tar
+		Narimm
+		viveleroi
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		WorldEdit
+		DripReporter
+	Folder: D:\Desktop\server2\plugins\Prism
+	Entry Point: me.botsko.prism.Prism
+	Class: me.botsko.prism.Prism
+	Class Source: file:/D:/Desktop/server2/plugins/prism-2.1.7-SNAPSHOT.jar
+Plugin: ViaBackwards: 
+	Enabled?: true
+	Full Name: ViaBackwards v3.0.1
+	Version: 3.0.1
+	Website: https://github.com/ViaVersion/ViaBackwards/viabackwards-bukkit
+	Description: Allow older Minecraft versions to connect to a newer server version.
+	Authors: 
+		Matsv
+		KennyTV
+		Gerrygames
+		creeper123123321
+		ForceUpdate1
+	Load Before: 
+	Dependencies: ViaVersion
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\ViaBackwards
+	Entry Point: nl.matsv.viabackwards.BukkitPlugin
+	Class: nl.matsv.viabackwards.BukkitPlugin
+	Class Source: file:/D:/Desktop/server2/plugins/ViaBackwards-3.0.1.jar
+Plugin: Chatty: 
+	Enabled?: true
+	Full Name: Chatty v2.19-SNAPSHOT
+	Version: 2.19-SNAPSHOT
+	Website: null
+	Description: null
+	Authors: MrBrikster
+	Load Before: Essentials
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		PlaceholderAPI
+		NametagEdit
+	Folder: D:\Desktop\server2\plugins\Chatty
+	Entry Point: ru.mrbrikster.chatty.Chatty
+	Class: ru.mrbrikster.chatty.Chatty
+	Class Source: file:/D:/Desktop/server2/plugins/Chatty.jar
+Plugin: Essentials: 
+	Enabled?: true
+	Full Name: Essentials v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides an essential, core set of commands for Bukkit.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+		md_5
+		Iaccidentally
+		drtshock
+		vemacs
+		SupaHam
+		md678685
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		LuckPerms
+	Folder: D:\Desktop\server2\plugins\Essentials
+	Entry Point: com.earth2me.essentials.Essentials
+	Class: com.earth2me.essentials.Essentials
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsX-2.18.2.0.jar
+Plugin: ProtocolLib: 
+	Enabled?: true
+	Full Name: ProtocolLib v4.5.1
+	Version: 4.5.1
+	Website: null
+	Description: Provides read/write access to the Minecraft protocol.
+	Authors: 
+		dmulloy2
+		comphenix
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\ProtocolLib
+	Entry Point: com.comphenix.protocol.ProtocolLib
+	Class: com.comphenix.protocol.ProtocolLib
+	Class Source: file:/D:/Desktop/server2/plugins/ProtocolLib.jar
+Plugin: NoCheatPlus: 
+	Enabled?: true
+	Full Name: NoCheatPlus v3.17-SNAPSHOT-Updated-b62
+	Version: 3.17-SNAPSHOT-Updated-b62
+	Website: https://dev.bukkit.org/projects/nocheatplus
+	Description: Detect and fight the exploitation of various flaws/bugs in Minecraft.
+	Authors: 
+		NeatMonster
+		asofold
+		Evenprime
+		CaptainObvious0
+		xaw3ep
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		ProtocolLib
+		Carbon
+	Folder: D:\Desktop\server2\plugins\NoCheatPlus
+	Entry Point: fr.neatmonster.nocheatplus.NoCheatPlus
+	Class: fr.neatmonster.nocheatplus.NoCheatPlus
+	Class Source: file:/D:/Desktop/server2/plugins/NoCheatPlus.jar
+Plugin: SkinsRestorer: 
+	Enabled?: true
+	Full Name: SkinsRestorer v13.8.6
+	Version: 13.8.6
+	Website: https://skinsrestorer.net/
+	Description: Ability to restore/change skins on servers! (Offline and Online Mode)
+	Authors: 
+		Th3Tr0LLeR
+		McLive
+		DoNotSpamPls
+		knat
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: ViaBackwards
+	Folder: D:\Desktop\server2\plugins\SkinsRestorer
+	Entry Point: skinsrestorer.bukkit.SkinsRestorer
+	Class: skinsrestorer.bukkit.SkinsRestorer
+	Class Source: file:/D:/Desktop/server2/plugins/SkinsRestorer.jar
+Plugin: EssentialsXMPP: 
+	Enabled?: true
+	Full Name: EssentialsXMPP v2.18.2.0
+	Version: 2.18.2.0
+	Website: http://ess.khhq.net/wiki/XMPP
+	Description: Provides XMPP communication.
+	Authors: snowleo
+	Load Before: 
+	Dependencies: Essentials
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\EssentialsXMPP
+	Entry Point: com.earth2me.essentials.xmpp.EssentialsXMPP
+	Class: com.earth2me.essentials.xmpp.EssentialsXMPP
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsXXMPP-2.18.2.0.jar
+Plugin: CrashMe: 
+	Enabled?: true
+	Full Name: CrashMe v1.0-SNAPSHOT
+	Version: 1.0-SNAPSHOT
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: ProtocolLib
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\CrashMe
+	Entry Point: ru.spliterash.crashme.CrashMe
+	Class: ru.spliterash.crashme.CrashMe
+	Class Source: file:/D:/Desktop/server2/plugins/CrashMe-1.0-SNAPSHOT.jar
+Plugin: EssentialsProtect: 
+	Enabled?: true
+	Full Name: EssentialsProtect v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides protection for various parts of the world.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Essentials
+	Folder: D:\Desktop\server2\plugins\EssentialsProtect
+	Entry Point: com.earth2me.essentials.protect.EssentialsProtect
+	Class: com.earth2me.essentials.protect.EssentialsProtect
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsXProtect-2.18.2.0.jar
+Plugin: EssentialsChat: 
+	Enabled?: true
+	Full Name: EssentialsChat v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides chat control features for Essentials.  Requires Permissions.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+		md_5
+		Okamosy
+		Iaccidentally
+	Load Before: 
+	Dependencies: Essentials
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\EssentialsChat
+	Entry Point: com.earth2me.essentials.chat.EssentialsChat
+	Class: com.earth2me.essentials.chat.EssentialsChat
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsXChat-2.18.2.0.jar
+Plugin: EssentialsGeoIP: 
+	Enabled?: true
+	Full Name: EssentialsGeoIP v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Shows the country or city of a user on login and /whois.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		kjiang
+	Load Before: 
+	Dependencies: Essentials
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\EssentialsGeoIP
+	Entry Point: com.earth2me.essentials.geoip.EssentialsGeoIP
+	Class: com.earth2me.essentials.geoip.EssentialsGeoIP
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsXGeoIP-2.18.2.0.jar
+Plugin: EssentialsAntiBuild: 
+	Enabled?: true
+	Full Name: EssentialsAntiBuild v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides build protection.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+		Iaccidentally
+	Load Before: 
+	Dependencies: Essentials
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\EssentialsAntiBuild
+	Entry Point: com.earth2me.essentials.antibuild.EssentialsAntiBuild
+	Class: com.earth2me.essentials.antibuild.EssentialsAntiBuild
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsXAntiBuild-2.18.2.0.jar
+Plugin: TAB: 
+	Enabled?: true
+	Full Name: TAB v2.8.2
+	Version: 2.8.2
+	Website: https://www.spigotmc.org/resources/57806/
+	Description: Change a player's tablist prefix/suffix, name tag prefix/suffix, header/footer, bossbar and more
+	Authors: NEZNAMY
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		PlaceholderAPI
+		ViaVersion
+		ProtocolSupport
+		Vault
+		UltraPermissions
+		LuckPerms
+		GroupManager
+		PermissionsEx
+		DeluxeTags
+		Essentials
+		eGlow
+		LibsDisguises
+		CMI
+	Folder: D:\Desktop\server2\plugins\TAB
+	Entry Point: me.neznamy.tab.platforms.bukkit.Main
+	Class: me.neznamy.tab.platforms.bukkit.Main
+	Class Source: file:/D:/Desktop/server2/plugins/TAB%20v2.8.2.jar
+Plugin: EssentialsSpawn: 
+	Enabled?: true
+	Full Name: EssentialsSpawn v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides spawn control commands, utilizing Essentials.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+	Load Before: 
+	Dependencies: Essentials
+	Soft Dependencies: 
+	Folder: D:\Desktop\server2\plugins\EssentialsSpawn
+	Entry Point: com.earth2me.essentials.spawn.EssentialsSpawn
+	Class: com.earth2me.essentials.spawn.EssentialsSpawn
+	Class Source: file:/D:/Desktop/server2/plugins/EssentialsXSpawn-2.18.2.0.jar
+Plugin: AuthMe: 
+	Enabled?: true
+	Full Name: AuthMe v5.6.0-SNAPSHOT-b2427
+	Version: 5.6.0-SNAPSHOT-b2427
+	Website: https://github.com/AuthMe/AuthMeReloaded
+	Description: The first authentication plugin for the Bukkit API!
+	Authors: 
+		Xephi
+		sgdc3
+		DNx5
+		timvisee
+		games647
+		ljacqu
+		Gnat008
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		LuckPerms
+		PermissionsEx
+		bPermissions
+		zPermissions
+		Multiverse-Core
+		Essentials
+		EssentialsSpawn
+		ProtocolLib
+	Folder: D:\Desktop\server2\plugins\AuthMe
+	Entry Point: fr.xephi.authme.AuthMe
+	Class: fr.xephi.authme.AuthMe
+	Class Source: file:/D:/Desktop/server2/plugins/AuthMe-5.6.0-SNAPSHOT.jar
+Plugin: HolographicDisplays: 
+	Enabled?: true
+	Full Name: HolographicDisplays v2.4.4-SNAPSHOT-b153
+	Version: 2.4.4-SNAPSHOT-b153
+	Website: null
+	Description: null
+	Authors: filoghost
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: ProtocolLib
+	Folder: D:\Desktop\server2\plugins\HolographicDisplays
+	Entry Point: com.gmail.filoghost.holographicdisplays.HolographicDisplays
+	Class: com.gmail.filoghost.holographicdisplays.HolographicDisplays
+	Class Source: file:/D:/Desktop/server2/plugins/HolographicDisplays-2.4.4-SNAPSHOT.jar
+Plugin: HolographicExtension: 
+	Enabled?: true
+	Full Name: HolographicExtension v1.10.9
+	Version: 1.10.9
+	Website: null
+	Description: Add fun animations and thousands of placeholders into holograms!
+	Authors: Niall7459
+	Load Before: 
+	Dependencies: HolographicDisplays
+	Soft Dependencies: 
+		ProtocolLib
+		PlaceholderAPI
+	Folder: D:\Desktop\server2\plugins\HolographicExtension
+	Entry Point: net.kitesoftware.holograms.HolographicExtension
+	Class: net.kitesoftware.holograms.HolographicExtension
+	Class Source: file:/D:/Desktop/server2/plugins/HolographicExtension-1.10.9.jar
+
+================================
+Scheduler
+================================
+
+Pending Task Count: 32
+Task: #8: 
+	Owner: ProtocolLib
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #9: 
+	Owner: SAML
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #10: 
+	Owner: SAML
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #14: 
+	Owner: SAML
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #536: 
+	Owner: WorldGuard
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #538: 
+	Owner: WorldGuard
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #540: 
+	Owner: AdvancedPortals
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #542: 
+	Owner: ConditionalCommands
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #548: 
+	Owner: Chatty
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #549: 
+	Owner: Chatty
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #550: 
+	Owner: Chatty
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #556: 
+	Owner: Essentials
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #561: 
+	Owner: NoCheatPlus
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #562: 
+	Owner: NoCheatPlus
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #563: 
+	Owner: NoCheatPlus
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #565: 
+	Owner: NoCheatPlus
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #578: 
+	Owner: SkinsRestorer
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #601: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #602: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #603: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #604: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #611: 
+	Owner: Prism
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #613: 
+	Owner: Prism
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #614: 
+	Owner: Prism
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #615: 
+	Owner: Prism
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3803: 
+	Owner: Essentials
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #26528: 
+	Owner: SAML
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #26530: 
+	Owner: SAML
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #576: 
+	Owner: SkinsRestorer
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #18: 
+	Owner: ZNPCS
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #599: 
+	Owner: AuthMe
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #27122: 
+	Owner: Prism
+	Runnable: <Unknown>
+	Synchronous?: false
+
+================================
+Services
+================================
+
+me.neznamy.tab.platforms.bukkit.Metrics: me.neznamy.tab.platforms.bukkit.Metrics@600f9da6
+me.codedred.playtimes.Metrics: me.codedred.playtimes.Metrics@41400ab3
+me.hexedhero.lp.metrics.MetricsLite: me.hexedhero.lp.metrics.MetricsLite@33ef7f44
+com.froobworld.saml.metrics.Metrics: com.froobworld.saml.metrics.Metrics@6ce79615
+org.popcraft.chunky.Metrics: org.popcraft.chunky.Metrics@7019d482
+com.earth2me.essentials.metrics.Metrics: com.earth2me.essentials.metrics.Metrics@314d5da0
+com.comphenix.protocol.metrics.Metrics: com.comphenix.protocol.metrics.Metrics@79901192
+skinsrestorer.shared.utils.metrics.bukkit.Metrics: skinsrestorer.shared.utils.metrics.bukkit.Metrics@2997678b
+com.sk89q.worldedit.bukkit.bstats.bukkit.Metrics: com.sk89q.worldedit.bukkit.bstats.bukkit.Metrics@17940bff
+de.tr7zw.nbtapi.utils.ApiMetricsLite: de.tr7zw.nbtapi.utils.ApiMetricsLite@4c6ff4f0
+me.clip.placeholderapi.metrics.bukkit.Metrics: me.clip.placeholderapi.metrics.bukkit.Metrics@350a606e
+ru.mrbrikster.chatty.util.metrics.Metrics: ru.mrbrikster.chatty.util.metrics.Metrics@27b3f27b
+com.botsko.prism.libs.bstats.bukkit.Metrics: com.botsko.prism.libs.bstats.bukkit.Metrics@10cfce81
+com.gmail.filoghost.holographicdisplays.metrics.bukkit.MetricsLite: com.gmail.filoghost.holographicdisplays.metrics.bukkit.MetricsLite@2334601c
+net.luckperms.api.LuckPerms: me.lucko.luckperms.common.api.LuckPermsApiProvider@455b6d04
+com.sekwah.advancedportals.bukkit.metrics.Metrics: com.sekwah.advancedportals.bukkit.metrics.Metrics@7dc37ffe
+com.sk89q.worldguard.bukkit.bstats.bukkit.Metrics: com.sk89q.worldguard.bukkit.bstats.bukkit.Metrics@13960d01
+me.leoko.advancedban.shaded.org.bstats.bukkit.Metrics: me.leoko.advancedban.shaded.org.bstats.bukkit.Metrics@13a2abef
+net.kitesoftware.holograms.metrics.MetricsLite: net.kitesoftware.holograms.metrics.MetricsLite@d8fc7d2
+ak.znetwork.znpcservers.utils.MetricsLite: ak.znetwork.znpcservers.utils.MetricsLite@6bd56512
+me.gfly.Management.BStatsManagement: me.gfly.Management.BStatsManagement@4808836c
+com.extendedclip.deluxemenus.metrics.Metrics: com.extendedclip.deluxemenus.metrics.Metrics@4e73b451
+fr.xephi.authme.libs.org.bstats.bukkit.Metrics: fr.xephi.authme.libs.org.bstats.bukkit.Metrics@3d315b1a
+
+================================
+Worlds
+================================
+
+World Count: 3
+World: world: 
+	UUID: efeeb5d0-7e7a-4a68-af32-83307cd4c4c4
+	World Type: NORMAL
+	Environment: NORMAL
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 2
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 15
+		Water Creature Spawn Limit: 3
+	Configuration: 
+		Difficulty: NORMAL
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=world},x=128.0,y=75.0,z=0.0,pitch=0.0,yaw=0.0}
+		Full Time: 1270803
+		Weather Duration: 5330
+		Thunder Duration: 77955
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=true, drowningDamage=true, commandBlockOutput=true, doMobSpawning=true, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=true, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=false, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=true, doPatrolSpawning=true
+World: world_nether: 
+	UUID: e4220978-85c6-4e1c-8153-c54b885b7ba5
+	World Type: NORMAL
+	Environment: NETHER
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 2
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 15
+		Water Creature Spawn Limit: 3
+	Configuration: 
+		Difficulty: NORMAL
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=world_nether},x=0.0,y=64.0,z=0.0,pitch=0.0,yaw=0.0}
+		Full Time: 1136386
+		Weather Duration: 0
+		Thunder Duration: 0
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=true, drowningDamage=true, commandBlockOutput=true, doMobSpawning=true, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=true, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=false, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=true, doPatrolSpawning=true
+World: world_the_end: 
+	UUID: f47df735-8249-4dd6-a788-9fba9f5107b4
+	World Type: NORMAL
+	Environment: THE_END
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 2
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 15
+		Water Creature Spawn Limit: 3
+	Configuration: 
+		Difficulty: NORMAL
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=world_the_end},x=0.0,y=50.0,z=0.0,pitch=0.0,yaw=0.0}
+		Full Time: 1136386
+		Weather Duration: 0
+		Thunder Duration: 0
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=true, drowningDamage=true, commandBlockOutput=true, doMobSpawning=true, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=true, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=false, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=true, doPatrolSpawning=true
+
+================================
+Performance
+================================
+
+World Count: 3
+World: world: 
+	Keep in Memory?: true
+	Entity Count: 89
+	Chunk Count: 529
+	Tile Entity Count: 23
+	Entity Distribution: 
+		CraftNMSArmorStand: 1 [0,001890/chunk]
+		CraftDrowned: 20 [0,037807/chunk]
+		CraftZombie: 4 [0,007561/chunk]
+		CraftPlayer: 1 [0,001890/chunk]
+		CraftFallingBlock: 23 [0,043478/chunk]
+		CraftSpider: 2 [0,003781/chunk]
+		CraftCow: 4 [0,007561/chunk]
+		CraftPig: 2 [0,003781/chunk]
+		CraftTurtle: 6 [0,011342/chunk]
+		CraftExperienceOrb: 1 [0,001890/chunk]
+		CraftBat: 1 [0,001890/chunk]
+		CraftMinecartChest: 3 [0,005671/chunk]
+		CraftSalmon: 1 [0,001890/chunk]
+		CraftItem: 2 [0,003781/chunk]
+		CraftSquid: 1 [0,001890/chunk]
+		CraftCreeper: 3 [0,005671/chunk]
+		CraftSkeleton: 4 [0,007561/chunk]
+		CraftVillagerZombie: 1 [0,001890/chunk]
+		CraftCod: 1 [0,001890/chunk]
+		CraftRabbit: 6 [0,011342/chunk]
+		CraftBee: 1 [0,001890/chunk]
+		CraftChicken: 1 [0,001890/chunk]
+	Tile Entity Distribution: 
+		CraftCreatureSpawner: 5 [0,009452/chunk]
+		CraftChest: 16 [0,030246/chunk]
+		CraftLectern: 1 [0,001890/chunk]
+		CraftBeehive: 1 [0,001890/chunk]
+World: world_nether: 
+	Keep in Memory?: false
+	Entity Count: 0
+	Chunk Count: 0
+	Tile Entity Count: 0
+	Entity Distribution: No data.
+	Tile Entity Distribution: No data.
+World: world_the_end: 
+	Keep in Memory?: false
+	Entity Count: 0
+	Chunk Count: 0
+	Tile Entity Count: 0
+	Entity Distribution: No data.
+	Tile Entity Distribution: No data.
+
+================================
+System Information
+================================
+
+Java: Oracle Corporation 1.8.0_111 (http://java.oracle.com/)
+Operating System: Windows 10 10.0 (amd64)
+Available Processors: 6
+Free Memory: 451 MB
+Max Memory: 1008 MB
+Total Memory: 1008 MB
+System Load Average: -1.0
+Java Uptime: 44 minutes
+Startup: 
+	Input Arguments: 
+		-Xmx1024M
+		-Xms1024M
+Virtual Machine: 
+	Name: Java HotSpot(TM) 64-Bit Server VM
+	Vendor: Oracle Corporation
+	Version: Oracle Corporation
+Specification: 
+	Name: Java Virtual Machine Specification
+	Vendor: Oracle Corporation
+	Version: 1.8
+Class Loader: 
+	Loaded Class Count: 26517
+	Total Loaded Class Count: 26529
+	Unloaded Class Count: 12
+Garbage Collectors: 
+	PS Scavenge: 
+		Collection Count: 160
+		Collection Time: 1654ms
+	PS MarkSweep: 
+		Collection Count: 4
+		Collection Time: 1032ms
+Threads: 
+	#419 ForkJoinPool.commonPool-worker-3: TIMED_WAITING
+	#418 Craft Scheduler Thread - 191: TIMED_WAITING
+	#417 Craft Scheduler Thread - 190: TIMED_WAITING
+	#416 Craft Scheduler Thread - 189: TIMED_WAITING
+	#413 Craft Scheduler Thread - 186: TIMED_WAITING
+	#394 Timer-4: WAITING
+	#293 ForkJoinPool-1-worker-0: WAITING
+	#292 ForkJoinPool-1-worker-7: WAITING
+	#291 ForkJoinPool-1-worker-14: WAITING
+	#290 ForkJoinPool-1-worker-21: WAITING
+	#289 ForkJoinPool-1-worker-28: WAITING
+	#288 ForkJoinPool-1-worker-3: WAITING
+	#286 ForkJoinPool-1-worker-10: WAITING
+	#285 ForkJoinPool-1-worker-17: WAITING
+	#281 ForkJoinPool-1-worker-13: WAITING
+	#282 ForkJoinPool-1-worker-31: WAITING
+	#284 ForkJoinPool-1-worker-24: WAITING
+	#283 ForkJoinPool-1-worker-6: WAITING
+	#280 ForkJoinPool-1-worker-20: WAITING
+	#279 ForkJoinPool-1-worker-27: WAITING
+	#278 ForkJoinPool-1-worker-2: WAITING
+	#277 ForkJoinPool-1-worker-9: WAITING
+	#275 ForkJoinPool-1-worker-16: WAITING
+	#274 ForkJoinPool-1-worker-23: WAITING
+	#273 ForkJoinPool-1-worker-30: WAITING
+	#272 ForkJoinPool-1-worker-5: WAITING
+	#271 ForkJoinPool-1-worker-12: WAITING
+	#262 Timer-3: TIMED_WAITING
+	#254 Netty Server IO #3: RUNNABLE
+	#220 Netty Server IO #2: RUNNABLE
+	#187 luckperms-scheduler-worker-4: TIMED_WAITING
+	#185 pool-44-thread-1: WAITING
+	#177 Timer-2: TIMED_WAITING
+	#174 ProtocolLib-StructureCompiler 0: WAITING
+	#167 Netty Server IO #1: RUNNABLE
+	#138 pool-19-thread-1: WAITING
+	#130 pool-12-thread-1: TIMED_WAITING
+	#129 pool-11-thread-1: TIMED_WAITING
+	#125 prism housekeeper: TIMED_WAITING
+	#103 Craft Async Scheduler Management Thread: WAITING
+	#102 ExpiringMap-Expirer: TIMED_WAITING
+	#101 pool-47-thread-5: TIMED_WAITING
+	#100 pool-47-thread-4: TIMED_WAITING
+	#99 pool-47-thread-3: TIMED_WAITING
+	#97 pool-47-thread-2: TIMED_WAITING
+	#96 pool-49-thread-1: TIMED_WAITING
+	#95 pool-48-thread-1: TIMED_WAITING
+	#94 pool-47-thread-1: TIMED_WAITING
+	#89 mysql-cj-abandoned-connection-cleanup: TIMED_WAITING
+	#88 pool-45-thread-1: TIMED_WAITING
+	#87 Paper Object Cleaner: WAITING
+	#83 WorldGuard Region I/O: TIMED_WAITING
+	#78 HikariPool-1 housekeeper: TIMED_WAITING
+	#77 Paper RegionFile IO Thread: WAITING
+	#73 Timer-1: TIMED_WAITING
+	#71 mysql-cj-abandoned-connection-cleanup: TIMED_WAITING
+	#69 luckperms-hikari housekeeper: TIMED_WAITING
+	#68 mysql-cj-abandoned-connection-cleanup: TIMED_WAITING
+	#67 Thread-14: RUNNABLE
+	#66 luckperms-scheduler-worker-0: TIMED_WAITING
+	#65 luckperms-scheduler: TIMED_WAITING
+	#60 WorldEdit Session Manager: TIMED_WAITING
+	#59 ForkJoinPool-1-worker-19: WAITING
+	#52 ForkJoinPool-1-worker-4: WAITING
+	#58 ForkJoinPool-1-worker-26: WAITING
+	#57 ForkJoinPool-1-worker-1: WAITING
+	#56 ForkJoinPool-1-worker-8: WAITING
+	#55 ForkJoinPool-1-worker-15: WAITING
+	#54 ForkJoinPool-1-worker-22: WAITING
+	#53 ForkJoinPool-1-worker-29: WAITING
+	#51 ForkJoinPool-1-worker-11: WAITING
+	#50 ForkJoinPool-1-worker-18: WAITING
+	#49 ForkJoinPool-1-worker-25: WAITING
+	#48 Netty Server IO #0: RUNNABLE
+	#47 Timer-0: TIMED_WAITING
+	#46 Paper Watchdog Thread: TIMED_WAITING
+	#45 Paper Async Chunk Urgent Task Thread: WAITING
+	#44 Paper Async Chunk Task Thread #4: WAITING
+	#43 Paper Async Chunk Task Thread #3: WAITING
+	#42 Paper Async Chunk Task Thread #2: WAITING
+	#41 Paper Async Chunk Task Thread #1: WAITING
+	#40 Paper Async Chunk Task Thread #0: WAITING
+	#35 DestroyJavaVM: RUNNABLE
+	#34 Server console handler: TIMED_WAITING
+	#22 Server thread: RUNNABLE
+	#33 D3D Screen Updater: TIMED_WAITING
+	#30 Thread-4: WAITING
+	#31 TimerQueue: TIMED_WAITING
+	#29 AWT-EventQueue-0: WAITING
+	#27 AWT-Windows: RUNNABLE
+	#26 AWT-Shutdown: WAITING
+	#25 Java2D Disposer: WAITING
+	#24 Server Infinisleeper: TIMED_WAITING
+	#21 Snooper Timer: WAITING
+	#19 Server-Worker-4: WAITING
+	#18 Server-Worker-3: WAITING
+	#17 Server-Worker-2: WAITING
+	#16 Server-Worker-1: WAITING
+	#14 WindowsStreamPump: RUNNABLE
+	#11 Log4j2-TF-1-AsyncLogger[AsyncContext@42a57993]-1: TIMED_WAITING
+	#5 Attach Listener: RUNNABLE
+	#4 Signal Dispatcher: RUNNABLE
+	#3 Finalizer: WAITING
+	#2 Reference Handler: WAITING
+
+================================
+WorldGuard Configuration
+================================
+
+Configuration: 
+	hasCommandBookGodMode: false
+	extraStats: true
+	useRegionsCreatureSpawnEvent: true
+	activityHaltToggle: false
+	useGodPermission: false
+	useGodGroup: false
+	useAmphibiousGroup: false
+	usePlayerMove: true
+	usePlayerTeleports: true
+	deopOnJoin: false
+	blockInGameOp: false
+	migrateRegionsToUuid: false
+	keepUnresolvedNames: true
+	particleEffects: true
+	hostKeysAllowFMLClients: false
+World: world: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins\WorldGuard\worlds\world\blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: false
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 30000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 7
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=7}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 0
+		__global__: <Undefined>
+World: world_nether: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins\WorldGuard\worlds\world_nether\blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: false
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 30000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 7
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=7}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 0
+		__global__: <Undefined>
+World: world_the_end: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins\WorldGuard\worlds\world_the_end\blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: false
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 30000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 7
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=7}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 0
+		__global__: <Undefined>
+
+================================
+Applicable regions
+================================
+
+Location: world @ (128, 75, 0)
+Regions: None
+

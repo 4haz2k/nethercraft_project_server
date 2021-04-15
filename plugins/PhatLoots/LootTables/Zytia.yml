@@ -1,0 +1,59 @@
+Zytia:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootConditions:
+  - ==: ExperienceCondition
+    Enabled: false
+    Experience: 0
+    Name: ExperienceCondition
+    Option: above
+  - ==: PermissionCondition
+    Enabled: false
+    Name: PermissionCondition
+    Option: has
+    Permission: none
+  - ==: WeatherCondition
+    Enabled: false
+    Name: WeatherCondition
+    Weather: sunny
+  - ==: RegionCondition
+    Enabled: false
+    Name: RegionCondition
+    Option: inside
+    Region: none
+  - ==: PlaceholderDataCondition
+    Enabled: false
+    ExpectedResult: none
+    InputType: string
+    Name: PlaceholderDataCondition
+    Option: equals
+    Placeholder: none
+  - ==: BiomeCondition
+    Biome: PLAINS
+    Enabled: false
+    Name: BiomeCondition
+    Option: inside
+  - ==: TimeCondition
+    Enabled: false
+    Name: TimeCondition
+    Time: day
+  - ==: HealthCondition
+    Enabled: false
+    Health: 0.0
+    Name: HealthCondition
+    Option: above
+  - ==: ItemCondition
+    Enabled: false
+    ItemStack: null
+    Name: ItemCondition
+    Slot: null
+  LootList: []
+  Name: Zytia
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,33 @@
+lastlocation:
+  world: NetherCraft
+  x: -616.9820841770033
+  y: 15.0
+  z: 245.30000001192093
+  yaw: 14.645752
+  pitch: 22.873896
+lastAccountName: Alik_7906
+timestamps:
+  login: 1617737050020
+  logout: 1617740430267
+  kits:
+    starter: 1617648662755
+    tools: 1617653030559
+    food: 1617649271294
+  lastteleport: 1617740282669
+ipAddress: 188.0.169.119
+logoutlocation:
+  world: NetherCraft
+  x: -544.1288473723698
+  y: 65.0
+  z: 191.88491686429558
+  yaw: 99.34891
+  pitch: 25.448223
+homes:
+  home:
+    world: NetherCraft
+    x: -545.1839577152952
+    y: 65.0
+    z: 184.96659158715016
+    yaw: 130.71335
+    pitch: 12.936008
+money: '1046.3992000000000131'

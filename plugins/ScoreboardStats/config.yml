@@ -1,0 +1,39 @@
+# Main configuration
+
+# Compatible mode for other plugins like HealthBar, ColoredTags, GhostPlayer, McCombatLevel, etc. ......
+# or the vanilla scoreboard
+# In case you miss the log message: this option requires the plugin called ProtocolLib
+# This option will work around the Bukkit API and will send raw packets
+compatibilityMode: false
+
+# Should be the node disabled-worlds handled as whitelist or blacklist
+disabled-worlds-whitelist: false
+
+disabled-worlds:
+  - city
+
+Scoreboard:
+  Title: '    &4&lNetherCraft    '
+  # seconds
+  # For instant updates you can or 1 and it will update every second
+  Update-delay: 2
+  Items:
+    ' ' : '12'
+    '&4&lИгрок %kills%': '1'
+    '   &7• &fВаш ник:': '2'
+    
+
+# Let ScoreboardStats track stats (kills, deaths, mobkills, killstreak) You need no plugin for this
+enable-pvpstats: true
+
+Temp-Scoreboard-enabled: true
+
+Temp-Scoreboard:
+  Title: '&a&lТоп по Убийствам'
+  # %mob% | %kills% | %killstreak%
+  Type: '%kills%'
+  Color: '&9'
+  # How many Players would be displayed
+  Items: 5
+  Intervall-show: 300
+  Intervall-disappear: 300

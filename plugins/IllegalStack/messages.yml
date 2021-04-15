@@ -1,0 +1,124 @@
+PluginPrefix: '[IllegalStack] -'
+ChestRemoved: удалили сундук из ~entity~ @
+ChestPrevented: предотвратить ~player~ установки сундука на ~entity~ @
+StaffChestPunishment: наказан ~player~ за продолжение попыток положить сундук на существо. 
+  ~entity~ удалено, инвентарь игрока был очищен, и игрок был выгнан с сервера. @
+BookRemoved: 'Найдена книга с персонажами, НЕ соответствующими указанному персонажу
+  поставил и удалил.. Автор был: ~author~'
+TooManyPages: Нашел книгу со слишком большим количеством страниц и удалил ее из инвентаря
+  ~name~
+SignRemoved: Обнаружен знак, не соответствующий допустимому набору символов в мире @
+SignRemovedOnPlace: обнаружил знак, помещенный игроком ~name~ которые содержали символы не
+  в разрешенном наборе символов. Возможный тупиковый эксплойт машины! @
+SignKickPlayerMsg: Размещение знаков с символами Юникода НЕ допускается.
+ShulkerClick: 'Убран ящик шалкера из другого ящика шалкера, на который щелкнули: ~name~'
+ShulkerPlace: Убрана коробка шалкера, содержащая незаконно сложенные или зачарованные предметы.
+  у игрока ~player~  @
+ItemFrameRemoveOnExtend: удалена рамка элемента, содержащая - ~contents~ сзади
+  втягивающегося поршня @
+ItemFrameRemoveOnRetract: удалена рамка элемента, содержащая - ~contents~ потянул
+  липкий поршень
+PistonRetractionDupe: Остановлены рельсы / коврик ДЮП и удален поршень @ ~removedblocks~
+NetherPortalBlock: 'Заблокировано входом или выходом сущности из Нижнего мира: ~name~
+  @'
+EndPortalBlock: 'Заблокирован вход или выход сущности из конца: ~name~ @'
+MinecartGlitch1: 'Найдена и удалена тележка с ошибкой внутри другого блока: ~blocktype~
+  @'
+MinecartGlitch2: Не позволил вагонетке попасть в блок @
+HeadInsideSolidBlock: Остановил ~player~ голову из твердого блока, пока в ~vehicle~ @
+MinecartMount: Предотвратил ~entity~ от возможности установить на ~vehicle~ @
+ZeroTickGlitch: Остановлен сбой при росте урожая с нулевым тиком и удален (~removedblocks~)
+  @
+NamedItemRemovalHopper: Нашел предмет с именем ~item~ в хоппере, он был удален
+  @
+NamedItemRemovalPlayer: 'Нашел предмет под названием: ~item~ в ~name~ инвентаре, этот предмет
+  удален. @'
+ItemTypeRemovedPlayer: 'Обнаружен тип элемента в черном списке: ~item~ в ~name~ инвентаре,
+  он был удален'
+ItemTypeRemoved: 'Обнаружен тип элемента в черном списке ~item~ в ~player~ инвентаре,
+  он был удален'
+SilkTouchBookBlocked: Остановил  ~name~ от разрушения ~block~ используя книгу с шелковым прикосновением
+  @
+PistonHeadRemoval: Головка поршня взорвалась .. удаление бесхозного основания поршня @
+IllegalStackLogin: 'Удалена незаконная стопка предметов: ~item~ (~amount~) у игрока:
+  ~name~ при входе в систему.'
+IllegalStackOffhand: Удалена незаконная стопка предметов из левой руки ~name~,
+  ~item~ ( ~amount~)
+IllegalStackPlayerBody: 'Удалена незаконная стопка предметов: ~item~ (~amount~) у ~name~
+  во время сканирования предмета.'
+IllegalStackItemScan: 'Удалена незаконная стопка предметов: ~item~ (~amount~) у игрока:
+  ~name~ при сканировании предмета'
+IllegalStackOnClick: 'Удалена незаконная стопка предметов: ~item~ (~amount~) у игрока:
+  ~name~ при нажатии в инвентаре.'
+IllegalStackShorten: 'Исправлен недопустимый стак: ~item~ (~amount~) сработал у игрока:
+  ~name~.'
+IllegalStackUnstack: 'Растакал недопустимый стак предмета: ~item~ (~amount~) сработало у
+  player: ~name~.  ~lost~ предметы не поместились и потерялись.'
+InvalidPotionRemoved: 'Ужаденное недействительное зелье из ~name~ имело следующие эффекты:
+  ~effects~'
+UnbreakableItemCleared: Убран неразрушаемый флаг из ~item~ найдено у игрока ~name~
+CustomAttribsRemoved: Удалены пользовательские атрибуты ~item~ принадлежащие ~name~ (~attributes~)
+CustomAttribsRemoved2: Удалены ~item~ с пользовательскими атрибутами, которые носит ~name~ (~attributes~)
+GlideActivateMaxBuild: Предотвращено ~name~ от активации элитр на максимальной высоты @
+GlideAboveMaxBuild: Игрок ~name~ использовал элитры выше максимальной высоты сборки,
+  отключение полета. @
+CorrectedPlayerLocation: (Возможен сбой жемчуга в блоке) Исправлнение телепорта жемчуга
+  для ~player~ @
+StoppedPushableArmorStand: Предотвращение подъема стойки для брони с помощью поршня. @
+StoppedPushableEntity: Предотвращение столкновения сущности (подставка для доспехов / торцевой кристалл) с другой сущностью @
+RemovedRenamedItem: Удаление переименнового предмета ~item~ из инвентаря игрока ~name~
+BlockedTripwireDupe: Игрок ~name~ попытался прикрепить крючок натяжной проволоки к люку, он был удален (Prevent Tripwire Dupe = true)
+GenericItemRemoval: ~item~ удалено защитой ~protection~, найдено в источнике ~source~
+PlayerTrappedPortalMsg: §cИзвини ~name~ но похоже, что у этого портала нет действующего выхода! Если бы вы прошли через это, вы оказались бы в ловушке!
+PlayerCommandSleepMsg: §cК сожалению, во время сна все команды отключены!
+PlayerDisabledBookMsg: §cИзвините, но на этом сервере отключено редактирование книги игроков!
+PlayerKickMsgFishing: §cНа этом сервере запрещена рыбалка с автоматическим кликером!
+PlayerKickMsgFishMod: §cВнимание! похоже, вы используете мод автоматической рыбалки ... Пожалуйста, измените место рыбалки, чтобы вас не кикнули!
+PlayerSwimExploitMsg: §cЭтот сельский житель слишком занят плаванием, чтобы торговать с вами прямо сейчас!
+PlayerCMIShulkerNest: §cИзвините, вы не можете вставить шулкер в другой шулкер!
+PlayerDisabledHorseChestMsg: §cИзвините, сундуки на лошадях, ламах, мулах отключены!
+PlayerDisabledRidingChestedMsg: §cК сожалению, приручение существ, которые могут носить сундуки, отключено!
+PlayerKickForChestMsg: §cВас предупреждали о сундуках на мобах, хватит пытаться.
+PlayerNearbyNotification: обнаружен ближайший эксплойт ~prot~
+PlayerNetherBlock: §cИзвини ~name~ игроки не допускаются на вершину Нижнего мира!
+PlayerEnchantBlocked: §cИзвини ~name~ Наложение чар на этот предмет запрещено.
+PlayerRepairBlocked: §cИзвини ~name~ Ремонт этого предмета не разрешен.
+StaffMsgEndGatewayVehicleRemoved: Игрок ~name~ попытался взять ~vehicle~ через
+  портал энда, он был удален.
+StaffMsgBlockedPortalLogin: сломал заблокированный портал в ад @
+StaffMsgBlockedPortal: ~player~ не смог пройти через заблокированный / запертый нижний портал @
+StaffMsgDropperExploit: Обнаружен эксплойт хоппер / дроппер и удален диспенсер / дроппер.
+  @
+StaffMsgSpawnerReset: ~type~ спаунер был сброшен на источник свиней, когда его сломал ~name~
+  @
+StaffMsgCreativeBlock: ~name~ была предотвращена загрузка незаконного элемента через панель инструментов сохраненного объявления.
+StaffMsgNetherBlock: ~name~ был лишен доступа к вершине преисподней @
+StaffMsgNetherFix: ~name~ был телепортирован вниз с потолка преисподней @
+StaffMsgUnderNether: ~name~ был убит за то, что пролетел под полом нижнего мира @
+StaffMsgNetherCart: Остановил ~name~ езду на транспортном средстве над нижним потолком @
+StaffMsgBookRemoved: 'У игрока удалена книга, доступная для записи: ~name~ потому что создание книги игрока отключено!'
+StaffProtectionToggleMsg: 'Защита: ~protection~ приобрела статус: ~status~ от ~name~'
+StaffInvalidProtectionMsg: '§cВы должны указать допустимое имя защиты, чтобы добавить значения:'
+StaffOptionUpdated: §aВариант успешно обновлен!
+StaffSingleWordsOnly: §cЭта защита не поддерживает аргументы из нескольких слов!
+StaffStringUpdated: '§aЗначение обновлено строковым значением: ~value~'
+StaffEnchantBypass: §cЩелкните левой кнопкой мыши по предмету в руке, который вы хотите добавить в белый список зачарованных предметов, щелкните левой кнопкой мыши, не имея ничего в руке, или используйте кнопку отмены для отмены.
+StaffEnchantBypassCancel: §cВ белый список зачарованных предметов режим добавления предметов ОТКЛЮЧЕН.
+StaffEnchantBypassAdded: §aДобавлена ~itemdata~ в белый список зачарованных предметов!
+StaffSpamFishingNotice: §a~player~ спамит удочкой! ~casts~ забрасывает крючок без перерыва в 2 секунды! @
+StaffAutoFishingNotice: §a~player~ похоже, использует мод автоматической рыбалки..  ~count~
+  пойманы в пределах 0,3 блока друг от друга @
+StaffBadShulkerRemoved: Убрана взломанная коробка шалкера с чрезмерным количеством предметов в ней (~size~) у ~name~ @
+StaffBadShulkerInWorld: 'Убран выпавший ящик шалкера с чрезмерным количеством предметов в нем (~size~) из мира: @'
+StaffNoItem: Вы должны держать предмет в основной руке, чтобы исправить его чары!
+StaffNoEnchants: Этот предмент не имеет чар, которые нужно фиксить!
+StaffEnchantFixed: Исправлено ~amount~ чары на ~item~
+StaffNoNBTAPI: 'NBT-Api не найден на вашем сервере и необходим для ~prot~ так как он включен! Загрузите и установите его с:  https://www.spigotmc.org/resources/nbt-api.7939/'
+StaffEnchantNotFixed: IllegalStack не обнаружил недействительных чар на этом предмете.
+StaffEndPortalProtected: Предотвращено разрушение портала в эндер край, используя раздатчик
+  @
+StaffMsgNoPerm: 'У вас нет разрешения на использование этой функции IllegalStack, требуется права: ~perm~'
+DestroyedEnchantedItem: 'Уничтожен незаконно зачарованный предмет ~item~ ~enchant~.(~lvl)
+  найденный у игрока: ~player~'
+IllegalEnchantLevel: '§aИсправлен уровень зачарования ~enchant~.(~lvl~) на ~item~ найденный у игрока: ~player~'
+IllegalEnchantType: '§aНе удалось исправить чары ~enchant~.(~lvl~) на ~item~ найденный у игрока: ~player~ эти чары не подходят для этого типа предметов!'

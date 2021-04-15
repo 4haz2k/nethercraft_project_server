@@ -1,0 +1,21 @@
+lastAccountName: ArtCool
+timestamps:
+  login: 1618327914788
+  kits:
+    starter: 1618327943177
+  logout: 1618327948670
+ipAddress: 141.105.138.243
+lastlocation:
+  world: world_hub
+  x: 668.3465710639701
+  y: 28.0
+  z: 113.02815166527002
+  yaw: 5.0199633
+  pitch: 17.400002
+logoutlocation:
+  world: NetherCraft
+  x: -256.88407981295717
+  y: 72.0
+  z: 31.723573758149612
+  yaw: -8.55004
+  pitch: -10.349989

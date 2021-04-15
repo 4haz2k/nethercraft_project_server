@@ -1,0 +1,40 @@
+lastAccountName: SENEKILL
+timestamps:
+  login: 1617648727954
+  logout: 1617648995370
+  lastteleport: 1617470588970
+  kits:
+    starter: 1616839683971
+    laraye: 1616840077274
+  command-cooldowns: []
+  lastheal: 1616845217565
+ipAddress: 89.250.167.140
+lastlocation:
+  world: NetherCraft
+  x: -828.2925684563098
+  y: 125.86127023657554
+  z: -276.23060959697045
+  yaw: 34.246155
+  pitch: 47.103146
+logoutlocation:
+  world: NetherCraft
+  x: -811.2758262098738
+  y: 65.0
+  z: -322.6890065037042
+  yaw: -138.68265
+  pitch: 34.192135
+homes:
+  home:
+    world: NetherCraft
+    x: -810.5081407748045
+    y: 65.0
+    z: -321.9441904202243
+    yaw: 204.26282
+    pitch: 23.009415
+  se:
+    world: NetherCraft
+    x: -821.5032276575172
+    y: 13.0
+    z: -537.3620365511841
+    yaw: -108.55218
+    pitch: 16.930355

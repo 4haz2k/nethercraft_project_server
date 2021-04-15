@@ -1,0 +1,33 @@
+lastlocation:
+  world: NetherCraft_nether
+  x: -21.902396534839617
+  y: 66.0
+  z: 11.300000011920934
+  yaw: 343.43735
+  pitch: 39.149765
+lastAccountName: Hentai_Kawaii
+timestamps:
+  login: 1617659784386
+  lastteleport: 1617659607217
+  kits:
+    starter: 1617648526249
+    tools: 1617648581579
+    food: 1617648707758
+  logout: 1617659970956
+ipAddress: 82.208.101.242
+homes:
+  home:
+    world: NetherCraft
+    x: -544.8228365416597
+    y: 65.0
+    z: 190.58613008117487
+    yaw: 63.987305
+    pitch: 30.74983
+money: '638.3281000000000080'
+logoutlocation:
+  world: NetherCraft
+  x: -536.6999999880791
+  y: 64.0
+  z: 194.7732186675075
+  yaw: 75.54205
+  pitch: 17.099842

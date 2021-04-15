@@ -1,0 +1,33 @@
+lastlocation:
+  world: NetherCraft
+  x: -952.9887790287016
+  y: 72.0
+  z: 199.3532847217028
+  yaw: -129.83066
+  pitch: 30.449923
+lastAccountName: chara2271413
+timestamps:
+  login: 1617974809368
+  logout: 1617977727268
+  kits:
+    starter: 1617945683183
+    tools: 1617206141653
+    food: 1617975331850
+  lastteleport: 1617977436555
+ipAddress: 95.32.13.148
+logoutlocation:
+  world: NetherCraft
+  x: -799.7153703920386
+  y: 73.0
+  z: -228.47742632028678
+  yaw: -83.39346
+  pitch: 42.60014
+money: '126.35100000000012736'
+homes:
+  home:
+    world: NetherCraft
+    x: -793.4300392883163
+    y: 68.0
+    z: -215.13811843419305
+    yaw: -200.63599
+    pitch: 33.3001

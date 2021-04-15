@@ -1,0 +1,43 @@
+lastAccountName: Zytia
+timestamps:
+  login: 1617748678974
+  kits:
+    firework: 1607360664350
+    starter: 1616176182572
+    satana: 1617132576787
+    laraye: 1617748844347
+    notch: 1607360677925
+    dtools: 1607360713474
+    tools: 1617068929553
+    dibbyk: 1612362600331
+    food: 1616176205561
+  lastteleport: 1617750765728
+  logout: 1617750787373
+  lastheal: 1610014675414
+ipAddress: 178.205.157.81
+afk: false
+homes:
+  home:
+    world: NetherCraft3
+    x: 348.5677923353598
+    y: 70.875
+    z: -81.48281551188863
+    yaw: 270.59924
+    pitch: 6.149862
+lastlocation:
+  world: NetherCraft
+  x: -880.1330115971621
+  y: 108.98851649983023
+  z: 4020.1165760353715
+  yaw: 146.06088
+  pitch: 6.78855
+godmode: false
+logoutlocation:
+  world: NetherCraft
+  x: -842.4767388074797
+  y: 61.0
+  z: 3960.819853393639
+  yaw: -187.94632
+  pitch: 20.099642
+powertools: {}
+money: '9993127.9137500000000185'

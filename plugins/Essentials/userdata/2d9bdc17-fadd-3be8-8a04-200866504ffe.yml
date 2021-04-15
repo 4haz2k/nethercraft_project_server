@@ -1,0 +1,26 @@
+lastAccountName: WhiteOG
+timestamps:
+  login: 1617710105390
+  logout: 1617711402325
+  lastteleport: 1617711084275
+  kits:
+    satana: 1611348871568
+    starter: 1617133243062
+    laraye: 1611348918269
+ipAddress: 46.42.130.166
+lastlocation:
+  world: NetherCraft
+  x: -429.46886827154043
+  y: 74.0
+  z: 66.79559087515103
+  yaw: -122.29492
+  pitch: 22.751827
+logoutlocation:
+  world: NetherCraft
+  x: -2341.1895425192743
+  y: 83.63973047607044
+  z: 1854.2330044842565
+  yaw: 12.073387
+  pitch: 2.699364
+afk: false
+money: '1300.0'

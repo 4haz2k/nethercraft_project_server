@@ -1,0 +1,102 @@
+#Основная менюшка сервера
+open_command: menu
+
+size: 26
+
+menu_title: '&4NetherCraft Menu'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cУ вас не хватает прав, чтобы сделать это!'
+
+items:
+  '1':
+    material: WHITE_BED
+    data: 1
+    slot: 0
+    display_name: "&aТелепорт домой"
+    lore:
+      - "&aЛКМ чтобы использовать"
+    left_click_commands:
+    - '[player] home'
+    - '[message] Телепортируем...'   
+  '2':
+    material: DIAMOND
+    data: 1
+    slot: 8
+    display_name: "&aИнформация о наборах"
+    lore:
+    left_click_commands:
+    - '[player] menukits'
+  '3':
+    material: BARRIER
+    data: 1
+    slot: 22
+    display_name: "&aЗакрыть Меню"
+    lore:
+    left_click_commands:
+    - '[close]'
+  '4':
+    material: COMPASS
+    data: 1
+    slot: 4
+    display_name: "&aТелепорт на HUB"
+    lore:
+    left_click_commands:
+    - '[player] warp HUB'  
+  '5':
+    material: GRASS_BLOCK
+    data: 1
+    slot: 14
+    display_name: "&aВыживание"
+    lore: 
+    left_click_commands:
+    - '[player] menuworlds'
+  '6':
+    material: CAMPFIRE
+    data: 1
+    slot: 12
+    display_name: "&aТелепорт на спаун"
+    lore:
+    left_click_commands:
+    - '[player] mv spawn'
+  '7':
+    material: REDSTONE_TORCH
+    data: 1
+    slot: 16
+    display_name: "&6Основные команды &f(Не работают в хабе!)"
+    lore:
+      - '&c/sethome &8- &6установить точку для своего дома'
+      - '&c/delhome &8- &6удалить точку своего дома'
+      - '&c/spawn &8- &6телепортация на спавн'
+      - '&c/hub &8- &6телепортация в хаб'
+      - '&c/home &8- &6телепортация в свой дом.'
+      - '&c/pay &8- &6передать деньги игроку.'
+      - '&c/call &8<&aник игрока&8> - &6запросить телепортацию к игроку.'
+      - '&c/tpaccept &8- &6одобрить телепортацию к себе.'
+      - '&c/msg &8<&aник игрока&8> &8<&aсообщение&8> &8- &6написать личное сообщение игроку.' 
+      - '&c/region claim &8<&aНазвание региона&8> &8- &6заприватить территорию'
+      - '&c/region info &8- &6управление своим регионом &f(работает только в своем регионе)'
+  '8':
+    material: IRON_PICKAXE
+    data: 1
+    slot: 10
+    display_name: "&6Устройся на работу"
+    hide_attributes: true
+    hide_enchantments: true
+    unbreakable: true
+    left_click_commands:
+    - '[player] jobs browse'
+  '9':
+    material: CHEST
+    data: 1
+    slot: 20
+    display_name: "&6Аукцион"
+    left_click_commands:
+    - '[player] auction'
+#Следует еще сделать доп. кнопки.
+sweet: true

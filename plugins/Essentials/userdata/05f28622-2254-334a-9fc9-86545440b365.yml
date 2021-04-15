@@ -1,0 +1,32 @@
+lastlocation:
+  world: NetherCraft
+  x: -756.6025578827418
+  y: 50.0
+  z: 426.69999998807907
+  yaw: 92.04785
+  pitch: 1.3499303
+lastAccountName: Boi4ik
+timestamps:
+  login: 1617292879485
+  logout: 1617295321319
+  kits:
+    starter: 1617293093015
+    tools: 1617128643622
+  lastteleport: 1617295188097
+ipAddress: 37.112.53.222
+logoutlocation:
+  world: NetherCraft
+  x: -758.6744872090884
+  y: 64.0
+  z: 427.22480957289633
+  yaw: 231.54633
+  pitch: -7.94987
+homes:
+  home:
+    world: NetherCraft
+    x: -745.8153117623361
+    y: 65.0
+    z: 426.15754504409534
+    yaw: 130.2958
+    pitch: 40.200092
+money: '1524.56300000000004634'

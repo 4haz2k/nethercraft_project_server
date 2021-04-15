@@ -1,0 +1,24 @@
+lastlocation:
+  world: NetherCraft
+  x: -256.9641146957973
+  y: 72.875
+  z: 13.192985514588452
+  yaw: -211.65213
+  pitch: 15.59988
+lastAccountName: dasha
+timestamps:
+  login: 1616874673594
+  logout: 1616876497909
+  lastteleport: 1616874867263
+  kits:
+    starter: 1616876443650
+    tools: 1616876453581
+    food: 1616876464084
+ipAddress: 178.207.198.194
+logoutlocation:
+  world: NetherCraft
+  x: -177.1546814622966
+  y: 69.0
+  z: 414.24127928749573
+  yaw: -28.038422
+  pitch: 32.399204
