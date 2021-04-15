@@ -1,0 +1,30 @@
+14:36:07 [INFO] Using standard Java JCE cipher.
+14:36:07 [INFO] Using standard Java compressor.
+14:36:07 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+14:36:07 [INFO] [BotFilter] Проверяю наличее обновлений
+14:36:08 [INFO] §c[BotFilter] §aНайдена новая версия!
+14:36:08 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+14:36:08 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+14:36:11 [INFO] [BotFilter] Генерирую капчу [0/900]
+14:36:12 [INFO] [BotFilter] Генерирую капчу [206/900]
+14:36:13 [INFO] [BotFilter] Генерирую капчу [501/900]
+14:36:14 [INFO] [BotFilter] Генерирую капчу [817/900]
+14:36:15 [INFO] [BotFilter] Капча сгенерированна за 4 092 мс
+14:36:16 [INFO] [BotFilter] Подключаюсь к датабазе...
+14:36:16 [INFO] [BotFilter] Подключено (62 мс)
+14:36:16 [INFO] [BotFilter] Очищено 0 аккаунтов
+14:36:16 [INFO] [BotFilter] Белый список игроков успешно загружен (0)
+14:36:16 [INFO] [BotFilter] Скачиваю GeoLite2 датабазу
+14:36:18 [INFO] [BotFilter] GeoLite2 загружена (2 336мс)
+14:36:18 [INFO] Couldn't detect bungee version. Custom build?
+14:36:18 [INFO] Use range [1..3] for server lobby-
+14:36:18 [WARNING] Forced host server pvp is not defined
+14:36:18 [INFO] Listening on /0.0.0.0:25577
+14:36:46 [INFO] §cКоманда не найдена :(
+14:36:52 [INFO] §cКоманда не найдена :(
+14:37:04 [INFO] Closing listener [id: 0xc930f9d5, L:/0:0:0:0:0:0:0:0:25577]
+14:37:04 [INFO] Closing pending connections
+14:37:04 [INFO] Disconnecting 0 connections
+14:37:04 [INFO] Disabling plugins
+14:37:04 [INFO] Closing IO threads
+14:37:06 [INFO] Thank you and goodbye
