@@ -1,3 +1,4 @@
+server_connect_timeout: 5000
 listeners:
 - query_port: 25570
   motd: '&1Another Bungee server'
@@ -27,9 +28,8 @@ permissions:
   - bungeecord.command.reload
 log_pings: true
 connection_throttle_limit: 3
-server_connect_timeout: 5000
+prevent_proxy_connections: false
 timeout: 30000
-stats: 0fd4d778-93a8-4bf7-af9a-ff764607ce6a
 player_limit: -1
 ip_forward: false
 groups:
@@ -38,7 +38,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 0fd4d778-93a8-4bf7-af9a-ff764607ce6a
 online_mode: false
 forge_support: false
 disabled_commands:
@@ -46,9 +46,5 @@ disabled_commands:
 servers:
   hub:
     motd: NetherCraft_Hub
-    address: 25.84.122.64:25566
-    restricted: false
-  survival_hub:
-    motd: NetherCraft_Hub_Survival
-    address: 25.84.122.64:25566
+    address: 25.84.122.64:25590
     restricted: false
