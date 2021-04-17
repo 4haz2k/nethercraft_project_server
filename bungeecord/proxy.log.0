@@ -175,3 +175,81 @@ java.net.BindException: Address already in use: bind
 00:58:55 [INFO] Disabling plugins
 00:58:55 [INFO] Closing IO threads
 00:58:57 [INFO] Thank you and goodbye
+16:28:34 [INFO] Using standard Java JCE cipher.
+16:28:34 [INFO] Using standard Java compressor.
+16:28:34 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+16:28:34 [INFO] [BotFilter] Проверяю наличее обновлений
+16:28:35 [INFO] §c[BotFilter] §aНайдена новая версия!
+16:28:35 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+16:28:35 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+16:28:38 [INFO] [BotFilter] Генерирую капчу [0/900]
+16:28:39 [INFO] [BotFilter] Генерирую капчу [122/900]
+16:28:40 [INFO] [BotFilter] Генерирую капчу [336/900]
+16:28:41 [INFO] [BotFilter] Генерирую капчу [585/900]
+16:28:42 [INFO] [BotFilter] Генерирую капчу [826/900]
+16:28:43 [INFO] [BotFilter] Капча сгенерированна за 5 125 мс
+16:28:43 [INFO] [BotFilter] Подключаюсь к датабазе...
+16:28:43 [INFO] [BotFilter] Подключено (89 мс)
+16:28:43 [INFO] [BotFilter] Очищено 0 аккаунтов
+16:28:43 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+16:28:44 [INFO] Couldn't detect bungee version. Custom build?
+16:28:44 [WARNING] Forced host server pvp is not defined
+16:28:44 [INFO] Listening on /25.84.122.64:25565
+16:28:51 [INFO] [/25.84.122.64:64410] <-> InitialHandler has pinged
+16:29:04 [INFO] [/25.84.122.64:64416] <-> InitialHandler has connected
+16:29:04 [INFO] [BotFilter] Maximum packet size: 2097152
+16:29:04 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+16:29:06 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+16:29:06 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:33:27 [INFO] Closing listener [id: 0x1c5499e4, L:/25.84.122.64:25565]
+16:33:27 [INFO] Closing pending connections
+16:33:27 [INFO] Disconnecting 0 connections
+16:33:28 [INFO] Disabling plugins
+16:33:28 [INFO] Closing IO threads
+16:34:23 [INFO] Using standard Java JCE cipher.
+16:34:23 [INFO] Using standard Java compressor.
+16:34:23 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+16:34:23 [INFO] [BotFilter] Проверяю наличее обновлений
+16:34:23 [INFO] §c[BotFilter] §aНайдена новая версия!
+16:34:23 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+16:34:23 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+16:34:27 [INFO] [BotFilter] Генерирую капчу [0/900]
+16:34:28 [INFO] [BotFilter] Генерирую капчу [142/900]
+16:34:29 [INFO] [BotFilter] Генерирую капчу [315/900]
+16:34:30 [INFO] [BotFilter] Генерирую капчу [533/900]
+16:34:31 [INFO] [BotFilter] Генерирую капчу [773/900]
+16:34:32 [INFO] [BotFilter] Капча сгенерированна за 5 068 мс
+16:34:32 [INFO] [BotFilter] Подключаюсь к датабазе...
+16:34:32 [INFO] [BotFilter] Подключено (62 мс)
+16:34:32 [INFO] [BotFilter] Очищено 0 аккаунтов
+16:34:32 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+16:34:32 [INFO] Couldn't detect bungee version. Custom build?
+16:34:32 [WARNING] Forced host server pvp is not defined
+16:34:32 [INFO] Listening on /25.84.122.64:25565
+16:34:41 [INFO] [/25.84.122.64:64516] <-> InitialHandler has connected
+16:34:41 [INFO] [BotFilter] Maximum packet size: 2097152
+16:34:41 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+16:34:41 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+16:34:41 [SEVERE] [Zytia] <-> ServerConnector [hub] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+16:34:41 [INFO] [Zytia] disconnected with: §fException Connecting:QuietException : Server is online mode!
+16:34:41 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:34:41 [INFO] [Zytia] <-> ServerConnector [hub] has disconnected
+16:38:34 [INFO] [/25.84.122.64:64553] <-> InitialHandler has connected
+16:38:34 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+16:38:34 [INFO] [Zytia] disconnected with: §cВы были кикнуты при подключении к серверу hub: §fOutdated client! Please use 1.16.5
+16:38:34 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:38:34 [INFO] [Zytia] <-> ServerConnector [hub] has disconnected
+16:41:46 [INFO] [/25.84.122.64:64631] <-> InitialHandler has connected
+16:41:46 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+16:44:37 [INFO] §cКоманда не найдена :(
+16:44:39 [INFO] §cКоманда не найдена :(
+16:44:42 [INFO] §cКоманда не найдена :(
+16:58:08 [INFO] [Zytia] disconnected with: §fServer closed
+16:58:08 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:58:08 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+16:58:15 [INFO] Closing listener [id: 0xdf6eb8bc, L:/25.84.122.64:25565]
+16:58:15 [INFO] Closing pending connections
+16:58:15 [INFO] Disconnecting 0 connections
+16:58:16 [INFO] Disabling plugins
+16:58:16 [INFO] Closing IO threads
+16:58:18 [INFO] Thank you and goodbye
