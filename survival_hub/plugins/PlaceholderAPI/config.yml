@@ -16,3 +16,11 @@ boolean:
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
 debug: false
+expansions:
+  bungee:
+    check_interval: 30
+  javascript:
+    debug: false
+    github_script_downloads: false
+    engine: javascript
+    argument_split: ','

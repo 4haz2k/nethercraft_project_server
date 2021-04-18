@@ -1227,13 +1227,13 @@ Spawn:
   # Defines players spawn point after death if set to true, if not, then it will be used only for /cmi spawn command
   # RespawnLocation will indicate if you want to use this location as possible respawn point for player after death
   Main:
-    World: None
-    X: 0.0
-    Y: 0.0
-    Z: 0.0
-    Pitch: 0.0
-    Yaw: 0.0
-    RespawnLocation: false
+    World: world
+    X: 304.4957547684919
+    Y: 70.0
+    Z: 10.472238032930242
+    Pitch: -1.650049
+    Yaw: 178.9248
+    RespawnLocation: true
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:

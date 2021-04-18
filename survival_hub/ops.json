@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "b5e20ef4-e04f-3988-9cbd-890969bf6aa4",
+    "name": "ExoManic",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ffffffff-ffff-ffff-ffff-fffffffffff0",
+    "name": "CMIFakeOperator",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
