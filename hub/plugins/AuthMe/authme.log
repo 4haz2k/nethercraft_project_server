@@ -193,3 +193,111 @@
 [04-17 16:41:55]: [FINE] Zytia registered 25.84.122.64
 [04-17 16:41:55]: [FINE] Zytia logged in 25.84.122.64
 [04-17 16:58:08]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[04-18 13:48:17]: [INFO] SQLite Setup finished
+[04-18 13:48:17]: [INFO] Hooked into LuckPerms!
+[04-18 13:48:17]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[04-18 13:48:18]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04-18 13:48:18]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04-18 13:48:18]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04-18 13:48:18]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[04-18 13:48:18]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[04-18 14:01:59]: [FINE] Zytia logged in 25.84.122.64
+[04-18 14:05:54]: [FINE] Zytia logged in 25.84.122.64
+[04-18 14:19:17]: [FINE] Zytia logged in 25.84.122.64
+[04-18 14:30:26]: [FINE] Zytia logged in 25.84.122.64
+[04-18 14:38:31]: [FINE] Zytia logged in 25.84.122.64
+[04-18 17:37:21]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[04-18 18:31:47]: [INFO] SQLite Setup finished
+[04-18 18:31:47]: [INFO] Hooked into LuckPerms!
+[04-18 18:31:47]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[04-18 18:31:47]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04-18 18:31:47]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04-18 18:31:47]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04-18 18:31:47]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[04-18 18:31:47]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[04-18 18:37:35]: [FINE] Zytia logged in 25.84.122.64
+[04-18 18:37:58]: [FINE] Zytia logged in 25.84.122.64
+[04-18 19:10:37]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[04-18 19:11:00]: [INFO] SQLite Setup finished
+[04-18 19:11:00]: [INFO] Hooked into LuckPerms!
+[04-18 19:11:00]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[04-18 19:11:01]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04-18 19:11:01]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04-18 19:11:01]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04-18 19:11:01]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[04-18 19:11:01]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[04-18 19:11:24]: [FINE] Zytia logged in 25.84.122.64
+[04-18 19:15:21]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[04-18 19:16:03]: [INFO] SQLite Setup finished
+[04-18 19:16:03]: [INFO] Hooked into LuckPerms!
+[04-18 19:16:04]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[04-18 19:16:04]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04-18 19:16:04]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04-18 19:16:04]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04-18 19:16:04]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[04-18 19:16:04]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:215)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[04-18 19:16:19]: [FINE] Zytia logged in 25.84.122.64
+[04-18 19:40:32]: [FINE] Zytia logged in 25.84.122.64
+[04-18 19:48:02]: [FINE] Zytia used the wrong password
+[04-18 19:48:12]: [FINE] Zytia logged in 25.84.122.64
+[04-18 20:30:21]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!

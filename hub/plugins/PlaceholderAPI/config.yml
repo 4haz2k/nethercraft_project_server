@@ -10,10 +10,18 @@
 # Download placeholders: /papi ecloud
 check_updates: false
 cloud_enabled: true
-cloud_sorting: "name"
+cloud_sorting: name
 cloud_allow_unverified_expansions: false
 boolean:
   'true': 'yes'
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
 debug: false
+expansions:
+  bungee:
+    check_interval: 30
+  javascript:
+    debug: false
+    github_script_downloads: false
+    engine: javascript
+    argument_split: ','

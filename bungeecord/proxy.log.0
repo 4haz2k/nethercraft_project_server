@@ -253,3 +253,135 @@ java.net.BindException: Address already in use: bind
 16:58:16 [INFO] Disabling plugins
 16:58:16 [INFO] Closing IO threads
 16:58:18 [INFO] Thank you and goodbye
+13:47:56 [INFO] Using standard Java JCE cipher.
+13:47:56 [INFO] Using standard Java compressor.
+13:47:56 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+13:47:56 [INFO] [BotFilter] Проверяю наличее обновлений
+13:47:56 [INFO] §c[BotFilter] §aНайдена новая версия!
+13:47:56 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+13:47:56 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+13:48:00 [INFO] [BotFilter] Генерирую капчу [0/900]
+13:48:01 [INFO] [BotFilter] Генерирую капчу [84/900]
+13:48:02 [INFO] [BotFilter] Генерирую капчу [243/900]
+13:48:03 [INFO] [BotFilter] Генерирую капчу [446/900]
+13:48:04 [INFO] [BotFilter] Генерирую капчу [659/900]
+13:48:05 [INFO] [BotFilter] Генерирую капчу [875/900]
+13:48:06 [INFO] [BotFilter] Капча сгенерированна за 6 248 мс
+13:48:06 [INFO] [BotFilter] Подключаюсь к датабазе...
+13:48:06 [INFO] [BotFilter] Подключено (102 мс)
+13:48:06 [INFO] [BotFilter] Очищено 0 аккаунтов
+13:48:06 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+13:48:07 [INFO] Couldn't detect bungee version. Custom build?
+13:48:07 [WARNING] Forced host server pvp is not defined
+13:48:07 [INFO] Listening on /25.84.122.64:25565
+14:01:44 [INFO] [/25.84.122.64:52853] <-> InitialHandler has pinged
+14:01:44 [INFO] [/25.84.122.64:52854] <-> InitialHandler has pinged
+14:01:52 [INFO] [/25.84.122.64:52862] <-> InitialHandler has connected
+14:01:52 [INFO] [BotFilter] Maximum packet size: 2097152
+14:01:52 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+14:01:52 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+14:05:42 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:05:42 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+14:05:48 [INFO] [/25.84.122.64:52903] <-> InitialHandler has pinged
+14:05:48 [INFO] [/25.84.122.64:52904] <-> InitialHandler has pinged
+14:05:49 [INFO] [/25.84.122.64:52905] <-> InitialHandler has connected
+14:05:49 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+14:17:22 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:17:22 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+14:17:27 [INFO] [/25.84.122.64:53110] <-> InitialHandler has pinged
+14:17:28 [INFO] [/25.84.122.64:53111] <-> InitialHandler has pinged
+14:19:09 [INFO] [/25.84.122.64:53144] <-> InitialHandler has pinged
+14:19:09 [INFO] [/25.84.122.64:53143] <-> InitialHandler has pinged
+14:19:11 [INFO] [/25.84.122.64:53150] <-> InitialHandler has connected
+14:19:11 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+14:28:48 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:28:48 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+14:28:54 [INFO] [/25.84.122.64:53285] <-> InitialHandler has pinged
+14:28:54 [INFO] [/25.84.122.64:53286] <-> InitialHandler has pinged
+14:29:19 [INFO] [/25.84.122.64:53307] <-> InitialHandler has pinged
+14:29:19 [INFO] [/25.84.122.64:53306] <-> InitialHandler has pinged
+14:30:20 [INFO] [/25.84.122.64:53365] <-> InitialHandler has pinged
+14:30:20 [INFO] [/25.84.122.64:53366] <-> InitialHandler has pinged
+14:30:22 [INFO] [/25.84.122.64:53367] <-> InitialHandler has connected
+14:30:22 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+14:37:49 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:37:49 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+14:37:55 [INFO] [/25.84.122.64:53521] <-> InitialHandler has pinged
+14:37:55 [INFO] [/25.84.122.64:53522] <-> InitialHandler has pinged
+14:38:24 [INFO] [/25.84.122.64:53550] <-> InitialHandler has pinged
+14:38:25 [INFO] [/25.84.122.64:53551] <-> InitialHandler has pinged
+14:38:26 [INFO] [/25.84.122.64:53552] <-> InitialHandler has connected
+14:38:26 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+15:12:24 [INFO] §cКоманда не найдена :(
+15:12:26 [INFO] §cКоманда не найдена :(
+15:12:28 [INFO] §cКоманда не найдена :(
+15:48:07 [INFO] [BotFilter] Очищено 0 аккаунтов
+17:37:22 [INFO] [Zytia] disconnected with: §fServer closed
+17:37:22 [INFO] [Zytia] -> UpstreamBridge has disconnected
+17:37:22 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+17:37:27 [INFO] Closing listener [id: 0x7d1997fa, L:/25.84.122.64:25565]
+17:37:27 [INFO] Closing pending connections
+17:37:27 [INFO] Disconnecting 0 connections
+17:37:28 [INFO] Disabling plugins
+17:37:28 [INFO] Closing IO threads
+18:33:58 [INFO] Using standard Java JCE cipher.
+18:33:58 [INFO] Using standard Java compressor.
+18:33:58 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+18:33:59 [INFO] [BotFilter] Проверяю наличее обновлений
+18:33:59 [INFO] §c[BotFilter] §aНайдена новая версия!
+18:33:59 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+18:33:59 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+18:34:03 [INFO] [BotFilter] Генерирую капчу [0/900]
+18:34:04 [INFO] [BotFilter] Генерирую капчу [105/900]
+18:34:05 [INFO] [BotFilter] Генерирую капчу [291/900]
+18:34:06 [INFO] [BotFilter] Генерирую капчу [519/900]
+18:34:07 [INFO] [BotFilter] Генерирую капчу [745/900]
+18:34:08 [INFO] [BotFilter] Капча сгенерированна за 5 173 мс
+18:34:08 [INFO] [BotFilter] Подключаюсь к датабазе...
+18:34:08 [INFO] [BotFilter] Подключено (58 мс)
+18:34:08 [INFO] [BotFilter] Очищено 0 аккаунтов
+18:34:08 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+18:34:08 [INFO] Couldn't detect bungee version. Custom build?
+18:34:08 [WARNING] Forced host server pvp is not defined
+18:34:08 [INFO] Listening on /25.84.122.64:25565
+18:36:05 [INFO] [/25.84.122.64:55175] <-> InitialHandler has pinged
+18:36:05 [INFO] [/25.84.122.64:55176] <-> InitialHandler has pinged
+18:36:07 [INFO] [/25.84.122.64:55178] <-> InitialHandler has connected
+18:36:07 [INFO] [BotFilter] Maximum packet size: 2097152
+18:36:07 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+18:36:07 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+18:36:37 [INFO] [Zytia] disconnected with: §4Login timeout exceeded, you have been kicked from the server, please try again!
+18:36:37 [INFO] [Zytia] -> UpstreamBridge has disconnected
+18:36:37 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+18:37:23 [INFO] [/25.84.122.64:55201] <-> InitialHandler has connected
+18:37:23 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+18:37:49 [INFO] [Zytia] -> UpstreamBridge has disconnected
+18:37:49 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+18:37:54 [INFO] [/25.84.122.64:55223] <-> InitialHandler has pinged
+18:37:54 [INFO] [/25.84.122.64:55224] <-> InitialHandler has pinged
+18:37:56 [INFO] [/25.84.122.64:55225] <-> InitialHandler has connected
+18:37:56 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+19:10:37 [INFO] [Zytia] disconnected with: §fServer closed
+19:10:37 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:10:37 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+19:11:16 [INFO] [/25.84.122.64:55572] <-> InitialHandler has connected
+19:11:16 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+19:15:21 [INFO] [Zytia] disconnected with: §fServer is restarting
+19:15:21 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:15:21 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+19:15:38 [INFO] [/25.84.122.64:55606] <-> InitialHandler has connected
+19:15:40 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+19:15:40 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:15:47 [INFO] [/25.84.122.64:55614] <-> InitialHandler has connected
+19:15:49 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+19:15:49 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:16:16 [INFO] [/25.84.122.64:55643] <-> InitialHandler has connected
+19:16:16 [INFO] [Zytia] <-> ServerConnector [hub] has connected
+19:40:04 [INFO] Closing listener [id: 0xed92eba7, L:/25.84.122.64:25565]
+19:40:04 [INFO] Closing pending connections
+19:40:04 [INFO] Disconnecting 1 connections
+19:40:04 [INFO] [Zytia] disconnected with: §aСервер перезагружается....
+19:40:04 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:40:04 [INFO] [Zytia] <-> DownstreamBridge <-> [hub] has disconnected
+19:40:05 [INFO] Disabling plugins
+19:40:05 [INFO] Closing IO threads

@@ -38,7 +38,7 @@ Config:
             - '  &fThis is Board &e#1'
             - '%blank%'
             - ' &7RAM: &f%ram%'
-            - ' &7Online: &f%online%&8/&f%maxplayers%'
+            - ' &7Online: %javascript_anarchy_sum%'
             - '%blank%'
         Board2:
           Title:
