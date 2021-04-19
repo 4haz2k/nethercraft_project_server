@@ -1,156 +1,152 @@
-# List of global tags:
-# %nl% - Goes to new line.
-# %username% - Replaces the username of the player receiving the message.
-# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
-
 # Registration
 registration:
-  register_request: '&3Please, register to the server with the command: /register <password> <ConfirmPassword>'
-  command_usage: '&cUsage: /register <password> <ConfirmPassword>'
-  reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
-  kicked_admin_registered: 'An admin just registered you; please log in again.'
-  success: '&2Successfully registered!'
-  disabled: '&cIn-game registration is disabled!'
-  name_taken: '&cYou already have registered this username!'
+    disabled: '&f&l &r%nl%&9&l Авторизация &8► &7Регистрация в игре отключена!%nl%&f &r'
+    name_taken: '&f&l &r%nl%&9&l Авторизация &8► &7Пользователь с таким именем уже есть!%nl%&f &r'
+    register_request: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте команду для регистрации: &8"&9/register <Пароль> <Повтор_Пароля>&8"%nl%&f &r'
+    command_usage: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/register <Пароль> <Повтор_Пароля>&8"%nl%&f &r'
+    reg_only: '&8◆ &9&l Сервер &8◆&r%nl%&7Только зарегистрированные пользователи могут присоединиться к серверу!'
+    success: '&f&l &r%nl%&9&l Авторизация &8► &7Регистрация успешно пройдена!%nl%&f &r'
+    kicked_admin_registered: '&8◆ &9&l Сервер &8◆&r%nl%&7Админ только что зарегистрировал Вас, используйте команду логина!'
 
 # Password errors on registration
 password:
-  match_error: '&cPasswords didn''t match, check them again!'
-  name_in_password: '&cYou can''t use your name as password, please choose another one...'
-  unsafe_password: '&cThe chosen password isn''t safe, please choose another one...'
-  forbidden_characters: '&4Your password contains illegal characters. Allowed chars: %valid_chars'
-  wrong_length: '&cYour password is too short or too long! Please try with another one!'
+    match_error: '&f&l &r%nl%&9&l Авторизация &8► &7Пароль не подходит, перепроверьте правильность ввода!%nl%&f &r'
+    name_in_password: '&f&l &r%nl%&9&l Авторизация &8► &7Вы не можете использовать своё имя в виде пароля. Придумайте другой пароль!%nl%&f &r'
+    unsafe_password: '&f&l &r%nl%&9&l Авторизация &8► &7Пароль небезопасен, выберите другой пароль!%nl%&f &r'
+    forbidden_characters: '&f&l &r%nl%&9&l Авторизация &8► &7Пароль содержит недопустимые символы, такие как: %valid_chars%nl%&f &r'
+    wrong_length: '&f&l &r%nl%&9&l Авторизация &8► &7Ваш пароль слишком длинный или короткий! Выберите пожалуйста другой пароль!%nl%&f &r'
 
 # Login
 login:
-  command_usage: '&cUsage: /login <password>'
-  wrong_password: '&cWrong password!'
-  success: '&2Successful login!'
-  login_request: '&cPlease, login with the command: /login <password>'
-  timeout_error: '&4Login timeout exceeded, you have been kicked from the server, please try again!'
+    command_usage: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/login <password>&8"%nl%&f &r'
+    wrong_password: '&f&l &r%nl%&9&l Авторизация &8► &7Неверный пароль!%nl%&f &r'
+    success: '&f&l &r%nl%&9&l Авторизация &8► &7Вы успешно залогинены!%nl%&f &r'
+    login_request: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте команду для логина: &8"&9/login <password>&8"%nl%&f &r'
+    timeout_error: '&8◆ &9&l Сервер &8◆&r%nl%&7Время входа на сервер закончилось. Попробуйте снова!%nl%&f &r'
 
 # Errors
 error:
-  unregistered_user: '&cThis user isn''t registered!'
-  denied_command: '&cIn order to use this command you must be authenticated!'
-  denied_chat: '&cIn order to chat you must be authenticated!'
-  not_logged_in: '&cYou''re not logged in!'
-  tempban_max_logins: '&cYou have been temporarily banned for failing to log in too many times.'
-  max_registration: '&cYou have exceeded the maximum number of registrations (%reg_count/%max_acc %reg_names) for your connection!'
-  no_permission: '&4You don''t have the permission to perform this action!'
-  unexpected_error: '&4An unexpected error occurred, please contact an administrator!'
-  kick_for_vip: '&3A VIP player has joined the server when it was full!'
-  logged_in: '&cYou''re already logged in!'
-  kick_unresolved_hostname: '&cAn error occurred: unresolved player hostname!'
+    denied_command: '&f&l &r%nl%&9&l Авторизация &8► &7Вы должны быть авторизованы, чтобы использовать эту команду!%nl%&f &r'
+    denied_chat: '&f&l &r%nl%&9&l Авторизация &8► &7Вы должны быть авторизованы, чтобы использовать чат!&f &r'
+    unregistered_user: '&f&l &r%nl%&9&l Авторизация &8► &7Этот пользователь не зарегистрирован!&f &r'
+    not_logged_in: '&f&l &r%nl%&9&l Авторизация &8► &7Вы не ещё авторизовались!&f &r'
+    no_permission: '&f&l &r%nl%&9&l Авторизация &8► &7У вас нет разрешения на выполнение этого действия!%nl%&f &r'
+    unexpected_error: '&f&l &r%nl%&9&l Авторизация &8► &7Произошла непредвиденная ошибка, обратитесь к админу!%nl%&f &r'
+    max_registration: '&f&l &r%nl%&9&l Авторизация &8► &7Вы превысили максимальное количество регистраций &8(&9%reg_count/%max_acc %reg_names&8)%nl%&f &r'
+    logged_in: '&f&l &r%nl%&9&l Авторизация &8► &7Вы уже вошли в систему!%nl%&f &r'
+    kick_for_vip: '&f&l &r%nl%&9&l Авторизация &8► &7VIP игрок присоединился к заполненному серверу!%nl%&f &r'
+    kick_unresolved_hostname: '&f&l &r%nl%&9&l Авторизация &8► &7Произошла ошибка: неразрешенное имя игрока!%nl%&f &r'
+    tempban_max_logins: '&8◆ &9&l Сервер &8◆&r%nl%&7Вы были временно забанены за то, что заходили слишком много раз.%nl%&f &r'
 
 # AntiBot
 antibot:
-  kick_antibot: 'AntiBot protection mode is enabled! You have to wait some minutes before joining the server.'
-  auto_enabled: '&4[AntiBotService] AntiBot enabled due to the huge number of connections!'
-  auto_disabled: '&2[AntiBotService] AntiBot disabled after %m minutes!'
+    kick_antibot: '&8◆ &9&l Сервер &8◆&r%nl%&7Режим защиты Антибот включен! Вы должны подождать несколько минут, прежде чем присоединиться к серверу.%nl%&f &r'
+    auto_enabled: '&8◆ &9&l Сервер &8◆&r%nl%&7Антибот включен из-за огромного количества подключений!%nl%&f &r'
+    auto_disabled: '&8◆ &9&l Сервер &8◆&r%nl%&7Антибот выключится через &9%m минут&7!%nl%&f &r'
 
+# Unregister
 unregister:
-  success: '&cSuccessfully unregistered!'
-  command_usage: '&cUsage: /unregister <password>'
+    success: '&f&l &r%nl%&9&l Авторизация &8► &7Аккаунт успешно удалён!'
+    command_usage: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/unregister <password>&8"%nl%&f &r'
 
 # Other messages
 misc:
-  accounts_owned_self: 'You own %count accounts:'
-  accounts_owned_other: 'The player %name has %count accounts:'
-  account_not_activated: '&cYour account isn''t activated yet, please check your emails!'
-  password_changed: '&2Password changed successfully!'
-  logout: '&2Logged out successfully!'
-  reload: '&2Configuration and database have been reloaded correctly!'
-  usage_change_password: '&cUsage: /changepassword <oldPassword> <newPassword>'
+    account_not_activated: '&f&l &r%nl%&9&l Авторизация &8► &7Ваша учетная запись еще не активирована, пожалуйста, проверьте свою электронную почту!%nl%&f &r'
+    password_changed: '&f&l &r%nl%&9&l Авторизация &8► &7Пароль успешно изменён!%nl%&f &r'
+    logout: '&f&l &r%nl%&9&l Авторизация &8► &7Вы успешно вышли из аккаунта!%nl%&f &r'
+    reload: '&f&l &r%nl%&9&l Авторизация &8► &7Конфигурация и база данных были успешно перезагружены!%nl%&f &r'
+    usage_change_password: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/changepassword <Старый_Пароль> <Новый_Пароль>&8"%nl%&f &r'
+    accounts_owned_self: '&f&l &r%nl%&9&l Авторизация &8► &7У вас есть %count аккаунтов:%nl%&f &r'
+    accounts_owned_other: '&f&l &r%nl%&9&l Авторизация &8► &7Игрок %name имеет %count аккаунтов:%nl%&f &r'
 
 # Session messages
 session:
-  invalid_session: '&cYour IP has been changed and your session data has expired!'
-  valid_session: '&2Logged-in due to Session Reconnection.'
+    valid_session: '&f&l &r%nl%&9&l Авторизация &8► &7Вход в систему из-за повторного подключения к серверу.%nl%&f &r'
+    invalid_session: '&f&l &r%nl%&9&l Авторизация &8► &7Ваш IP был изменён, а Ваши данные сеанса истекли!%nl%&f &r'
 
 # Error messages when joining
 on_join_validation:
-  name_length: '&4Your username is either too short or too long!'
-  characters_in_name: '&4Your username contains illegal characters. Allowed chars: %valid_chars'
-  country_banned: '&4Your country is banned from this server!'
-  not_owner_error: 'You are not the owner of this account. Please choose another name!'
-  kick_full_server: '&4The server is full, try again later!'
-  same_nick_online: '&4The same username is already playing on the server!'
-  invalid_name_case: 'You should join using username %valid, not %invalid.'
-  same_ip_online: 'A player with the same IP is already in game!'
-  quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
+    same_ip_online: '&8◆ &9&l Сервер &8◆&r%nl%&7Игрок с таким IP уже находится в игре!%nl%&f &r'
+    same_nick_online: '&8◆ &9&l Сервер &8◆&r%nl%&7Игрок с таким именем уже играет на сервере!%nl%&f &r'
+    name_length: '&8◆ &9&l Сервер &8◆&r%nl%&7Ваше имя слишком короткое или слишком длинное!%nl%&f &r'
+    characters_in_name: '&8◆ &9&l Сервер &8◆&r%nl%&7Ваше имя содержит недопустимые символы, а именно: &9%valid_chars%nl%&f &r'
+    kick_full_server: '&8◆ &9&l Сервер &8◆&r%nl%&7Сервер полон. Попробуйте зайти чуть позже!%nl%&f &r'
+    country_banned: '&8◆ &9&l Сервер &8◆&r%nl%&7Ваша страна не может зайти на сервер!%nl%&f &r'
+    not_owner_error: '&8◆ &9&l Сервер &8◆&r%nl%&7Этот аккаунт не ваш. Выберите другое имя!%nl%&f &r'
+    invalid_name_case: '&8◆ &9&l Сервер &8◆&r%nl%&7Вы должны присоединиться, используя &9%valid&7, а не &9%invalid&7.%nl%&f &r'
+    quick_command: '&8◆ &9&l Сервер &8◆&r%nl%&7Вы использовали команду слишком быстро! Пожалуйста, присоединитесь к серверу снова и подождите немного, прежде чем использовать любую команду.%nl%&f &r'
 
 # Email
 email:
-  usage_email_add: '&cUsage: /email add <email> <confirmEmail>'
-  usage_email_change: '&cUsage: /email change <oldEmail> <newEmail>'
-  new_email_invalid: '&cInvalid new email, try again!'
-  old_email_invalid: '&cInvalid old email, try again!'
-  invalid: '&cInvalid email address, try again!'
-  added: '&2Email address successfully added to your account!'
-  request_confirmation: '&cPlease confirm your email address!'
-  changed: '&2Email address changed correctly!'
-  email_show: '&2Your current email address is: &f%email'
-  incomplete_settings: 'Error: not all required settings are set for sending emails. Please contact an admin.'
-  already_used: '&4The email address is already being used'
-  send_failure: 'The email could not be sent. Please contact an administrator.'
-  no_email_for_account: '&2You currently don''t have email address associated with this account.'
-  add_email_request: '&3Please add your email to your account with the command: /email add <yourEmail> <confirmEmail>'
-  change_password_expired: 'You cannot change your password using this command anymore.'
-  email_cooldown_error: '&cAn email was already sent recently. You must wait %time before you can send a new one.'
-  add_not_allowed: '&cAdding email was not allowed.'
-  change_not_allowed: '&cChanging email was not allowed.'
+    add_email_request: '&f&l &r%nl%&9&l Авторизация &8► &7Добавьте свой адрес электронной почты, используя команду: &8"&9/email add <yourEmail> <confirmEmail>&8"%nl%&f &r'
+    usage_email_add: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/email add <Почта> <Повтор_Почты>&8"%nl%&f &r'
+    usage_email_change: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/email change <Старая_Почта> <Новая_Почта>&8"%nl%&f &r'
+    new_email_invalid: '&f&l &r%nl%&9&l Авторизация &8► &7Новая почта некорректна, попробуйте снова!%nl%&f &r'
+    old_email_invalid: '&f&l &r%nl%&9&l Авторизация &8► &7Старая почта некорректна, попробуйте снова!%nl%&f &r'
+    invalid: '&f&l &r%nl%&9&l Авторизация &8► &7Некорректный адрес электронной почты, попробуйте снова!%nl%&f &r'
+    added: '&f&l &r%nl%&9&l Авторизация &8► &7Адрес электронной почты успешно добавлен к Вашему аккаунту!%nl%&f &r'
+    add_not_allowed: '&f&l &r%nl%&9&l Авторизация &8► &7Добавление электронной почты запрещено%nl%&f &r'
+    request_confirmation: '&f&l &r%nl%&9&l Авторизация &8► &7Пожалуйста, подтвердите вашу электронню почту!%nl%&f &r'
+    changed: '&f&l &r%nl%&9&l Авторизация &8► &7Адрес электронной почты был успешно изменён!%nl%&f &r'
+    change_not_allowed: '&f&l &r%nl%&9&l Авторизация &8► &7Замена адреса электронной почты запрещена.%nl%&f &r'
+    email_show: '&f&l &r%nl%&9&l Авторизация &8► &7Ваш нынешний адрес электронной почты: &f%email%nl%&f &r'
+    no_email_for_account: '&f&l &r%nl%&9&l Авторизация &8► &7В настоящее время у вас нет адреса электронной почты, связанного с этим аккаунтом.%nl%&f &r'
+    already_used: '&f&l &r%nl%&9&l Авторизация &8► &7Адрес электронной почты уже используется.%nl%&f &r'
+    incomplete_settings: '&f&l &r%nl%&9&l Авторизация &8► &7Ошибка: не все необходимые настройки установлены для отправки электронных писем. Пожалуйста, свяжитесь с администратором.%nl%&f &r'
+    send_failure: '&f&l &r%nl%&9&l Авторизация &8► &7Письмо не может быть отправлено. Пожалуйста, свяжитесь с администратором.%nl%&f &r'
+    change_password_expired: '&f&l &r%nl%&9&l Авторизация &8► &7Вы больше не можете изменить свой пароль с помощью этой команды.%nl%&f &r'
+    email_cooldown_error: '&f&l &r%nl%&9&l Авторизация &8► &7Письмо уже было недавно отправлено. Подождите примерно &9%time ,прежде чем отправить ещё одно.%nl%&f &r'
 
 # Password recovery by email
 recovery:
-  forgot_password_hint: '&3Forgot your password? Please use the command: /email recovery <yourEmail>'
-  command_usage: '&cUsage: /email recovery <Email>'
-  email_sent: '&2Recovery email sent successfully! Please check your email inbox!'
-  code:
-    code_sent: 'A recovery code to reset your password has been sent to your email.'
-    incorrect: 'The recovery code is not correct! You have %count tries remaining.'
-    tries_exceeded: 'You have exceeded the maximum number attempts to enter the recovery code. Use "/email recovery [email]" to generate a new one.'
-    correct: 'Recovery code entered correctly!'
-    change_password: 'Please use the command /email setpassword <new password> to change your password immediately.'
+    forgot_password_hint: '&f&l &r%nl%&9&l Авторизация &8► &7Забыли свой пароль? Используйте команду: &8"&9/email recovery <Ваша_Почта>&8"%nl%&f &r'
+    command_usage: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/email recovery <Почта>&8"%nl%&f &r'
+    email_sent: '&f&l &r%nl%&9&l Авторизация &8► &7Письмо для восстановления аккаунта успешно отправлено. Проверьте свою почту!%nl%&f &r'
+    code:
+        code_sent: '&f&l &r%nl%&9&l Авторизация &8► &7Код восстановления был отправлен Вам на электронную почту.%nl%&f &r'
+        incorrect: '&f&l &r%nl%&9&l Авторизация &8► &7Код восстановления неверен! У вас осталось %count попыток.%nl%&f &r'
+        tries_exceeded: '&f&l &r%nl%&9&l Авторизация &8► &7Вы превысили максимальное количество попыток ввода кода восстановления. Используйте &8"&9/email recovery [Почта]&8"&7 для генерации нового кода.'
+        correct: '&f&l &r%nl%&9&l Авторизация &8► &7Код восстановления введён верно!%nl%&f &r'
+        change_password: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте команду &8"&9/email setpassword <Новый_Пароль>&8"&7 для смены своего пароля.%nl%&f &r'
 
 # Captcha
 captcha:
-  usage_captcha: '&3To log in you have to solve a captcha code, please use the command: /captcha %captcha_code'
-  wrong_captcha: '&cWrong captcha, please type "/captcha %captcha_code" into the chat!'
-  valid_captcha: '&2Captcha code solved correctly!'
-  captcha_for_registration: 'To register you have to solve a captcha first, please use the command: /captcha %captcha_code'
-  register_captcha_valid: '&2Valid captcha! You may now register with /register'
+    usage_captcha: '&f&l &r%nl%&9&l Авторизация &8► &7Чтобы войти, вы должны решить код с картинки, пожалуйста, используйте команду: &8"&9/captcha %captcha_code&8"&7!%nl%&f &r'
+    wrong_captcha: '&f&l &r%nl%&9&l Авторизация &8► &7Неправильно введён код, используйте &8"&9/captcha %captcha_code&8"&7!%nl%&f &r'
+    valid_captcha: '&f&l &r%nl%&9&l Авторизация &8► &7Код введён верно!'
+    captcha_for_registration: '&f&l &r%nl%&9&l Авторизация &8► &7Чтобы зарегистрироваться, скачала Вы должны ввести код с картинки, воспользуйтесь командой: &8"&9/captcha %captcha_code&8"&7!%nl%&f &r'
+    register_captcha_valid: '&f&l &r%nl%&9&l Авторизация &8► &7Код введён верно! Теперь зарегистрируйтесь с помощью команды &8"&9/register&8"&7!%nl%&f &r'
 
 # Verification code
 verification:
-  code_required: '&3This command is sensitive and requires an email verification! Check your inbox and follow the email''s instructions.'
-  command_usage: '&cUsage: /verification <code>'
-  incorrect_code: '&cIncorrect code, please type "/verification <code>" into the chat, using the code you received by email'
-  success: '&2Your identity has been verified! You can now execute all commands within the current session!'
-  already_verified: '&2You can already execute every sensitive command within the current session!'
-  code_expired: '&3Your code has expired! Execute another sensitive command to get a new code!'
-  email_needed: '&3To verify your identity you need to link an email address with your account!!'
-
-# Two-factor authentication
-two_factor:
-  code_created: '&2Your secret code is %code. You can scan it from here %url'
-  confirmation_required: 'Please confirm your code with /2fa confirm <code>'
-  code_required: 'Please submit your two-factor authentication code with /2fa code <code>'
-  already_enabled: 'Two-factor authentication is already enabled for your account!'
-  enable_error_no_code: 'No 2fa key has been generated for you or it has expired. Please run /2fa add'
-  enable_success: 'Successfully enabled two-factor authentication for your account'
-  enable_error_wrong_code: 'Wrong code or code has expired. Please run /2fa add'
-  not_enabled_error: 'Two-factor authentication is not enabled for your account. Run /2fa add'
-  removed_success: 'Successfully removed two-factor auth from your account'
-  invalid_code: 'Invalid code!'
+    code_required: '&f&l &r%nl%&9&l Авторизация &8► &7Эта команда требует подтверждения по электронной почте! Проверьте свой почтовый ящик и следуйте инструкциям в электронной почте.%nl%&f &r'
+    command_usage: '&f&l &r%nl%&9&l Авторизация &8► &7Используйте: &8"&9/verification <Код>&8"%nl%&f &r'
+    incorrect_code: '&f&l &r%nl%&9&l Авторизация &8► &7Код неверен, используйте &8"&9/verification <Код>&8"&7, используя код из электронной почты!%nl%&f &r'
+    success: '&f&l &r%nl%&9&l Авторизация &8► &7Ваша личность была подтверждена! Теперь Вы можете использовать все доступные команды в текущем сеансе!%nl%&f &r'
+    already_verified: '&f&l &r%nl%&9&l Авторизация &8► &7Вы уже можете использоватьть каждую доступную команду в текущем сеансе!%nl%&f &r'
+    code_expired: '&f&l &r%nl%&9&l Авторизация &8► &7Ваш код истёк! Выполните другой секретную команду, чтобы получить новый код!%nl%&f &r'
+    email_needed: '&f&l &r%nl%&9&l Авторизация &8► &7Чтобы подтвердить свою личность, Вам нужно привязать адрес электронной почты к Вашей учётной записи!%nl%&f &r'
 
 # Time units
 time:
-  second: 'second'
-  seconds: 'seconds'
-  minute: 'minute'
-  minutes: 'minutes'
-  hour: 'hour'
-  hours: 'hours'
-  day: 'day'
-  days: 'days'
+    second: 'секунда'
+    seconds: 'секунды'
+    minute: 'минута'
+    minutes: 'минуты'
+    hour: 'час'
+    hours: 'часы'
+    day: 'день'
+    days: 'дни'
+
+# Two-factor authentication
+two_factor:
+    code_created: '&f&l &r%nl%&9&l Авторизация &8► &7Ваш секретный код - &9%code&7. Можете просканировать его отсюда &9%url%nl%&f &r'
+    confirmation_required: '&f&l &r%nl%&9&l Авторизация &8► &7Введите код с помощью команды &8"&9/2fa confirm <Код>&8"&7!%nl%&f &r'
+    code_required: '&f&l &r%nl%&9&l Авторизация &8► &7Подтвердите свой код двухфакторной аутентификации с помощью команды &8"&9/2fa code <Код>&8"&7!%nl%&f &r'
+    already_enabled: '&f&l &r%nl%&9&l Авторизация &8► &7Двухфакторная аутентификация уже работает на Вашем аккаунте!%nl%&f &r'
+    enable_error_no_code: '&f&l &r%nl%&9&l Авторизация &8► &7Ни один 2fa ключ не был сгенерирован для Вас или его время истекло. Используйте &8"&9/2fa add&8"&7!%nl%&f &r'
+    enable_success: '&f&l &r%nl%&9&l Авторизация &8► &7Двухфакторная аутентицикация успешно активирована%nl%&f &r'
+    enable_error_wrong_code: '&f&l &r%nl%&9&l Авторизация &8► &7Код неверный или истёк. Используйте &8"&9/2fa add&8"%nl%&f &r'
+    not_enabled_error: '&f&l &r%nl%&9&l Авторизация &8► &7Двухфакторная аутентицикация не ключена на Вашем аккаунте. Используйте &8"&9/2fa add&8"&7!%nl%&f &r'
+    removed_success: '&f&l &r%nl%&9&l Авторизация &8► &7Двухфакторная аутентицикация успешно удалена с Вашего аккаунта%nl%&f &r'
+    invalid_code: '&f&l &r%nl%&9&l Авторизация &8► &7Неверный код!%nl%&f &r'

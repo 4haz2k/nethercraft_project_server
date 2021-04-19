@@ -1,0 +1,10 @@
+version: 2
+hub:
+  spawn:
+    x: 23.5
+    y: 66.0
+    z: -0.5
+    pitch: 0.0
+    yaw: 0.15000002
+    world: hub
+  mode: spawn
