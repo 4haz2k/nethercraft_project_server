@@ -4,7 +4,7 @@
 # https://github.com/help-chat/DeluxeMenus/wiki
 
 debug: false
-check_updates: true
+check_updates: false
 gui_menus:
   basics_menu:
     file: basics_menu.yml

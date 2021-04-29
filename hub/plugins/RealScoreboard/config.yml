@@ -1,7 +1,7 @@
 Debug: false
 Config:
-  Prefix: '&bReal&9Scoreboard &7| &r'
-  Reloaded: '&fThe config has been &areloaded&f.'
+  Prefix: '&0| &r'
+  Reloaded: '&7The config has been &areloaded&f.'
   Use-Placeholders-In-Scoreboard-Titles: false
   RealScoreboard-Disabled-By-Default: false
   Messages:
@@ -19,39 +19,20 @@ Config:
     - skywarsLobby
   Scoreboard:
     world:
-      Switch-Timer: 35
+      Switch-Timer: 100
       Boards:
         Board1:
           Title:
-            - '&bRealScoreBoard'
-            - '&6> &9RealScoreBoard &6<'
-            - '&a>&6> &bRealScoreBoard &6<&a<'
-            - '&6> &9RealScoreBoard &6<'
+            - '&4&lNether&a&lCraft &4&lProject'
           Lines:
             - '%blank%'
-            - ' &7Name: &f%playername% &8| &f%ping%'
-            - ' &f%day% &8| &f%time%'
-            - ' &7Money: &f%money% &8| &7XP: &f%xp%'
-            - ' &7Location:'
-            - ' &fX %x% Y %y% Z %z%'
+            - ' &fНик: &6%playername%'
+            - ' &fПривилегия: &7Тест'
             - '%blank%'
-            - '  &fThis is Board &e#1'
+            - ' &fМонеты: &612412&e*'
             - '%blank%'
-            - ' &7RAM: &f%ram%'
-            - ' &7Online: %javascript_anarchy_sum%'
+            - ' &fСервер: &6Хаб'
+            - ' &fОнлайн: &6%bungee_total%'
             - '%blank%'
-        Board2:
-          Title:
-            - '&bStatistics &aBoard'
-            - '&aStatistics &bBoard'
-          Lines:
-            - '%blank%'
-            - ' &7Stats'
-            - '  &fKills: %kills% &7| &fKD: %kd%'
-            - '  Mob Kills: %mobkills%'
-            - '  Deaths: %deaths%'
-            - '  Jumps: %jumps%'
-            - '%blank%'
-            - ' &fThis is Board &e#2'
-            - '%blank%'
+            - ' &fСайт: &6NetherCraft.Fun'
 Version: 8

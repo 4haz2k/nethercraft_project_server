@@ -10,19 +10,19 @@ DataSource:
     # Database port
     mySQLPort: '3306'
     # Connect to MySQL database over SSL
-    mySQLUseSSL: true
+    mySQLUseSSL: false
     # Verification of server's certificate.
     # We would not recommend to set this option to false.
     # Set this option to false at your own risk if and only if you know what you're doing
     mySQLCheckServerCertificate: true
     # Username to connect to the MySQL database
-    mySQLUsername: authme
+    mySQLUsername: u1304741_default
     # Password to connect to the MySQL database
-    mySQLPassword: '12345'
+    mySQLPassword: t2bwcTY!
     # Driver Name of the MySQL database
     mySQLDriverClassName: com.mysql.jdbc.Driver
     # Database Name, use with converters or as SQLITE database name
-    mySQLDatabase: authme
+    mySQLDatabase: u1304741_default
     # Table of the database
     mySQLTablename: authme
     # Column of IDs to sort data
@@ -69,7 +69,7 @@ DataSource:
     poolSize: 10
     # The maximum lifetime of a connection in the pool, default = 1800 seconds
     # You should set this at least 30 seconds less than mysql server wait_timeout
-    maxLifetime: 1800
+    maxLifetime: 150
 ExternalBoardOptions:
     # Column for storing players groups
     mySQLColumnGroup: ''
@@ -120,7 +120,7 @@ settings:
     # typical communication with the database to happen synchronously, set this to false
     useAsyncTasks: true
     # The name of the server, used in some placeholders.
-    serverName: Your Minecraft Server
+    serverName: NetherCraft
     restrictions:
         # Can not authenticated players chat?
         # Keep in mind that this feature also blocks all commands not
@@ -131,9 +131,8 @@ settings:
         # Allowed commands for unauthenticated players
         allowCommands: 
         - /login
-        - /log
-        - /l
         - /register
+        - /l
         - /reg
         - /email
         - /captcha
@@ -141,7 +140,7 @@ settings:
         - /totp
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
-        maxRegPerIp: 1
+        maxRegPerIp: 2
         # Minimum allowed username length
         minNicknameLength: 3
         # Maximum allowed username length
@@ -181,7 +180,7 @@ settings:
         # Should unregistered players be kicked immediately?
         kickNonRegistered: false
         # Should players be kicked on wrong password?
-        kickOnWrongPassword: true
+        kickOnWrongPassword: false
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
@@ -190,7 +189,7 @@ settings:
         allowMovement: false
         # After how many seconds should players who fail to login or register
         # be kicked? Set to 0 to disable.
-        timeout: 30
+        timeout: 1900
         # Regex pattern of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk?
@@ -267,9 +266,6 @@ settings:
         - password
         - qwerty
         - '12345'
-        - 'qwerty123'
-        - 'qwerty1234'
-        - 'qwerty12345'
         - '54321'
         - '123456789'
         - help
@@ -278,7 +274,7 @@ settings:
         enabled: true
         # Send every X seconds a message to a player to
         # remind him that he has to login/register
-        messageInterval: 5
+        messageInterval: 180
         # Only registered and logged in players can play.
         # See restrictions for exceptions
         force: true

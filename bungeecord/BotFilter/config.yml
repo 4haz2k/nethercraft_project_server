@@ -17,7 +17,7 @@ messages:
   # Title%nl%Subtitle
   # Оставьте пустым, чтобы отключить( прм: CHECKING_TITLE = "" )
   # Отключение титлов может немного улучшить производительность
-  checking-title: "&4&lNether&a&lCraft &4&lProject: &aИдёт проверка"
+  checking-title: "&4&lNether&a&lCraft%nl%&aИдёт проверка"
   checking-title-sus: "&rПроверка пройдена%nl%&aПриятной игры!"
   checking-title-captcha: " %nl%&rВведите капчу в чат!"
 

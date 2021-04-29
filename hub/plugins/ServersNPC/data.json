@@ -22,8 +22,6 @@
     },
     "npcType": "PLAYER",
     "actions": [
-      "SERVER:hub",
-      "SERVER:survivalhub",
       "SERVER:survivalhub"
     ],
     "npcEquipments": {},
@@ -52,7 +50,6 @@
     },
     "npcType": "PLAYER",
     "actions": [
-      "SERVER:anarchyhub",
       "SERVER:anarchyhub"
     ],
     "npcEquipments": {},
