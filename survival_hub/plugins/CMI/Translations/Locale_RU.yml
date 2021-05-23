@@ -583,6 +583,8 @@ info:
     - Заговор_огня
     channeling:
     - Громовержец
+    glowing:
+    - Glowing
     sweeping_edge:
     - Разящий_клинок
     thorns:

@@ -1,0 +1,78 @@
+PREFIX: '&e[&2SkinsRestorer&e]'
+HELP_SKIN_CLEAR: Очищает вас скин.
+HELP_SKIN_CLEAR_OTHER: Очищает скин у другого игрока.
+HELP_SKIN_UPDATE: Обновляет вас скин.
+HELP_SKIN_UPDATE_OTHER: Обновляет скин у другого игрока.
+HELP_SKIN_SET: Устанавливает скин другого игрока.
+HELP_SKIN_SET_OTHER: Устанавливает скин другого игрока.
+HELP_SKIN_SET_OTHER_URL: Устанавливает скин с помощью Image_url.png
+HELP_SR_RELOAD: Перезагружает файл конфигурации.
+HELP_SR_STATUS: Проверяет плагин необходимые службы API
+HELP_SR_DROP: Удаляет данные игроков или скинов.
+HELP_SR_PROPS: Отображает текущие свойства скина игрока.
+SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
+SYNTAX_SKINSET: ' <skin>'
+SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
+SYNTAX_SKINURL: ' <url>'
+SYNTAX_SKINUPDATE_OTHER: ' <target>'
+SYNTAX_SKINCLEAR_OTHER: ' <target>'
+PLAYER_HAS_NO_PERMISSION_SKIN: '&4Ошибка&8: &cУ вас нет прав для установки данного
+  скину'
+PLAYER_HAS_NO_PERMISSION_URL: '&4Ошибка&8: &c У вас нет прав, чтобы установить скин
+  с помощью URL'
+SKIN_DISABLED: '&4Ошибка&8: &cДанный скин отключен администратором'
+NOT_PREMIUM: '&4Ошибка&8: &cПремиум-игрок с таким именем не существует.'
+INVALID_PLAYER: '&4Ошибка&8: &c%не является действительным именем пользователя или
+  url'
+SKIN_COOLDOWN: '&4Ошибка&8: &cВы сможете сменить свой скин вновь через: &e%s &cseconds.'
+SKIN_CHANGE_SUCCESS: '&2Ваш скин изменен'
+SKIN_CLEAR_SUCCESS: '&2Ваш скин успешно очищен'
+SKIN_CLEAR_ISSUER: '&2Скин очищен у игрока %player.'
+MS_UPDATING_SKIN: '&2Загружаем скин...(Это может занять некоторое время)'
+SUCCESS_UPDATING_SKIN: '&2Ваш скин обновлен'
+SUCCESS_UPDATING_SKIN_OTHER: '&2Скин обновлен для игрока %player.'
+ERROR_UPDATING_SKIN: '&4Ошибка&8: &cПроизошла ошибка при обновлении скина. пожалуйста
+  попробуйте позже!'
+ERROR_UPDATING_URL: "&4Ошибка&8: &cВы не можете обновлять пользовательские скины URL!\
+  \ \n&cRequest again using /skin url"
+ERROR_UPDATING_CUSTOMSKIN: '&4Ошибка&8: &cСкин не может быть обновлен, потому что
+  он кастомный.'
+ERROR_INVALID_URLSKIN: "&4Ошбика&8: &cНедействительный URL-адрес или формат скина\
+  , \n&cTry uploading your skin to imgur and right click 'copy image address' \n&cFor\
+  \ guide see: &c&oskinsrestorer.net/skinurl"
+ERROR_MS_FULL: '&4MS Ошбка&8: &cИстекло время ожидания API при загрузке вашего &cskin.
+  Пожалуйста, попробуйте позже (MineSkin)'
+ERROR_MS_GENERIC: '&4MS Ошбка&8: &c%error%'
+GENERIC_ERROR: '&4Ошибка&8: &cПроизошла ошибка при запросе данных скина, пожалуйста
+  попробуйте позже!'
+WAIT_A_MINUTE: '&4Ошибка&8: &cПодождите минуту, прежде чем снова запрашивать этот
+  скин.'
+ERROR_NO_SKIN: '&4Ошибка&8: &cУ этого игрока нет скинов'
+SKINSMENU_OPEN: '&2Открываем меню со скинами...'
+SKINSMENU_TITLE_NEW: '&9Меню скинов - Страница %page'
+SKINSMENU_NEXT_PAGE: '&a&l»&7 Следующая страница&a&l »'
+SKINSMENU_PREVIOUS_PAGE: '&e&l«&7 Предыдущая страница&e&l «'
+SKINSMENU_REMOVE_SKIN: '&c&l[ &7Убрать скин&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Нажмите, чтоб выбрать скин'
+ADMIN_SET_SKIN: '&2Вы поставили %player скин.'
+DATA_DROPPED: '&2Данные сброшены для %playerOrSkin %targets.'
+STATUS_OK: '&2Соединение с Mojang API выполнено успешно! '
+ALT_API_FAILED: '&4Ошибка&8: &cAPI данных скина перегружен, повторите попытку позже!'
+MS_API_FAILED: '&4Ошибка&8: &cMineSkin API перегружен, повторите попытку позже!'
+NO_SKIN_DATA: '&4Ошибка&8: &cДанные о скине не получены! У этого игрока есть скин?'
+RELOAD: '&2Конфигурация и локаль перезагружены!'
+OUTDATED: "&4You are running an outdated version of SkinsRestorer!\n&cPlease update\
+  \ to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+SR_LINE: '&7&m----------------------------------------'
+HELP_PLAYER: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver%
+     &2/skin <skinname> &7-&f Changes your skin.
+      &2/skin update &7-&f Updates your skin.
+      &2/skin clear &7-&f Clears your skin.
+ERROR_INVALID_URLSKIN_2: '&4ERROR&8: &cInvalid or not allowed URL or format. Reminder
+  that we only accept image uploaders which have been allowed by the server owner!
+  See &c&oskinsrestorer.net/skinurl &cfor more info.'
+HELP_SR_APPLY_SKIN: Re-apply the skin for target user.
+HELP_SR_CreateCustom: Name & create a custom skin
+SKINURL_DISALLOWED: '&4Error&8: &cThis domain has not been allowed by the administrator.'
+SUCCESS_CREATE_SKIN: '&2Skin %skin has been created!'

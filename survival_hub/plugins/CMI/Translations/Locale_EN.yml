@@ -576,6 +576,8 @@ info:
     - FireAspect
     channeling:
     - Channeling
+    glowing:
+    - Glowing
     sweeping_edge:
     - SweepingEdge
     thorns:

@@ -23,13 +23,15 @@ Config:
       Boards:
         Board1:
           Title:
-            - '&bHUB'
+            - '&4NetherCraft &2Project'
           Lines:
-            - '&4╤═══════════╤'
+            - '&0╤═══════════╤'
             - ' &7• Имя: &f%playername%'
+            - ' &7• Привилегия: Тест'
+            - '%blank%'
             - ' &7• Деньги: &f%money%'
             - '%blank%'
             - ' &7• Онлайн: %javascript_survivalsum%'
             - '%blank%'
-            - '&4╧═══════════╧'
+            - '&0╧═══════════╧'
 Version: 8

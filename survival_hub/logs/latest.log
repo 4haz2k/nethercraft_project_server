@@ -1,462 +1,413 @@
-[19:25:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:25:17] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[19:25:18] [Worker-Main-8/INFO]: Loaded 7 recipes
-[19:25:18] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[19:25:18] [Server thread/INFO]: Loading properties
-[19:25:19] [Server thread/INFO]: This server is running Paper version git-Paper-593 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[19:25:19] [Server thread/INFO]: Debug logging is disabled
-[19:25:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:25:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:25:19] [Server thread/INFO]: Default game type: SURVIVAL
-[19:25:19] [Server thread/INFO]: Generating keypair
-[19:25:19] [Server thread/INFO]: Starting Minecraft server on 25.63.182.29:25565
-[19:25:19] [Server thread/INFO]: Using default channel type
-[19:25:20] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:25:22] [Server thread/WARN]: Legacy plugin PlaytimePlus v2.2.1 does not specify an api-version.
-[19:25:22] [Server thread/WARN]: Legacy plugin ZNPCS v1.1 does not specify an api-version.
-[19:25:23] [Server thread/INFO]: [SAML] Loading SAML v2.0.0
-[19:25:23] [Server thread/INFO]: [PlaytimePlus] Loading PlaytimePlus v2.2.1
-[19:25:23] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.6
-[19:25:23] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.0.2
-[19:25:23] [Server thread/INFO]: [ZNPCS] Loading ZNPCS v1.1
-[19:25:23] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.1
-[19:25:23] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.1 is now loaded, injecting!
-[19:25:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[19:25:23] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[19:25:23] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[19:25:23] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[19:25:23] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[19:25:23] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[19:25:23] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[19:25:23] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
-[19:25:23] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
-[19:25:23] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.16.5) has not yet been tested! Proceed with caution.
-[19:25:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:25:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.4+5723-e3bfc64
-[19:25:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@734ef8a8]
-[19:25:24] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.16-RELEASE
-[19:25:24] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
-[19:25:24] [Server thread/INFO]: [TAB] Loading TAB v2.8.10
-[19:25:24] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
-[19:25:24] [Server thread/INFO]: [RealScoreboard] Loading RealScoreboard v11-4-2021 Build 1
-[19:25:24] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
-[19:25:24] [Server thread/INFO]: [CMI] Loading CMI v8.8.3.2
-[19:25:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:25:24] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:25:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:25:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:25:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
-[19:25:24] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:25:24] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:25:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
-[19:25:24] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
-[19:25:24] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
-[19:25:24] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
-[19:25:24] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
-[19:25:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
-[19:25:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
-[19:25:24] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[19:25:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.4+5723-e3bfc64
-[19:25:24] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[19:25:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[19:25:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:25:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:25:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:25:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:25:25] [Server thread/INFO]: Preparing level "world"
-[19:25:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:25:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:25:26] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[19:25:26] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:26] [Server thread/INFO]: Time elapsed: 419 ms
-[19:25:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:25:26] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[19:25:26] [Server thread/INFO]: Preparing spawn area: 0%
-[19:25:26] [Server thread/INFO]: Time elapsed: 124 ms
-[19:25:26] [Server thread/INFO]: [SAML] Enabling SAML v2.0.0
-[19:25:26] [Server thread/INFO]: [SAML] Loading config.yml...
-[19:25:26] [Server thread/INFO]: [SAML] Successfully loaded config.yml.
-[19:25:26] [Server thread/INFO]: [SAML] Loading custom_groups.yml...
-[19:25:26] [Server thread/INFO]: [SAML] Successfully loaded custom_groups.yml.
-[19:25:26] [Server thread/INFO]: [SAML] Loading nerfer_goals.yml...
-[19:25:26] [Server thread/INFO]: [SAML] Successfully loaded nerfer_goals.yml.
-[19:25:26] [Server thread/INFO]: [SAML] Loading messages.yml...
-[19:25:26] [Server thread/INFO]: [SAML] Successfully loaded messages.yml.
-[19:25:27] [Server thread/INFO]: [SAML] Successfully enabled.
-[19:25:27] [Server thread/INFO]: [PlaytimePlus] Enabling PlaytimePlus v2.2.1*
-[19:25:27] [Server thread/INFO]: [Playtime] PlaytimePlus by ForcyCode
-[19:25:27] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.6
-[19:25:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:25:27] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.0.2
-[19:25:27] [Server thread/INFO]: [ZNPCS] Enabling ZNPCS v1.1*
-[19:25:27] [Server thread/WARN]: [ZNPCS] Could not save data.yml to plugins\ZNPCS\data.yml because data.yml already exists.
-[19:25:27] [Server thread/WARN]: [ZNPCS] Could not save messages.yml to plugins\ZNPCS\messages.yml because messages.yml already exists.
-[19:25:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.1
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.16-RELEASE
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Loading the config.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Successfully loaded config.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Loading the Data.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Data.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Loading the Messages.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Messages.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Loading the Test-File.yml
-[19:25:27] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Test-File.yml
-[19:25:27] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
-[19:25:27] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
-[19:25:27] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
-[19:25:27] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[19:25:27] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
-[19:25:27] [Server thread/INFO]: [TAB] Enabling TAB v2.8.10
-[19:25:27] [Server thread/INFO]: [TAB] Server version: 1.16.5 (v1_16_R3)
-[19:25:27] [Server thread/INFO]: [TAB] Enabled in 88ms
-[19:25:27] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
-[19:25:27] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
-[19:25:27] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v11-4-2021 Build 1
-[19:25:27] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 11-4-2021 Build 1 -------------------
-[19:25:27] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] creating table 'playerdata'
-[19:25:27] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `playerdata` (`uuid` VARCHAR NOT NULL , `scoreboard_on` BOOLEAN , PRIMARY KEY (`uuid`) ) 
-[19:25:27] [Server thread/INFO]: [RealScoreboard] Your config version is: 8
-[19:25:27] [Server thread/INFO]: [RealScoreboard] Your config file is updated to the latest version.
-[19:25:27] [Server thread/INFO]: [RealScoreboard] Finished loading RealScoreboard.
-[19:25:27] [Server thread/INFO]: [RealScoreboard] Server version: v1_16_R3 | Plugin Version: 11-4-2021 Build 1
-[19:25:27] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 11-4-2021 Build 1 -------------------
-[19:25:27] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[19:25:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[19:25:27] [Server thread/INFO]: [WorldGuard] Loading region data...
-[19:25:27] [Server thread/INFO]: [CMI] Enabling CMI v8.8.3.2
-[19:25:29] [Server thread/INFO]: ????? ?????? ????
-[19:25:29] [Server thread/INFO]: ????? ? ?? ? ????
-[19:25:29] [Server thread/INFO]: ?? ?? ??????  ?? 
-[19:25:29] [Server thread/INFO]: ?? ?? ??????  ?? 
-[19:25:29] [Server thread/INFO]: ????? ?????? ????
-[19:25:29] [Server thread/INFO]: ????? ?????? ????
-[19:25:29] [Server thread/INFO]: _______________________________________________________
-[19:25:29] [Server thread/INFO]:   Integrating PaperSpigot async methods
-[19:25:29] [Server thread/INFO]:   55 Enabled and 0 Disabled modules
-[19:25:29] [Server thread/INFO]:   Permission plugin: Vault
-[19:25:29] [Server thread/INFO]:   Initialized Cipher128 AES
-[19:25:30] [Server thread/INFO]:   Loaded (54) regular alias into memory. Took 43ms
-[19:25:30] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
-[19:25:30] [Server thread/INFO]:   3.34.0 data base type detected
-[19:25:30] [Server thread/INFO]:   Started SqLite data base. Took 171ms
-[19:25:30] [Server thread/INFO]: [CMI] Vault was found but economy engine is missing. Use one from list provided in https://dev.bukkit.org/bukkit-plugins/vault/
-[19:25:30] [Server thread/INFO]:   Vault was found but not economy plugin, you will have limited economy support
-[19:25:30] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
-[19:25:30] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
-[19:25:30] [Server thread/INFO]:   Loaded (131) custom mob heads into memory. Took 12ms
-[19:25:30] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 20ms
-[19:25:30] [Server thread/INFO]:   Random teleport location is out of minimal world border X coordinate bounds for world world. Please update values.
-[19:25:30] [Server thread/INFO]:   Random teleport location is out of maximal world border X coordinate bounds for world world. Please update values.
-[19:25:30] [Server thread/INFO]:   Random teleport location is out of minimal world border Z coordinate bounds for world world. Please update values.
-[19:25:30] [Server thread/INFO]:   Random teleport location is out of maximal world border Z coordinate bounds for world world. Please update values.
-[19:25:30] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (world_nether) name
-[19:25:30] [Server thread/INFO]:   Initializing BungeeCord
-[19:25:30] [Server thread/INFO]:   Loaded (5) kits into memory. Took 15ms
-[19:25:30] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 11ms
-[19:25:30] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 2ms
-[19:25:30] [Server thread/INFO]:   Loaded (1) player data into memory. Took 6ms
-[19:25:30] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
-[19:25:30] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
-[19:25:30] [Server thread/INFO]:   Registered events. Took 450ms
-[19:25:30] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
-[19:25:31] [Server thread/INFO]:   Updated (EN) language file. Took 107ms
-[19:25:31] [Server thread/INFO]:   Updated (RU) language file. Took 94ms
-[19:25:31] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 16ms
-[19:25:31] [Server thread/INFO]:   PlaceholderAPI hooked.
-[19:25:31] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
-[19:25:31] [Server thread/INFO]:   Starting world timer.
-[19:25:31] [Server thread/INFO]:   Initializing world manager.
-[19:25:31] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 8ms
-[19:25:31] [Server thread/INFO]:   Loaded GeoIP
-[19:25:31] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
-[19:25:31] [Server thread/INFO]:   Version 8.8.3.2 has been enabled
-[19:25:31] [Server thread/INFO]: ???????????????????????????????????????????????????????
-[19:25:31] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[19:25:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:25:31] [Server thread/INFO]: Running delayed init tasks
-[19:25:31] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
-[19:25:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
-[19:25:31] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[19:25:31] [Server thread/INFO]: Done (12.598s)! For help, type "help"
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_45
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[19:25:31] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[19:25:31] [Server thread/INFO]: Timings Reset
-[19:25:31] [Craft Scheduler Thread - 3/INFO]: [PlaceholderAPI] 183 placeholder expansions are available on the cloud.
-[19:25:31] [Craft Scheduler Thread - 3/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
-[19:25:31] [Craft Scheduler Thread - 11/INFO]: [RealScoreboard] The plugin is updated to the latest version.
-[19:25:31] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.9) is available at:
-[19:25:31] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[19:25:32] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
-[19:26:42] [User Authenticator #1/INFO]: UUID of player ExoManic is b5e20ef4-e04f-3988-9cbd-890969bf6aa4
-[19:26:42] [pool-18-thread-6/WARN]: [TAB] Loaded class us.myles.ViaVersion.api.Via from ViaVersion v3.2.1 which is not a depend, softdepend or loadbefore of this plugin.
-[19:26:42] [Server thread/INFO]: ExoManic joined the game
-[19:26:43] [Server thread/INFO]: ExoManic[/25.63.182.29:53837] logged in with entity id 92 at ([world]614.7952753974671, 24.5, 115.09197998138066)
-[19:27:03] [Server thread/INFO]: ExoManic issued server command: /papi ecloud download Javascript
-[19:27:03] [Server thread/INFO]: [PlaceholderAPI] Attempting download of expansion: Javascript by user: ExoManic from url: http://api.extendedclip.com/media/PAPI-Expansion-Javascript_AHXYK7s.jar
-[19:27:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:27:03] [Craft Scheduler Thread - 8/INFO]: [PlaceholderAPI] 183 placeholder expansions are available on the cloud.
-[19:27:03] [Craft Scheduler Thread - 8/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
-[19:27:03] [Craft Scheduler Thread - 12/INFO]: [PlaceholderAPI] Download of expansion: Javascript complete!
-[19:27:07] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:27:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:27:08] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Creating directory: plugins\PlaceholderAPI\javascripts
-[19:27:08] [Server thread/INFO]: [PAPI] [Javascript-Expansion] example.js does not exist. Creating one for you...
-[19:27:08] [Server thread/INFO]: [PAPI] [Javascript-Expansion] example.js created! Add your javascript to this file and use '/jsexpansion reload' to load it!
-[19:27:08] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 0 script loaded!
-[19:27:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:27:22] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:27:36] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:27:52] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:29:59] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:33:23] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:33:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:33:23] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
-[19:33:23] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
-[19:33:23] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
-[19:33:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:33:49] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:33:49] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:49] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:49] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:50] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:50] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:50] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:50] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:51] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:51] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:51] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:51] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:52] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:52] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:52] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:52] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:53] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:53] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:53] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:53] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:54] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:54] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:54] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:54] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:55] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:55] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:55] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:55] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:56] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:56] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:56] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:56] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:57] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:57] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:57] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:57] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:58] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:58] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:58] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:58] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:59] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:59] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:59] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:33:59] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:00] [Craft Scheduler Thread - 2/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:00] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:00] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:00] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:01] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:01] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:01] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:01] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:02] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:02] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:02] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:02] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:03] [Craft Scheduler Thread - 13/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:03] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:03] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:03] [Craft Scheduler Thread - 6/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:04] [Craft Scheduler Thread - 12/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:04] [Craft Scheduler Thread - 8/ERROR]: [PAPI] [Javascript-Expansion] An error occurred while executing the script 'survivalsum':
-	ReferenceError: "suvival_sum" is not defined in <eval> at line number 4
-[19:34:04] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:34:57] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:34:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:34:57] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
-[19:34:57] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
-[19:34:57] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
-[19:34:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:34:58] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:35:42] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:36:11] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:36:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:36:11] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
-[19:36:11] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
-[19:36:11] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
-[19:36:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:36:13] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:39:27] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:39:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:39:27] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
-[19:39:27] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
-[19:39:27] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
-[19:39:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:39:32] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:40:08] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:40:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:40:08] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
-[19:40:08] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
-[19:40:08] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
-[19:40:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:42:11] [Server thread/INFO]: ExoManic issued server command: /papi reload
-[19:42:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
-[19:42:11] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
-[19:42:11] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
-[19:42:11] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
-[19:42:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
-[19:42:59] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:44:05] [Server thread/INFO]: ExoManic issued server command: /realscoreboard reload
-[19:46:10] [Server thread/INFO]: ExoManic issued server command: /cmi rules
-[19:46:12] [Server thread/INFO]: ExoManic issued server command: /rules
-[19:46:16] [Server thread/INFO]: ExoManic issued server command: /cmi rule
-[19:46:33] [Server thread/INFO]: ExoManic issued server command: /cmi
-[19:46:38] [Server thread/INFO]: ExoManic issued server command: /cmi ? 2
-[19:46:39] [Server thread/INFO]: ExoManic issued server command: /cmi ? 3
-[19:46:41] [Server thread/INFO]: ExoManic issued server command: /cmi ? 4
-[19:46:49] [Server thread/INFO]: ExoManic issued server command: /cmi ? 5
-[19:46:53] [Server thread/INFO]: ExoManic issued server command: /cmi ? 6
-[19:47:03] [Server thread/INFO]: ExoManic issued server command: /cmi ? 7
-[19:47:16] [Server thread/INFO]: ExoManic issued server command: /cmi ? 8
-[19:47:20] [Server thread/INFO]: ExoManic issued server command: /cmi ? 9
-[19:47:45] [Server thread/INFO]: ExoManic issued server command: /cmi ? 10
-[19:47:47] [Server thread/INFO]: ExoManic issued server command: /cmi ? 11
-[19:48:10] [Server thread/INFO]: ExoManic issued server command: /cmi ? 12
-[19:48:13] [Server thread/INFO]: ExoManic issued server command: /cmi ? 13
-[19:48:31] [Server thread/INFO]: ExoManic issued server command: /cmi ? 14
-[19:48:39] [Server thread/INFO]: ExoManic issued server command: /cmi ? 15
-[19:49:29] [Server thread/INFO]: ExoManic issued server command: /cmi ? 16
-[19:49:32] [Server thread/INFO]: ExoManic issued server command: /cmi ? 17
-[19:49:37] [Server thread/INFO]: ExoManic issued server command: /cmi ? 18
-[19:49:44] [Server thread/INFO]: ExoManic issued server command: /cmi ? 19
-[19:49:50] [Server thread/INFO]: ExoManic issued server command: /cmi ? 20
-[19:51:25] [Server thread/INFO]: Stopping the server
-[19:51:25] [Server thread/INFO]: Stopping server
-[19:51:25] [Server thread/INFO]: [CMI] Disabling CMI v8.8.3.2
-[19:51:25] [Server thread/INFO]: [CMI] Closed db connections
-[19:51:25] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
-[19:51:25] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[19:51:25] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v11-4-2021 Build 1
-[19:51:25] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.6
-[19:51:25] [Server thread/INFO]: [TAB] Disabling TAB v2.8.10
-[19:51:25] [Server thread/INFO]: [TAB] Disabled in 1ms
-[19:51:25] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.3-Release
-[19:51:25] [Server thread/INFO]: [CrazyAuctions] Disabling CrazyAuctions v1.2.16-RELEASE
-[19:51:25] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.4+5723-e3bfc64
-[19:51:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[19:51:25] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1
-[19:51:25] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
-[19:51:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[19:51:25] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.1
-[19:51:25] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[19:51:25] [Server thread/INFO]: [ZNPCS] Disabling ZNPCS v1.1
-[19:51:25] [Server thread/INFO]: [CMILib] Disabling CMILib v1.0.0.2
-[19:51:25] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.6
-[19:51:25] [ForkJoinPool.commonPool-worker-2/INFO]: Saving 0 npcs...
-[19:51:25] [Server thread/INFO]: [PlaytimePlus] Disabling PlaytimePlus v2.2.1
-[19:51:25] [ForkJoinPool.commonPool-worker-2/INFO]: (Saved 0npcs in 3ms)
-[19:51:25] [Server thread/INFO]: [SAML] Disabling SAML v2.0.0
-[19:51:25] [Server thread/INFO]: [SAML] The frozen chunk cache file has been deleted. All chunks should have been accounted for.
-[19:51:25] [Server thread/INFO]: [SAML] Successfully disabled.
-[19:51:25] [Server thread/INFO]: Saving players
-[19:51:25] [Server thread/INFO]: ExoManic lost connection: Server closed
-[19:51:25] [Server thread/INFO]: ExoManic left the game
-[19:51:25] [Server thread/INFO]: Saving worlds
-[19:51:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:51:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:51:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:51:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:51:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:51:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:51:26] [Server thread/INFO]: Flushing Chunk IO
-[19:51:26] [Server thread/INFO]: Closing Thread Pool
-[19:51:26] [Server thread/INFO]: Closing Server
+[16:00:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:00:22] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[16:00:22] [Worker-Main-5/INFO]: Loaded 7 recipes
+[16:00:23] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:00:23] [Server thread/INFO]: Loading properties
+[16:00:23] [Server thread/INFO]: This server is running Paper version git-Paper-593 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[16:00:23] [Server thread/INFO]: Debug logging is disabled
+[16:00:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:00:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:00:23] [Server thread/INFO]: Default game type: SURVIVAL
+[16:00:23] [Server thread/INFO]: Generating keypair
+[16:00:23] [Server thread/INFO]: Starting Minecraft server on 25.63.182.29:25565
+[16:00:23] [Server thread/INFO]: Using default channel type
+[16:00:24] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:00:27] [Server thread/WARN]: Legacy plugin PlaytimePlus v2.2.1 does not specify an api-version.
+[16:00:27] [Server thread/WARN]: Legacy plugin ZNPCS v1.1 does not specify an api-version.
+[16:00:27] [Server thread/INFO]: [SAML] Loading SAML v2.0.0
+[16:00:27] [Server thread/INFO]: [PlaytimePlus] Loading PlaytimePlus v2.2.1
+[16:00:27] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.6
+[16:00:27] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[16:00:27] [Server thread/INFO]: [CMILib] Loading CMILib v1.0.0.2
+[16:00:27] [Server thread/INFO]: [ZNPCS] Loading ZNPCS v1.1
+[16:00:27] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.1
+[16:00:27] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.1 is now loaded, injecting!
+[16:00:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[16:00:28] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[16:00:28] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[16:00:28] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[16:00:28] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[16:00:28] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[16:00:28] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:00:28] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[16:00:28] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.2
+[16:00:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.4+5723-e3bfc64
+[16:00:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:00:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@77532014]
+[16:00:28] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[16:00:28] [Server thread/INFO]: [RealScoreboard] Loading RealScoreboard v11-4-2021 Build 1
+[16:00:28] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[16:00:28] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.16.5) has not yet been tested! Proceed with caution.
+[16:00:29] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
+[16:00:29] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.0.2
+[16:00:29] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.16-RELEASE
+[16:00:29] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[16:00:29] [Server thread/INFO]: [DeathMessages] Loading DeathMessages v1.3.3
+[16:00:29] [Server thread/INFO]: [DeathMessages] WorldGuard v7 found. Enabling Hook.
+[16:00:29] [Server thread/INFO]: [TAB] Loading TAB v2.8.10
+[16:00:29] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.2.1-RELEASE-b678
+[16:00:29] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.2.2a
+[16:00:29] [Server thread/INFO]: [Jobs] Loading Jobs v4.17.1
+[16:00:29] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[16:00:29] [Server thread/INFO]: [CMI] Loading CMI v8.8.3.2
+[16:00:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:00:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:00:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:00:29] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:00:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[16:00:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:00:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:00:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[16:00:29] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[16:00:29] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[16:00:29] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[16:00:29] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[16:00:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[16:00:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.4+5723-e3bfc64
+[16:00:29] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:00:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[16:00:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[16:00:30] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[16:00:30] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.2.1-RELEASE-b678
+[16:00:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:00:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:00:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:00:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:00:30] [Server thread/INFO]: Preparing level "world"
+[16:00:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:00:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:00:30] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[16:00:30] [Server thread/INFO]: Preparing spawn area: 0%
+[16:00:31] [Server thread/INFO]: Time elapsed: 479 ms
+[16:00:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:00:31] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[16:00:31] [Server thread/INFO]: Preparing spawn area: 0%
+[16:00:31] [Server thread/INFO]: Time elapsed: 272 ms
+[16:00:31] [Server thread/INFO]: [SAML] Enabling SAML v2.0.0
+[16:00:31] [Server thread/INFO]: [SAML] Loading config.yml...
+[16:00:31] [Server thread/INFO]: [SAML] Successfully loaded config.yml.
+[16:00:31] [Server thread/INFO]: [SAML] Loading custom_groups.yml...
+[16:00:31] [Server thread/INFO]: [SAML] Successfully loaded custom_groups.yml.
+[16:00:31] [Server thread/INFO]: [SAML] Loading nerfer_goals.yml...
+[16:00:31] [Server thread/INFO]: [SAML] Successfully loaded nerfer_goals.yml.
+[16:00:31] [Server thread/INFO]: [SAML] Loading messages.yml...
+[16:00:31] [Server thread/INFO]: [SAML] Successfully loaded messages.yml.
+[16:00:32] [Server thread/INFO]: [SAML] Successfully enabled.
+[16:00:32] [Server thread/INFO]: [PlaytimePlus] Enabling PlaytimePlus v2.2.1*
+[16:00:32] [Server thread/INFO]: [Playtime] PlaytimePlus by ForcyCode
+[16:00:32] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.6
+[16:00:32] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:00:32] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[16:00:32] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[16:00:32] [Server thread/INFO]: [ClearLag] Loading modules...
+[16:00:32] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[16:00:32] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[16:00:32] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[16:00:32] [Thread-17/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[16:00:32] [Server thread/INFO]: [CMILib] Enabling CMILib v1.0.0.2
+[16:00:32] [Server thread/INFO]: [ZNPCS] Enabling ZNPCS v1.1*
+[16:00:32] [Server thread/WARN]: [ZNPCS] Could not save data.yml to plugins\ZNPCS\data.yml because data.yml already exists.
+[16:00:32] [Server thread/WARN]: [ZNPCS] Could not save messages.yml to plugins\ZNPCS\messages.yml because messages.yml already exists.
+[16:00:32] [Server thread/INFO]: Loading 5 npcs...
+[16:00:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.1
+[16:00:32] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.2
+[16:00:32] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[16:00:32] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[16:00:32] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[16:00:32] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[16:00:32] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[16:00:32] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[16:00:33] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[16:00:33] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v11-4-2021 Build 1
+[16:00:33] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 11-4-2021 Build 1 -------------------
+[16:00:33] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] creating table 'playerdata'
+[16:00:33] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `playerdata` (`uuid` VARCHAR NOT NULL , `scoreboard_on` BOOLEAN , PRIMARY KEY (`uuid`) ) 
+[16:00:33] [Server thread/INFO]: [RealScoreboard] Your config version is: 8
+[16:00:33] [Server thread/INFO]: [RealScoreboard] Your config file is updated to the latest version.
+[16:00:33] [Server thread/INFO]: [RealScoreboard] Finished loading RealScoreboard.
+[16:00:33] [Server thread/INFO]: [RealScoreboard] Server version: v1_16_R3 | Plugin Version: 11-4-2021 Build 1
+[16:00:33] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 11-4-2021 Build 1 -------------------
+[16:00:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:00:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:00:33] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.0.2
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] Unsupported plugin (ViaVersion or ProtocolSupport) detected, forcing OldSkinRefresher
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] [SkinsRestorer] Using SpigotSkinRefresher
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_16_R3, using UniversalSkinFactory.
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] DisableAutoUpdateSkin is missing in config.yml! Using default value.
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] RestrictSkinUrls.Enabled is missing in config.yml! Using default value.
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] DismountPlayerOnSkinUpdate is missing in config.yml! Using default value.
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] RemountPlayerOnSkinUpdate is missing in config.yml! Using default value.
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] DismountPassengersOnSkinUpdate is missing in config.yml! Using default value.
+[16:00:33] [Thread-17/INFO]: [ClearLag] No updates found!
+[16:00:33] [Server thread/INFO]: [SkinsRestorer] Connected to MySQL!
+[16:00:34] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.16-RELEASE
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Loading the config.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded config.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Loading the Data.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Data.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Loading the Messages.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Messages.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Loading the Test-File.yml
+[16:00:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Test-File.yml
+[16:00:36] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[16:00:36] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[16:00:36] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[16:00:36] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[16:00:36] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[16:00:36] [Server thread/INFO]: [DeathMessages] Enabling DeathMessages v1.3.3
+[16:00:36] [Server thread/INFO]: [DeathMessages] PlaceholderAPI found. Enabling Hook.
+[16:00:36] [Server thread/INFO]: [DeathMessages] WorldGuard found. Enabling Hook.
+[16:00:36] [Server thread/INFO]: [TAB] Enabling TAB v2.8.10
+[16:00:36] [Server thread/INFO]: [TAB] Server version: 1.16.5 (v1_16_R3)
+[16:00:36] [Server thread/INFO]: [TAB] Enabled in 44ms
+[16:00:36] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v2.2.2a
+[16:00:36] [Server thread/INFO]: The following materials are allowed to have stacks larger than the vanilla size: POTION 
+[16:00:36] [Server thread/INFO]: [IllegalStack] Chat Components found! Enabling clickable commands in /istack
+[16:00:36] [Server thread/INFO]: [IllegalStack] - CMI was detected on your server, IllegalStack will block the ability to nest shulkers while shift+right clicking a shulker in your inventory!
+[16:00:36] [Server thread/INFO]: [Illegal Stack] - MC Version v1_16_r3 detected!
+[16:00:36] [Server thread/INFO]: [IllegalStack] - Enabling 1.13+ Checks
+[16:00:36] [Server thread/INFO]: ZombieVillagerTransformChance is set to 65 *** Only really matters if the difficulty is set to HARD ***
+[16:00:36] [Server thread/INFO]: [Jobs] Enabling Jobs v4.17.1
+[16:00:37] [pool-7-thread-1/INFO]: (Loaded 5npcs in 5 002ms)
+[16:00:37] [Server thread/INFO]: [Jobs] PlaceholderAPI hooked.
+[16:00:37] [Server thread/WARN]: Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 8 titles!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 67 protected blocks timers!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1098 custom item names!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 72 custom entity names!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 2 custom MythicMobs names!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 38 custom enchant names!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 16 custom color names!
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Miner
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Hunter
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Digger
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Farmer
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Builder
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Explorer
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Brewer
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Weaponsmith
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Woodcutter
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Fisherman
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Enchanter
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 1 quests for Crafter
+[16:00:43] [Server thread/INFO]: [Jobs] Loaded 12 jobs!
+[16:00:44] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Started database save task.
+[16:00:44] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Started buffered payment thread.
+[16:00:44] [Server thread/INFO]: [Jobs] WorldGuard detected.
+[16:00:44] [Server thread/INFO]: [Jobs] Loading explorer data
+[16:00:44] [Server thread/INFO]: [Jobs] Loaded explorer data (12)
+[16:00:44] [Server thread/INFO]: [Jobs] Plugin has been enabled successfully.
+[16:00:44] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[16:00:44] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[16:00:44] [Server thread/INFO]: [CMI] Enabling CMI v8.8.3.2
+[16:00:44] [ForkJoinPool.commonPool-worker-2/INFO]: [Jobs] Preloaded 193 players data in 0.42
+[16:00:45] [Server thread/INFO]: ????? ?????? ????
+[16:00:45] [Server thread/INFO]: ????? ? ?? ? ????
+[16:00:45] [Server thread/INFO]: ?? ?? ??????  ?? 
+[16:00:45] [Server thread/INFO]: ?? ?? ??????  ?? 
+[16:00:45] [Server thread/INFO]: ????? ?????? ????
+[16:00:45] [Server thread/INFO]: ????? ?????? ????
+[16:00:45] [Server thread/INFO]: _______________________________________________________
+[16:00:45] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[16:00:46] [Server thread/INFO]:   55 Enabled and 0 Disabled modules
+[16:00:46] [Server thread/INFO]:   Permission plugin: Vault
+[16:00:46] [Server thread/INFO]:   Initialized Cipher256 AES
+[16:00:46] [Server thread/INFO]:   Loaded (54) regular alias into memory. Took 27ms
+[16:00:46] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[16:00:46] [Server thread/INFO]:   3.34.0 data base type detected
+[16:00:46] [Server thread/INFO]:   Started SqLite data base. Took 154ms
+[16:00:46] [Server thread/INFO]: [CMI] Vault was found but economy engine is missing. Use one from list provided in https://dev.bukkit.org/bukkit-plugins/vault/
+[16:00:46] [Server thread/INFO]:   Vault was found but not economy plugin, you will have limited economy support
+[16:00:46] [Server thread/INFO]:   Loaded (1) holograms into memory. Took 23ms
+[16:00:46] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[16:00:46] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[16:00:47] [Server thread/INFO]:   Loaded (131) custom mob heads into memory. Took 10ms
+[16:00:47] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 17ms
+[16:00:47] [Server thread/INFO]:   Random teleport location is out of minimal world border X coordinate bounds for world world. Please update values.
+[16:00:47] [Server thread/INFO]:   Random teleport location is out of maximal world border X coordinate bounds for world world. Please update values.
+[16:00:47] [Server thread/INFO]:   Random teleport location is out of minimal world border Z coordinate bounds for world world. Please update values.
+[16:00:47] [Server thread/INFO]:   Random teleport location is out of maximal world border Z coordinate bounds for world world. Please update values.
+[16:00:47] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (world_nether) name
+[16:00:47] [Server thread/INFO]:   Initializing BungeeCord
+[16:00:47] [Server thread/INFO]:   Loaded (5) kits into memory. Took 15ms
+[16:00:47] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 10ms
+[16:00:47] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 2ms
+[16:00:47] [Server thread/INFO]:   Loaded (2) player data into memory. Took 7ms
+[16:00:47] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[16:00:47] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[16:00:47] [Server thread/INFO]:   Registered events. Took 347ms
+[16:00:47] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 4ms
+[16:00:47] [Server thread/INFO]:   Updated (EN) language file. Took 90ms
+[16:00:47] [Server thread/INFO]:   Updated (RU) language file. Took 80ms
+[16:00:47] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 14ms
+[16:00:47] [Server thread/INFO]:   PlaceholderAPI hooked.
+[16:00:47] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
+[16:00:47] [Server thread/INFO]:   Jobs was found - Enabling capabilities.
+[16:00:47] [Server thread/INFO]:   Starting world timer.
+[16:00:47] [Server thread/INFO]:   Initializing world manager.
+[16:00:47] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 6ms
+[16:00:47] [Server thread/INFO]:   Loaded GeoIP
+[16:00:47] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 1ms
+[16:00:47] [Server thread/INFO]:   Version 8.8.3.2 has been enabled
+[16:00:47] [Server thread/INFO]: ???????????????????????????????????????????????????????
+[16:00:47] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:00:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
+[16:00:47] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survivalsum isn't initialized! Defaulting to global
+[16:00:48] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survivalsum% has been loaded
+[16:00:48] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 1 script loaded!
+[16:00:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[16:00:48] [Server thread/INFO]: Running delayed init tasks
+[16:00:48] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
+[16:00:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[16:00:48] [Craft Scheduler Thread - 3/INFO]: [ItemJoin] Hooked into { WorldGuard, PlaceholderAPI, SkinsRestorer }
+[16:00:48] [Craft Scheduler Thread - 3/INFO]: [ItemJoin] 0 Custom item(s) loaded!
+[16:00:48] [Craft Scheduler Thread - 3/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[16:00:48] [Craft Scheduler Thread - 3/WARN]: [ItemJoin] Loaded class me.leoko.advancedban.shaded.org.hsqldb.jdbc.JDBCDriver from AdvancedBan v2.3.0 which is not a depend, softdepend or loadbefore of this plugin.
+[16:00:48] [Craft Scheduler Thread - 3/WARN]: [ItemJoin] Loaded class com.Zrips.CMI.Modules.DataBase.DBDrivers from CMI v8.8.3.2 which is not a depend, softdepend or loadbefore of this plugin.
+[16:00:48] [Craft Scheduler Thread - 3/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[16:00:48] [Server thread/INFO]: [SkinsRestorer] Activating ViaBackwards workaround.
+[16:00:48] [Server thread/ERROR]: [Jobs] ==================== Jobs ====================
+[16:00:48] [Server thread/ERROR]: [Jobs] Vault is required by this plugin for economy support!
+[16:00:48] [Server thread/ERROR]: [Jobs] Please install them first!
+[16:00:48] [Server thread/ERROR]: [Jobs] You can find the latest versions here:
+[16:00:48] [Server thread/ERROR]: [Jobs] https://www.spigotmc.org/resources/vault.34315/
+[16:00:48] [Server thread/ERROR]: [Jobs] ==============================================
+[16:00:48] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:00:48] [Server thread/INFO]: Done (24.736s)! For help, type "help"
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_291
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[16:00:48] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[16:00:48] [Server thread/INFO]: Timings Reset
+[16:00:48] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.9) is available at:
+[16:00:48] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[16:00:48] [Craft Scheduler Thread - 10/INFO]: [RealScoreboard] The plugin is updated to the latest version.
+[16:00:48] [Server thread/WARN]: [ItemJoin_WARN] {Config} There are no items detected in the items.yml.
+[16:00:48] [Server thread/WARN]: [ItemJoin_WARN] {Config} Try adding an item to the items section in the items.yml.
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     +===============+
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     |---------------|
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     |  Bukkit only  |
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     +===============+
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     Current version: 14.0.2
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer]     This is the latest version!
+[16:00:48] [Craft Scheduler Thread - 12/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:00:48] [Craft Scheduler Thread - 4/INFO]: [PlaceholderAPI] 185 placeholder expansions are available on the cloud.
+[16:00:48] [Craft Scheduler Thread - 4/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
+[16:00:48] [Craft Scheduler Thread - 1/INFO]: [ItemJoin] You are up to date!
+[16:00:48] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
+[16:00:52] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[16:00:52] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[16:03:58] [User Authenticator #1/INFO]: UUID of player ExoManic is b5e20ef4-e04f-3988-9cbd-890969bf6aa4
+[16:03:59] [pool-34-thread-6/WARN]: [TAB] Loaded class us.myles.ViaVersion.api.Via from ViaVersion v3.2.1 which is not a depend, softdepend or loadbefore of this plugin.
+[16:03:59] [Server thread/INFO]: ExoManic[/25.63.182.29:60757] logged in with entity id 105 at ([world]595.0127377205883, 29.0, 95.57382515682322)
+[16:11:41] [Server thread/INFO]: ExoManic lost connection: Disconnected
+[16:11:41] [Server thread/INFO]: ExoManic left the game
+[16:18:15] [Server thread/INFO]: Stopping the server
+[16:18:15] [Server thread/INFO]: Stopping server
+[16:18:15] [Server thread/INFO]: [CMI] Disabling CMI v8.8.3.2
+[16:18:15] [Server thread/INFO]: [CMI] Closed db connections
+[16:18:15] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.6
+[16:18:15] [Server thread/INFO]: [Jobs] Disabling Jobs v4.17.1
+[16:18:16] [Server thread/INFO]: [Jobs] Saved 11 new explorer entries.
+[16:18:16] [Jobs-DatabaseSaveTask/INFO]: [Jobs] Database save task shutdown!
+[16:18:16] [Jobs-BufferedPaymentThread/INFO]: [Jobs] Buffered payment thread shutdown.
+[16:18:16] [Server thread/INFO]: [Jobs] Plugin has been disabled successfully.
+[16:18:16] [Server thread/INFO]: [IllegalStack] Disabling IllegalStack v2.2.2a
+[16:18:16] [Server thread/INFO]: [ItemJoin] Disabling ItemJoin v5.2.1-RELEASE-b678
+[16:18:16] [Server thread/INFO]: [TAB] Disabling TAB v2.8.10
+[16:18:16] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:18:16] [Server thread/INFO]: [DeathMessages] Disabling DeathMessages v1.3.3
+[16:18:16] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.3-Release
+[16:18:16] [Server thread/INFO]: [CrazyAuctions] Disabling CrazyAuctions v1.2.16-RELEASE
+[16:18:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.0.2
+[16:18:16] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
+[16:18:16] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:18:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1
+[16:18:16] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v11-4-2021 Build 1
+[16:18:16] [Server thread/INFO]: [AdvancedBan] Disabling AdvancedBan v2.3.0
+[16:18:16] [Server thread/INFO]: [hsqldb.db.HSQLDB797F642AEF.ENGINE] Database closed
+[16:18:16] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[16:18:16] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[16:18:16] [Server thread/INFO]: 
+ 
+[]=====[Disabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+[]================================[]
+ 
+[16:18:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.4+5723-e3bfc64
+[16:18:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:18:16] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.2
+[16:18:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
+[16:18:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:18:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.1
+[16:18:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:18:16] [Server thread/INFO]: [ZNPCS] Disabling ZNPCS v1.1
+[16:18:16] [Server thread/INFO]: [CMILib] Disabling CMILib v1.0.0.2
+[16:18:16] [ForkJoinPool.commonPool-worker-6/INFO]: Saving 5 npcs...
+[16:18:16] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[16:18:16] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[16:18:16] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.6
+[16:18:16] [Server thread/INFO]: [PlaytimePlus] Disabling PlaytimePlus v2.2.1
+[16:18:16] [Server thread/INFO]: [SAML] Disabling SAML v2.0.0
+[16:18:16] [ForkJoinPool.commonPool-worker-6/INFO]: (Saved 5npcs in 3ms)
+[16:18:16] [Server thread/INFO]: [SAML] The frozen chunk cache file has been deleted. All chunks should have been accounted for.
+[16:18:16] [Server thread/INFO]: [SAML] Successfully disabled.
+[16:18:16] [Server thread/INFO]: Saving players
+[16:18:16] [Server thread/INFO]: Saving worlds
+[16:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:18:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:18:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:18:16] [Server thread/INFO]: Flushing Chunk IO
+[16:18:16] [Server thread/INFO]: Closing Thread Pool
+[16:18:16] [Server thread/INFO]: Closing Server

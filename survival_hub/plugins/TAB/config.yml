@@ -21,6 +21,10 @@ footer:
   - "%animation:time%"
   - ""
   - "&7------&8-------&0-------[ &4&oNether&2&oСraft.fun &0]-------&8-------&7------"
+  - ""
+  - "&7Наш сайт: &6www.NetherCraft.fun"
+  - "&7Наш дискорд: &6discord.gg/C9eEMHam6N"
+  - "&7Наша группа ВК: &6vk.com/nethercraft_project"
 
 #supports any numeric placeholder, set to "" to disable the feature
 yellow-number-in-tablist: "%ping%"
