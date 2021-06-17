@@ -1,3 +1,4 @@
+prevent_proxy_connections: false
 listeners:
 - query_port: 25570
   motd: '&1Another Bungee server'
@@ -9,6 +10,8 @@ listeners:
   ping_passthrough: false
   priorities:
   - hub
+  - survival_hub
+  - anarchyserver1
   bind_local_address: true
   host: 25.84.122.64:25565
   max_players: 1
@@ -29,7 +32,6 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: 0fd4d778-93a8-4bf7-af9a-ff764607ce6a
 player_limit: -1
 ip_forward: false
 groups:
@@ -38,7 +40,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 0fd4d778-93a8-4bf7-af9a-ff764607ce6a
 online_mode: false
 forge_support: false
 disabled_commands:
@@ -51,4 +53,8 @@ servers:
   survival_hub:
     motd: NetherCraft_Hub_Survival
     address: 25.84.122.64:25566
+    restricted: false
+  anarchyserver1:
+    motd: anarchy_server1
+    address: 25.84.122.64:25576
     restricted: false

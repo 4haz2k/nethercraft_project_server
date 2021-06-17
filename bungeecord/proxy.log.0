@@ -175,3 +175,334 @@ java.net.BindException: Address already in use: bind
 00:58:55 [INFO] Disabling plugins
 00:58:55 [INFO] Closing IO threads
 00:58:57 [INFO] Thank you and goodbye
+13:08:23 [INFO] Using standard Java JCE cipher.
+13:08:23 [INFO] Using standard Java compressor.
+13:08:23 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+13:08:23 [INFO] [BotFilter] Проверяю наличее обновлений
+13:08:24 [INFO] §c[BotFilter] §aНайдена новая версия!
+13:08:24 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+13:08:24 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+13:08:27 [INFO] [BotFilter] Генерирую капчу [0/900]
+13:08:28 [INFO] [BotFilter] Генерирую капчу [113/900]
+13:08:29 [INFO] [BotFilter] Генерирую капчу [335/900]
+13:08:30 [INFO] [BotFilter] Генерирую капчу [580/900]
+13:08:31 [INFO] [BotFilter] Генерирую капчу [832/900]
+13:08:32 [INFO] [BotFilter] Капча сгенерированна за 5 088 мс
+13:08:32 [INFO] [BotFilter] Подключаюсь к датабазе...
+13:08:32 [INFO] [BotFilter] Подключено (107 мс)
+13:08:33 [INFO] [BotFilter] Очищено 1 аккаунтов
+13:08:33 [INFO] [BotFilter] Белый список игроков успешно загружен (0)
+13:08:33 [INFO] Couldn't detect bungee version. Custom build?
+13:08:33 [WARNING] Forced host server pvp is not defined
+13:08:33 [INFO] Listening on /25.84.122.64:25565
+13:11:42 [INFO] Closing listener [id: 0x91bab198, L:/25.84.122.64:25565]
+13:11:42 [INFO] Closing pending connections
+13:11:42 [INFO] Disconnecting 0 connections
+13:11:43 [INFO] Disabling plugins
+13:11:43 [INFO] Closing IO threads
+13:11:45 [INFO] Thank you and goodbye
+11:20:08 [INFO] Using standard Java JCE cipher.
+11:20:08 [INFO] Using standard Java compressor.
+11:20:08 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+11:20:08 [INFO] [BotFilter] Проверяю наличее обновлений
+11:20:09 [INFO] §c[BotFilter] §aНайдена новая версия!
+11:20:09 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+11:20:09 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+11:20:12 [INFO] [BotFilter] Генерирую капчу [0/900]
+11:20:13 [INFO] [BotFilter] Генерирую капчу [106/900]
+11:20:15 [INFO] [BotFilter] Генерирую капчу [332/900]
+11:20:16 [INFO] [BotFilter] Генерирую капчу [591/900]
+11:20:17 [INFO] [BotFilter] Генерирую капчу [794/900]
+11:20:18 [INFO] [BotFilter] Капча сгенерированна за 5 192 мс
+11:20:18 [INFO] [BotFilter] Подключаюсь к датабазе...
+11:20:18 [INFO] [BotFilter] Подключено (104 мс)
+11:20:18 [INFO] [BotFilter] Очищено 0 аккаунтов
+11:20:18 [INFO] [BotFilter] Белый список игроков успешно загружен (0)
+11:20:18 [INFO] Couldn't detect bungee version. Custom build?
+11:20:18 [WARNING] Forced host server pvp is not defined
+11:20:18 [INFO] Listening on /25.84.122.64:25565
+11:29:30 [INFO] [/25.84.122.64:59746] <-> InitialHandler has pinged
+11:29:30 [INFO] [/25.84.122.64:59747] <-> InitialHandler has pinged
+11:29:33 [INFO] [/25.84.122.64:59748] <-> InitialHandler has connected
+11:29:33 [INFO] [BotFilter] Maximum packet size: 2097152
+11:29:33 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+11:29:33 [INFO] [Zytia|25.84.122.64] <-> BotFilter has connected
+11:29:38 [INFO] [BotFilter] Игрок (Zytia|25.84.122.64) успешно прошёл проверку
+11:29:40 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+11:29:40 [INFO] [Zytia] -> UpstreamBridge has disconnected
+11:30:31 [INFO] §cКоманда не найдена :(
+11:30:32 [INFO] Closing listener [id: 0xef0cbb93, L:/25.84.122.64:25565]
+11:30:32 [INFO] Closing pending connections
+11:30:32 [INFO] Disconnecting 0 connections
+11:30:33 [INFO] Disabling plugins
+11:30:33 [INFO] Closing IO threads
+11:32:11 [INFO] Using standard Java JCE cipher.
+11:32:11 [INFO] Using standard Java compressor.
+11:32:11 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+11:32:11 [INFO] [BotFilter] Проверяю наличее обновлений
+11:32:12 [INFO] §c[BotFilter] §aНайдена новая версия!
+11:32:12 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+11:32:12 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+11:32:15 [INFO] [BotFilter] Генерирую капчу [0/900]
+11:32:16 [INFO] [BotFilter] Генерирую капчу [112/900]
+11:32:17 [INFO] [BotFilter] Генерирую капчу [300/900]
+11:32:18 [INFO] [BotFilter] Генерирую капчу [511/900]
+11:32:19 [INFO] [BotFilter] Генерирую капчу [759/900]
+11:32:20 [INFO] [BotFilter] Капча сгенерированна за 5 113 мс
+11:32:21 [INFO] [BotFilter] Подключаюсь к датабазе...
+11:32:21 [INFO] [BotFilter] Подключено (121 мс)
+11:32:21 [INFO] [BotFilter] Очищено 0 аккаунтов
+11:32:21 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+11:32:21 [INFO] Couldn't detect bungee version. Custom build?
+11:32:21 [WARNING] Forced host server pvp is not defined
+11:32:21 [INFO] Listening on /25.84.122.64:25565
+11:34:38 [INFO] §cКоманда не найдена :(
+11:35:07 [INFO] §cКоманда не найдена :(
+11:35:11 [INFO] §cКоманда не найдена :(
+13:32:22 [INFO] [BotFilter] Очищено 0 аккаунтов
+15:32:22 [INFO] [BotFilter] Очищено 0 аккаунтов
+17:32:23 [INFO] [BotFilter] Очищено 0 аккаунтов
+19:32:24 [INFO] [BotFilter] Очищено 0 аккаунтов
+21:32:25 [INFO] [BotFilter] Очищено 0 аккаунтов
+23:32:25 [INFO] [BotFilter] Очищено 0 аккаунтов
+23:35:35 [INFO] [/25.84.122.64:62973] <-> InitialHandler has connected
+23:35:35 [INFO] [BotFilter] Maximum packet size: 2097152
+23:35:35 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+23:35:37 [INFO] [Zytia] disconnected with: §cНе удалось подключить Вас к основному или запасному серверу, повторите попытку чуть позже : io.netty.channel.AbstractChannel$AnnotatedConnectException
+23:35:37 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:40:47 [INFO] Closing listener [id: 0x9a7d6cd3, L:/25.84.122.64:25565]
+23:40:47 [INFO] Closing pending connections
+23:40:47 [INFO] Disconnecting 0 connections
+23:40:47 [INFO] Disabling plugins
+23:40:47 [INFO] Closing IO threads
+21:28:37 [INFO] Using standard Java JCE cipher.
+21:28:37 [INFO] Using standard Java compressor.
+21:28:37 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+21:28:37 [INFO] [BotFilter] Проверяю наличее обновлений
+21:28:38 [INFO] §c[BotFilter] §aНайдена новая версия!
+21:28:38 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+21:28:38 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+21:28:41 [INFO] [BotFilter] Генерирую капчу [0/900]
+21:28:42 [INFO] [BotFilter] Генерирую капчу [0/900]
+21:28:44 [INFO] [BotFilter] Генерирую капчу [71/900]
+21:28:45 [INFO] [BotFilter] Генерирую капчу [147/900]
+21:28:46 [INFO] [BotFilter] Генерирую капчу [245/900]
+21:28:47 [INFO] [BotFilter] Генерирую капчу [329/900]
+21:28:48 [INFO] [BotFilter] Генерирую капчу [405/900]
+21:28:49 [INFO] [BotFilter] Генерирую капчу [479/900]
+21:28:50 [INFO] [BotFilter] Генерирую капчу [601/900]
+21:28:51 [INFO] [BotFilter] Генерирую капчу [692/900]
+21:28:52 [INFO] [BotFilter] Генерирую капчу [778/900]
+21:28:53 [INFO] [BotFilter] Генерирую капчу [846/900]
+21:28:54 [INFO] [BotFilter] Капча сгенерированна за 13 007 мс
+21:28:55 [INFO] [BotFilter] Подключаюсь к датабазе...
+21:28:55 [INFO] [BotFilter] Подключено (299 мс)
+21:28:55 [INFO] [BotFilter] Очищено 0 аккаунтов
+21:28:55 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+21:28:56 [INFO] Couldn't detect bungee version. Custom build?
+21:28:56 [WARNING] Forced host server pvp is not defined
+21:28:56 [INFO] Listening on /25.84.122.64:25565
+21:35:16 [INFO] Closing listener [id: 0xd7f0a693, L:/25.84.122.64:25565]
+21:35:16 [INFO] Closing pending connections
+21:35:16 [INFO] Disconnecting 0 connections
+21:35:16 [INFO] Disabling plugins
+21:35:16 [INFO] Closing IO threads
+21:35:18 [INFO] Thank you and goodbye
+21:35:24 [INFO] Using standard Java JCE cipher.
+21:35:24 [INFO] Using standard Java compressor.
+21:35:24 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+21:35:24 [INFO] [BotFilter] Проверяю наличее обновлений
+21:35:24 [INFO] §c[BotFilter] §aНайдена новая версия!
+21:35:24 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+21:35:24 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+21:35:28 [INFO] [BotFilter] Генерирую капчу [0/900]
+21:35:29 [INFO] [BotFilter] Генерирую капчу [110/900]
+21:35:30 [INFO] [BotFilter] Генерирую капчу [303/900]
+21:35:31 [INFO] [BotFilter] Генерирую капчу [495/900]
+21:35:32 [INFO] [BotFilter] Генерирую капчу [696/900]
+21:35:33 [INFO] [BotFilter] Капча сгенерированна за 5 094 мс
+21:35:33 [INFO] [BotFilter] Подключаюсь к датабазе...
+21:35:33 [INFO] [BotFilter] Подключено (67 мс)
+21:35:33 [INFO] [BotFilter] Очищено 0 аккаунтов
+21:35:33 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+21:35:33 [INFO] Couldn't detect bungee version. Custom build?
+21:35:33 [WARNING] Forced host server pvp is not defined
+21:35:33 [INFO] Listening on /25.84.122.64:25565
+21:36:08 [INFO] Closing listener [id: 0xe1d8ff95, L:/25.84.122.64:25565]
+21:36:08 [INFO] Closing pending connections
+21:36:08 [INFO] Disconnecting 0 connections
+21:36:09 [INFO] Disabling plugins
+21:36:09 [INFO] Closing IO threads
+21:36:11 [INFO] Thank you and goodbye
+21:36:15 [INFO] Using standard Java JCE cipher.
+21:36:15 [INFO] Using standard Java compressor.
+21:36:15 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+21:36:15 [INFO] [BotFilter] Проверяю наличее обновлений
+21:36:16 [INFO] §c[BotFilter] §aНайдена новая версия!
+21:36:16 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+21:36:16 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+21:36:19 [INFO] [BotFilter] Генерирую капчу [0/900]
+21:36:20 [INFO] [BotFilter] Генерирую капчу [121/900]
+21:36:21 [INFO] [BotFilter] Генерирую капчу [332/900]
+21:36:22 [INFO] [BotFilter] Генерирую капчу [564/900]
+21:36:23 [INFO] [BotFilter] Генерирую капчу [808/900]
+21:36:24 [INFO] [BotFilter] Капча сгенерированна за 5 138 мс
+21:36:24 [INFO] [BotFilter] Подключаюсь к датабазе...
+21:36:24 [INFO] [BotFilter] Подключено (62 мс)
+21:36:24 [INFO] [BotFilter] Очищено 0 аккаунтов
+21:36:25 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+21:36:25 [INFO] Couldn't detect bungee version. Custom build?
+21:36:25 [WARNING] Forced host server pvp is not defined
+21:36:25 [INFO] Listening on /25.84.122.64:25565
+21:36:50 [INFO] §cКоманда не найдена :(
+21:36:52 [INFO] §cКоманда не найдена :(
+21:36:56 [INFO] §cКоманда не найдена :(
+21:38:48 [WARNING] Forced host server pvp is not defined
+21:38:48 [INFO] Closing listener [id: 0xb09d27ff, L:/25.84.122.64:25565]
+21:38:48 [INFO] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+21:38:48 [INFO] Listening on /25.84.122.64:25565
+21:39:03 [INFO] [/25.84.122.64:60959] <-> InitialHandler has pinged
+21:39:03 [INFO] [/25.84.122.64:60958] <-> InitialHandler has pinged
+21:39:05 [INFO] [/25.84.122.64:60960] <-> InitialHandler has connected
+21:39:05 [INFO] [BotFilter] Maximum packet size: 2097152
+21:39:05 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+21:39:07 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+22:39:55 [INFO] [Zytia] disconnected with: §fServer closed
+22:39:55 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:39:55 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+22:39:57 [INFO] Closing listener [id: 0xf00c8bcd, L:/25.84.122.64:25565]
+22:39:57 [INFO] Closing pending connections
+22:39:57 [INFO] Disconnecting 0 connections
+22:39:58 [INFO] Disabling plugins
+22:39:58 [INFO] Closing IO threads
+22:40:00 [INFO] Thank you and goodbye
+11:13:03 [INFO] Using standard Java JCE cipher.
+11:13:03 [INFO] Using standard Java compressor.
+11:13:03 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+11:13:03 [INFO] [BotFilter] Проверяю наличее обновлений
+11:13:04 [INFO] §c[BotFilter] §aНайдена новая версия!
+11:13:04 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+11:13:04 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+11:13:07 [INFO] [BotFilter] Генерирую капчу [0/900]
+11:13:08 [INFO] [BotFilter] Генерирую капчу [101/900]
+11:13:09 [INFO] [BotFilter] Генерирую капчу [281/900]
+11:13:10 [INFO] [BotFilter] Генерирую капчу [509/900]
+11:13:11 [INFO] [BotFilter] Генерирую капчу [729/900]
+11:13:12 [INFO] [BotFilter] Капча сгенерированна за 5 112 мс
+11:13:13 [INFO] [BotFilter] Подключаюсь к датабазе...
+11:13:13 [INFO] [BotFilter] Подключено (92 мс)
+11:13:13 [INFO] [BotFilter] Очищено 0 аккаунтов
+11:13:13 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+11:13:13 [INFO] [BotFilter] Скачиваю GeoLite2 датабазу
+11:13:15 [INFO] [BotFilter] GeoLite2 загружена (1 962мс)
+11:13:15 [INFO] Couldn't detect bungee version. Custom build?
+11:13:15 [WARNING] Forced host server pvp is not defined
+11:13:15 [INFO] Listening on /25.84.122.64:25565
+11:26:18 [INFO] [/25.84.122.64:51653] <-> InitialHandler has connected
+11:26:18 [INFO] [BotFilter] Maximum packet size: 2097152
+11:26:18 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+11:26:20 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+11:59:16 [WARNING] [Zytia] -> UpstreamBridge - IOException: Удаленный хост принудительно разорвал существующее подключение
+11:59:16 [INFO] [Zytia] disconnected with: §fIOException : Удаленный хост принудительно разорвал существующее подключение @ sun.nio.ch.SocketDispatcher:-2
+11:59:16 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+11:59:16 [INFO] [Zytia] -> UpstreamBridge has disconnected
+11:59:26 [INFO] [/25.84.122.64:51698] <-> InitialHandler has pinged
+11:59:26 [INFO] [/25.84.122.64:51697] <-> InitialHandler has pinged
+11:59:28 [INFO] [/25.84.122.64:51699] <-> InitialHandler has connected
+11:59:30 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+12:10:20 [INFO] [Zytia] disconnected with: §fServer closed
+12:10:20 [INFO] [Zytia] -> UpstreamBridge has disconnected
+12:10:20 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+12:11:08 [INFO] [/25.84.122.64:56832] <-> InitialHandler has connected
+12:11:10 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+13:13:16 [INFO] [BotFilter] Очищено 0 аккаунтов
+15:13:16 [INFO] [BotFilter] Очищено 0 аккаунтов
+17:13:17 [INFO] [BotFilter] Очищено 0 аккаунтов
+19:13:18 [INFO] [BotFilter] Очищено 0 аккаунтов
+20:45:38 [INFO] [Zytia] -> UpstreamBridge has disconnected
+20:45:38 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+20:46:15 [INFO] Closing listener [id: 0x19c1e3d3, L:/25.84.122.64:25565]
+20:46:15 [INFO] Closing pending connections
+20:46:15 [INFO] Disconnecting 0 connections
+20:46:16 [INFO] Disabling plugins
+20:46:16 [INFO] Closing IO threads
+20:46:18 [INFO] Thank you and goodbye
+21:26:42 [INFO] Using standard Java JCE cipher.
+21:26:42 [INFO] Using standard Java compressor.
+21:26:42 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+21:26:42 [INFO] [BotFilter] Проверяю наличее обновлений
+21:26:43 [INFO] §c[BotFilter] §aНайдена новая версия!
+21:26:43 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+21:26:43 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+21:26:46 [INFO] [BotFilter] Генерирую капчу [0/900]
+21:26:47 [INFO] [BotFilter] Генерирую капчу [105/900]
+21:26:48 [INFO] [BotFilter] Генерирую капчу [311/900]
+21:26:49 [INFO] [BotFilter] Генерирую капчу [556/900]
+21:26:50 [INFO] [BotFilter] Генерирую капчу [822/900]
+21:26:51 [INFO] [BotFilter] Капча сгенерированна за 5 095 мс
+21:26:51 [INFO] [BotFilter] Подключаюсь к датабазе...
+21:26:52 [INFO] [BotFilter] Подключено (279 мс)
+21:26:52 [INFO] [BotFilter] Очищено 0 аккаунтов
+21:26:52 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+21:26:52 [INFO] Couldn't detect bungee version. Custom build?
+21:26:52 [WARNING] Forced host server pvp is not defined
+21:26:52 [INFO] Listening on /25.84.122.64:25565
+21:30:46 [INFO] [/25.84.122.64:60241] <-> InitialHandler has connected
+21:30:46 [INFO] [BotFilter] Maximum packet size: 2097152
+21:30:46 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+21:30:48 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+21:39:22 [INFO] [Zytia] disconnected with: §fServer closed
+21:39:22 [INFO] [Zytia] -> UpstreamBridge has disconnected
+21:39:22 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+21:39:59 [INFO] [/25.84.122.64:62566] <-> InitialHandler has connected
+21:40:01 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+21:44:25 [INFO] [Zytia] -> UpstreamBridge has disconnected
+21:44:25 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+21:44:31 [INFO] [/25.84.122.64:64919] <-> InitialHandler has pinged
+21:44:31 [INFO] [/25.84.122.64:64920] <-> InitialHandler has pinged
+21:54:06 [INFO] [/25.84.122.64:54879] <-> InitialHandler has connected
+21:54:08 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+22:08:22 [INFO] [Zytia] disconnected with: §fServer closed
+22:08:22 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:08:22 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+22:09:27 [INFO] [/25.84.122.64:50167] <-> InitialHandler has pinged
+22:09:42 [INFO] [/25.84.122.64:50173] <-> InitialHandler has connected
+22:09:44 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+22:10:09 [INFO] [Zytia] disconnected with: §fServer closed
+22:10:09 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:10:09 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+22:11:19 [INFO] [/25.84.122.64:62393] <-> InitialHandler has connected
+22:11:21 [INFO] [Zytia] <-> ServerConnector [anarchyserver1] has connected
+22:11:42 [INFO] [Zytia] disconnected with: §fServer closed
+22:11:42 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:11:42 [INFO] [Zytia] <-> DownstreamBridge <-> [anarchyserver1] has disconnected
+22:12:07 [INFO] [/25.84.122.64:57585] <-> InitialHandler has pinged
+22:44:06 [INFO] Closing listener [id: 0xff3e0a85, L:/25.84.122.64:25565]
+22:44:06 [INFO] Closing pending connections
+00:06:55 [INFO] Using standard Java JCE cipher.
+00:06:55 [INFO] Using standard Java compressor.
+00:06:55 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+00:06:55 [INFO] [BotFilter] Проверяю наличее обновлений
+00:06:56 [INFO] §c[BotFilter] §aНайдена новая версия!
+00:06:56 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+00:06:56 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+00:06:59 [INFO] [BotFilter] Генерирую капчу [0/900]
+00:07:00 [INFO] [BotFilter] Генерирую капчу [146/900]
+00:07:01 [INFO] [BotFilter] Генерирую капчу [332/900]
+00:07:02 [INFO] [BotFilter] Генерирую капчу [615/900]
+00:07:03 [INFO] [BotFilter] Капча сгенерированна за 4 051 мс
+00:07:03 [INFO] [BotFilter] Подключаюсь к датабазе...
+00:07:04 [INFO] [BotFilter] Подключено (121 мс)
+00:07:04 [INFO] [BotFilter] Очищено 0 аккаунтов
+00:07:04 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+00:07:04 [INFO] Couldn't detect bungee version. Custom build?
+00:07:04 [WARNING] Forced host server pvp is not defined
+00:07:04 [INFO] Listening on /25.84.122.64:25565
+00:26:57 [INFO] [/25.84.122.64:51364] <-> InitialHandler has pinged
+00:26:57 [INFO] [/25.84.122.64:51363] <-> InitialHandler has pinged
+01:31:01 [INFO] Closing listener [id: 0x238bfabf, L:/25.84.122.64:25565]
+01:31:01 [INFO] Closing pending connections
+01:31:01 [INFO] Disconnecting 0 connections
+01:31:02 [INFO] Disabling plugins
+01:31:02 [INFO] Closing IO threads
+01:31:04 [INFO] Thank you and goodbye

@@ -1,0 +1,80 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+# Commands support specialized command format
+Newbie:
+  Description:
+  - '&eWill give you some stuff for money and exp'
+  - '&eCan be used every X minutes'
+  CommandName: Newbie
+  Delay: 36000
+  MoneyCost: 100.0
+  ExpCost: 30
+  Commands:
+  - asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!
+  Conditions:
+  - cmi.kit.get
+  - cmi.command.fly
+  Group: groupName
+  Items:
+    '1':
+      v: 2586
+      type: STONE
+      amount: 70
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Stone"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Name
+          "},{"italic":false,"color":"dark_aqua","text":"{USERNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Display
+          name "},{"italic":false,"color":"dark_green","text":"{DISPLAYNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Kit
+          "},{"italic":false,"color":"dark_aqua","text":"{KITNAME}"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"World
+          name "},{"italic":false,"color":"dark_green","text":"{WORLDNAME}"}],"text":""}'
+        enchants:
+          ARROW_DAMAGE: 3
+          THORNS: 5
+    '3':
+      v: 2586
+      type: OAK_PLANKS
+      amount: 30
+Advanced:
+  CommandName: Advanced
+  Delay: 10
+  Items:
+    '1':
+      v: 2586
+      type: STONE
+Ad2:
+  CommandName: Ad
+  Weight: 2
+  Delay: 36060
+  Group: resources
+  Items:
+    '1':
+      v: 2586
+      type: OAK_PLANKS
+      amount: 10
+Ad1:
+  CommandName: Ad
+  Weight: 1
+  Delay: 36000
+  Group: resources
+  Items:
+    '1':
+      v: 2586
+      type: STONE
+      amount: 10
+Ad3:
+  CommandName: Ad3
+  Delay: 36001
+  Group: resources
+  Items:
+    '1':
+      v: 2586
+      type: DIRT
+      amount: 10
