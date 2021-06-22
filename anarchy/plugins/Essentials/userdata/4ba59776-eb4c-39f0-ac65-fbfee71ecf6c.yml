@@ -1,0 +1,30 @@
+lastAccountName: Zytia
+timestamps:
+  login: 1624389701676
+  logout: 1624392710203
+  lastteleport: 1624377552251
+ipAddress: 25.84.122.64
+lastlocation:
+  world: world
+  x: -792.6951358981989
+  y: 71.0
+  z: -1162.9025039728199
+  yaw: 86.48071
+  pitch: 31.661894
+logoutlocation:
+  world: world
+  x: 311.533662670408
+  y: 70.0
+  z: -306.5162052510313
+  yaw: 299.56018
+  pitch: 40.183384
+money: '12555.3500000000000'
+homes:
+  home:
+    world: world
+    x: -784.6325293318375
+    y: 69.0
+    z: -1139.4612984139337
+    yaw: 13.893362
+    pitch: 20.077835
+afk: false

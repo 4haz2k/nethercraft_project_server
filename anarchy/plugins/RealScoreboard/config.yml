@@ -1,0 +1,64 @@
+Debug: false
+Config:
+  Prefix: '&8| &r'
+  Reloaded: '&7The config has been &areloaded&f.'
+  Use-Placeholders-In-Scoreboard-Titles: false
+  RealScoreboard-Disabled-By-Default: false
+  Messages:
+    Scoreboard-Toggle:
+      'ON': '&aВы включили меню.'
+      'OFF': '&cВы выключили меню.'
+  Animations:
+    Title-Delay: 20
+    Loop-Delay: 20
+  Scoreboard-Refresh: 10
+  Disabled-Worlds:
+    - testWorld
+    - ExampleWorld2
+  Bypass-Worlds:
+    - skywarsLobby
+  Scoreboard:
+    world:
+      Switch-Timer: 150
+      Boards:
+        Board1:
+          Title:
+            - '&4&lNether&a&lCraft &4&lProject'
+          Lines:
+            - '%blank%'
+            - ' &fНик: &6%playername%'
+            - ' &fПривилегия: %javascript_prefix%'
+            - '%blank%'
+            - ' &fДеньги: &6%money%&a$'
+            - '%blank%'
+            - ' &fСервер: &6Анархия 1'
+            - ' &fОнлайн: &6%javascript_anarchy_sum%'
+            - '%blank%'
+            - ' &fСайт: &6NetherCraft.Fun'
+            - '%blank%'
+        Board2:
+          Title:
+            - '&4&lNether&a&lCraft &4&lProject'
+          Lines:
+            - '%blank%'
+            - ' &fУбито: &a%statistic_player_kills% &fигроков'
+            - ' &fСмертей: &4%statistic_deaths%'
+            - '%blank%'
+            - ' &fНаиграно: &6%nethercraft_timehours% часов'
+            - ' &fПрыжков: &6%statistic_jump%'
+            - '%blank%'
+            - ' &fСервер: &6Анархия 1'
+            - ' &fОнлайн: &6%javascript_anarchy_sum%'
+            - '%blank%'
+            - ' &fСайт: &6NetherCraft.Fun'
+            - '%blank%'
+        Board3:
+          Title:
+            - '&4&lNether&a&lCraft &4&lProject'
+          Lines:
+            - '%blank%'
+            - ' &fСайт: &eNetherCraft.Fun'
+            - ' &fГруппа ВК: &evk.cc/c2rhHr'
+            - ' &fДискорд: &ediscord.gg/C9eEMHam6N'
+            - '%blank%'
+Version: 8

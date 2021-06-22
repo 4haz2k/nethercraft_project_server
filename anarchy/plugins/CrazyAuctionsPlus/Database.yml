@@ -1,0 +1,12 @@
+Items:
+  '1':
+    Owner: Zytia:4ba59776-eb4c-39f0-ac65-fbfee71ecf6c
+    Price: 100.0
+    ShopType: SELL
+    Time-Till-Expire: 1624998707791
+    Full-Time: 1624998707791
+    UID: 1
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WARPED_NYLIUM

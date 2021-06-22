@@ -1,0 +1,144 @@
+#Основная менюшка сервера
+open_command: help
+
+size: 54
+
+menu_title: '&8Помощь по анархии'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &8| &7Вы не можете использовать эту команду!'
+
+items:
+  '1':
+    material: EMERALD
+    data: 1
+    slot: 39
+    display_name: "&6Для чего нужен донат?"
+    lore:
+      - ""
+      - "&7Для того, чтобы проект жил и развивался, ему нужны деньги &6:с"
+      - "&7К сожалению, для всего в этом мире нужны деньги."
+      - "&7Деньги идут на:"
+      - "&7- оплату хостинга"
+      - "&7- зарплату сотрудникам"
+      - "&7- разработку плагинов и режимов."
+      - "&7На это всё уходит много средств."
+      - "&7Чтобы донат был не зря, мы поощряем игроков различными функциями."
+      - "&7Мы безумны благодарны за поддержку проекта."
+      - ""
+      - "&6• &7Нажмите, чтобы получить ссылку на сайт в чате"
+      - ""
+    left_click_commands:
+      - '[message] &8| &7Наш сайт - &6NetherCraft.Fun'
+      - '[close]'
+  '2':
+    material: BOOK
+    data: 1
+    slot: 41
+    display_name: "&6Покупка привилегии"
+    lore:
+      - ""
+      - "&7Если Вас устраивает любая привилегия,"
+      - "&7То Вы можете перейти на сайт и приобрести ее"
+      - ""
+      - "&7Наш сайт - &6NetherCraft.Fun"
+      - ""
+      - "&6• &7Нажмите, чтобы получить ссылку на сайт в чате"
+      - ""
+    left_click_commands:
+      - '[message] &8| &7Сайт для покупки привилегии - &6NetherCraft.Fun'
+      - '[close]'
+  '3':
+    material: BARRIER
+    data: 1
+    slot: 40
+    display_name: "&4Закрыть меню"
+    left_click_commands:
+      - '[close]'
+  '4':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU0MzU2NTI4MzU1OTJiNDZhMjQxNDhiNGNhNzQyYTRiZGY4ZjY3OGQ3ZDcwYTM4NzkyNzM4Yjg1Y2QzMyJ9fX0='
+    data: 1
+    slot: 20
+    display_name: "&6Что тут делать, как играть?"
+    lore:
+      - ''
+      - '&fДанный режим является гриферским,'
+      - '&fздесь разрешено PVP, взрывы и визеры.'
+      - '&fВсе игроки строят свои базы под землей,'
+      - '&fчтобы ее сложнее было найти.'
+      - '&fВ защите своей базы от ТНТ'
+      - '&fотлично помогает вода и обсидиан.'
+      - '&fСамо гриферское дело довольно сложное'
+      - '&fи этому нужно учиться, вот Вам пару советов:'
+      - '&6- &fтолкай визера к чей то базе, чтобы'
+      - '&fон проломил всё на своем пути;'
+      - '&6- &fиспользуй вагонетки с тнт,'
+      - '&fчтобы протащить тнт поближе к сундуку;'
+      - '&6- &fвзрывай ТНТ и вагонетки луком на горящую стрелу.'
+      - ''
+      - '&6Удачи в гриферстве!'
+  '5':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU0MzU2NTI4MzU1OTJiNDZhMjQxNDhiNGNhNzQyYTRiZGY4ZjY3OGQ3ZDcwYTM4NzkyNzM4Yjg1Y2QzMyJ9fX0='
+    data: 1
+    slot: 12
+    display_name: "&6Как приватить?"
+    lore:
+      - ''
+      - '&fЗаприватить территорию можно'
+      - '&fтолько с помощью блоков привата.'
+      - ''
+      - '&fЗаприватить можно такими блоками:'
+      - '&9• &fАлмазный блок: &7Размер &e5&7х&e5&7х&e5'
+      - '&b• &fАлмазная руда: &7Размер &e8&7х&e8&7х&e8'
+      - '&2• &fИзумрудная руда: &7Размер &e11&7х&e11&7х&e11'
+      - '&7• &fЖелезная руда &2(Диббук+)&f: &7Размер &e10&7х&e10&7х&e10'
+      - '&6• &fЗолотой блок &6(Ларая+)&f: &7&e15&7х&e15&7х&e15'
+      - '&4• &fРедстоуновый блок &4(Сатана)&f: &7&e20&7х&e20&7х&e20'
+      - ''
+      - '&fДля привата блок нужно просто'
+      - '&fустановить на землю.'
+      - ''
+      - '&6Помощь по приватам /ps help'
+  '6':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU0MzU2NTI4MzU1OTJiNDZhMjQxNDhiNGNhNzQyYTRiZGY4ZjY3OGQ3ZDcwYTM4NzkyNzM4Yjg1Y2QzMyJ9fX0='
+    data: 1
+    slot: 14
+    display_name: "&6Все полезные команды!"
+    lore:
+      - ''
+      - '&f/spawn &7- переместиться на спавн анархии.'
+      - '&f/sethome &7-установить точку дома.'
+      - '&f/home &7- вернуться домой.'
+      - '&f/tpa (ник) &7- отправить запрос на телепорт.'
+      - '&f/tpaccept &7- принять телепорт.'
+      - '&f/rtp &7- телепортироваться на случайные координаты.'
+      - '&f/ah &7- торговая площадка.'
+      - '&f/ps help &7- помощь по приватам.'
+      - '&f/suicide &7- убить себя.'
+      - ''
+      - '&6Команды донатеров можно посмотреть'
+      - '&6на нашем сайте в разделе &2"Донат"'
+      - ""
+      - "&6• &7Нажмите, чтобы получить ссылку на раздел в чате!"
+      - ""
+    left_click_commands:
+      - '[message] &8| &7Раздел &2"Донат" &7-> &6NetherCraft.Fun/donate'
+      - '[close]'
+  '7':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU0MzU2NTI4MzU1OTJiNDZhMjQxNDhiNGNhNzQyYTRiZGY4ZjY3OGQ3ZDcwYTM4NzkyNzM4Yjg1Y2QzMyJ9fX0='
+    data: 1
+    slot: 24
+    display_name: "&6Как заработать монеты?"
+    lore:
+      - ''
+      - '&fЕсть несколько способов заработать монеты:'
+      - '&6- &fКаждый час игрок получает 20$ за то, что просто играет.'
+      - '&6- &fЗа убийство любого моба игроки получают монеты.'
+      - '&6- &fЕсли началось ПВП, то нельзя выйти из игры или использовать команды!'
+      - '&6- &fТорговая площадка, продавайте предметы другим игрокам.'
+sweet: true

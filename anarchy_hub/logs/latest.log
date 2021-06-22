@@ -1,23 +1,381 @@
-[23:08:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:08:20] [main/INFO]: Found new data pack file/bukkit, loading it automatically
-[23:08:20] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[23:08:20] [Worker-Main-2/INFO]: Loaded 7 recipes
-[23:08:21] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[23:08:21] [Server thread/INFO]: Loading properties
-[23:08:21] [Server thread/INFO]: This server is running Paper version git-Paper-593 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[23:08:21] [Server thread/INFO]: Debug logging is disabled
-[23:08:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:08:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:08:21] [Server thread/INFO]: Default game type: SURVIVAL
-[23:08:21] [Server thread/INFO]: Generating keypair
-[23:08:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:08:21] [Server thread/INFO]: Using default channel type
-[23:08:21] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[23:08:21] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
-[23:08:21] [Server thread/WARN]: Perhaps a server is already running on that port?
-[23:08:21] [Server thread/INFO]: Stopping server
-[23:08:21] [Server thread/INFO]: Saving players
-[23:08:22] [Server thread/INFO]: Saving worlds
-[23:08:22] [Server thread/INFO]: Flushing Chunk IO
-[23:08:22] [Server thread/INFO]: Closing Thread Pool
-[23:08:22] [Server thread/INFO]: Closing Server
+[19:57:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:57:24] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:57:25] [Worker-Main-2/INFO]: Loaded 7 recipes
+[19:57:26] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:57:26] [Server thread/INFO]: Loading properties
+[19:57:26] [Server thread/INFO]: This server is running Paper version git-Paper-593 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:57:26] [Server thread/INFO]: Debug logging is disabled
+[19:57:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:57:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:57:26] [Server thread/INFO]: Default game type: ADVENTURE
+[19:57:26] [Server thread/INFO]: Generating keypair
+[19:57:26] [Server thread/INFO]: Starting Minecraft server on *:25511
+[19:57:26] [Server thread/INFO]: Using default channel type
+[19:57:27] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:57:31] [Server thread/WARN]: Legacy plugin PlaytimePlus v2.2.1 does not specify an api-version.
+[19:57:31] [Server thread/WARN]: Legacy plugin HideStream v3.10 does not specify an api-version.
+[19:57:31] [Server thread/INFO]: [AdvancedPortals] Loading AdvancedPortals v0.6.0
+[19:57:31] [Server thread/INFO]: [PlaytimePlus] Loading PlaytimePlus v2.2.1
+[19:57:31] [Server thread/INFO]: [CrazyAuctionsPlus] Loading CrazyAuctionsPlus v1.1.4.3
+[19:57:31] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[19:57:31] [Server thread/INFO]: [MySQL] Loading MySQL v3.4
+[19:57:31] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.1
+[19:57:31] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.1 is now loaded, injecting!
+[19:57:31] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:57:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:57:31] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:57:31] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:57:31] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:57:31] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:57:31] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v3.1
+[19:57:31] [Server thread/INFO]: [HideStream] Loading HideStream v3.10
+[19:57:31] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[19:57:31] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.6.0
+[19:57:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:57:32] [Server thread/INFO]: [NetherCraft_Cart] Loading NetherCraft_Cart v1.0
+[19:57:32] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.3
+[19:57:33] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.7
+[19:57:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:57:33] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.2
+[19:57:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[19:57:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4412ccd6]
+[19:57:34] [Server thread/INFO]: [MysqlPlayerDataBridge] Loading MysqlPlayerDataBridge v3.35.1
+[19:57:34] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
+[19:57:34] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[19:57:34] [Server thread/INFO]: [HolographicPlaceholders] Loading HolographicPlaceholders v2.1.2 Stable
+[19:57:34] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[19:57:34] [Server thread/INFO]: [TAB] Loading TAB v2.8.10
+[19:57:34] [Server thread/INFO]: [RealScoreboard] Loading RealScoreboard v11-4-2021 Build 1
+[19:57:34] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
+[19:57:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:57:34] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[19:57:34] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:57:34] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[19:57:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[19:57:34] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[19:57:34] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[19:57:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[19:57:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.6.0
+[19:57:34] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:57:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.3
+[19:57:34] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[19:57:34] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[19:57:34] [Server thread/INFO]:         __    
+[19:57:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.3
+[19:57:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:57:34] [Server thread/INFO]: 
+[19:57:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:57:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:57:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:57:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:57:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1166ms)
+[19:57:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:57:35] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[19:57:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:57:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:57:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:57:35] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:57:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[19:57:35] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:57:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[19:57:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:57:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:57:36] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:57:36] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:57:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:57:37] [Server thread/INFO]: Preparing level "world"
+[19:57:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:57:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:57:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[19:57:38] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:38] [Server thread/INFO]: Time elapsed: 347 ms
+[19:57:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:57:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[19:57:38] [Server thread/INFO]: Time elapsed: 130 ms
+[19:57:38] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.6.0
+[19:57:38] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[19:57:38] [Server thread/INFO]: [AdvancedPortals] Bungee detected. Enabling proxy features.
+[19:57:38] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[19:57:38] [Server thread/INFO]: [PlaytimePlus] Enabling PlaytimePlus v2.2.1*
+[19:57:38] [Server thread/INFO]: [Playtime] PlaytimePlus by ForcyCode
+[19:57:38] [Server thread/INFO]: [CrazyAuctionsPlus] Enabling CrazyAuctionsPlus v1.1.4.3
+[19:57:38] [Server thread/INFO]: [CrazyAuctionsPlus] System default language parameter information is loaded.
+[19:57:38] [Server thread/INFO]: [CrazyAuctionsPlus] Configuration file Config.yml successfully loaded!
+[19:57:38] [Server thread/INFO]: [CrazyAuctionsPlus] Configuration file Category.yml successfully loaded!
+[19:57:38] [Server thread/INFO]: [CrazyAuctionsPlus] Configuration file ItemCollection.yml successfully loaded!
+[19:57:38] [Server thread/INFO]: [CrazyAuctionsPlus] Configuration file Messages.yml successfully loaded!
+[19:57:38] [Server thread/WARN]: Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[19:57:38] [Server thread/INFO]: | Торговая площадка: Successful Connection to MySQL database server.
+[19:57:38] [Server thread/INFO]: | Торговая площадка: Vault found, Economic system has been initialized.
+[19:57:38] [Server thread/WARN]: [CrazyAuctionsPlus] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[19:57:38] [Server thread/INFO]: | Торговая площадка: Plugin are enabled! 408MS.
+[19:57:38] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[19:57:38] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:57:38] [Server thread/INFO]: [MySQL] Enabling MySQL v3.4
+[19:57:38] [Server thread/INFO]: SQL connected.
+[19:57:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.1
+[19:57:38] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v3.1
+[19:57:38] [Server thread/WARN]: Skipping cache for CONSTRUCTOR net.minecraft.server.v1_16_R3.PlayerInteractManager
+[19:57:38] [Server thread/WARN]: Skipping cache for CONSTRUCTOR net.minecraft.server.v1_16_R3.PacketPlayOutEntityEquipment
+[19:57:38] [Server thread/WARN]: Skipping cache for CONSTRUCTOR net.minecraft.server.v1_16_R3.PacketPlayOutEntityEquipment
+[19:57:38] [Server thread/WARN]: Skipping cache for METHOD setCustomName
+[19:57:38] [Server thread/WARN]: Skipping cache for METHOD watch
+[19:57:38] [Server thread/INFO]: [HideStream] Enabling HideStream v3.10*
+[19:57:39] [Server thread/INFO]: [HideStream] Version 3.10 enabled. (Metrics: true. CheckForUpdates: true)
+[19:57:39] [Server thread/INFO]: [NetherCraft_Cart] Enabling NetherCraft_Cart v1.0
+[19:57:39] [Server thread/INFO]: [NetherCraft_Cart] NetherCraft Cart Enabled!
+[19:57:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: nethercraft
+[19:57:39] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.7
+[19:57:39] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[19:57:39] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.2
+[19:57:39] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[19:57:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty
+[19:57:39] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Enabling MysqlPlayerDataBridge v3.35.1
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Loading the config file...
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Vault dependency found.
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Using economy system: Essentials Economy
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Compatible server version detected: 1.16.5
+[19:57:39] [Server thread/WARN]: [MysqlPlayerDataBridge] Could not find the AuctionHouse plugin installed! Disabling AuctionHouse support!
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Connecting to the database...
+[19:57:39] [Server thread/INFO]: [MysqlPlayerDataBridge] Database connection successfull!
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Data save task is enabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync inventory is enabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync gamemode is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync armor is enabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync enderchest is enabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync experience is enabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync active potion effects is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync players health  is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync players food is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync players air is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync players location is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync players bed location is disabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] Sync economy is enabled.
+[19:57:40] [Server thread/INFO]: [MysqlPlayerDataBridge] MysqlPlayerDataBridge loaded successfully!
+[19:57:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
+[19:57:40] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[19:57:40] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:57:40] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:57:40] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[19:57:40] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[19:57:40] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:57:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:57:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:57:40] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[19:57:40] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[19:57:40] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[19:57:41] [Server thread/INFO]: [DeluxeMenus] 4 GUI menus loaded!
+[19:57:41] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[19:57:41] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[19:57:41] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[19:57:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus
+[19:57:41] [Server thread/INFO]: [HolographicPlaceholders] Enabling HolographicPlaceholders v2.1.2 Stable
+[19:57:41] [Server thread/INFO]: ==================[ Starting ]==================
+[19:57:41] [Server thread/INFO]: Using the master configurations because version is V1_16
+[19:57:41] [Server thread/INFO]: [HPE] Enabled: MultiPlaceholders
+[19:57:41] [Server thread/INFO]: [HPE] Enabled: PlaceholderAPI
+[19:57:41] [Server thread/INFO]: [HPE] Enabled: BalTop
+[19:57:41] [Server thread/INFO]: [HPE] Enabled: ProtocolLib
+[19:57:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: holographicplaceholders
+[19:57:41] [Server thread/INFO]: =================[ Done: 96ms ]=================
+[19:57:41] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[19:57:41] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[19:57:41] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[19:57:41] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[19:57:41] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: 'D:\Desktop\server\nethercraft_project_server\anarchy_hub\plugins\Essentials\spawn.yml'
+[19:57:41] [Server thread/WARN]: [AuthMe] Note: Hooks.bungeecord is set to false but your server appears to be running in bungeecord mode (see your spigot.yml). In order to allow the datasource caching and the AuthMeBungee add-on to work properly you have to enable this option!
+[19:57:41] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[19:57:41] [Server thread/INFO]: [TAB] Enabling TAB v2.8.10
+[19:57:41] [Server thread/INFO]: [TAB] Server version: 1.16.5 (v1_16_R3)
+[19:57:41] [Server thread/INFO]: [TAB] File plugins\TAB\errors.txt exists and is not empty. Take a look at the error messages and try to resolve them. After you do, delete the file.
+[19:57:41] [Server thread/INFO]: [TAB] There was 1 startup warning.
+[19:57:41] [Server thread/INFO]: [TAB] Enabled in 169ms
+[19:57:41] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v11-4-2021 Build 1
+[19:57:41] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 11-4-2021 Build 1 -------------------
+[19:57:42] [Thread-14/INFO]: [TAB] Version 2.9.1 is out! Your version: 2.8.10
+[19:57:42] [Thread-14/INFO]: [TAB] Get the update at https://www.spigotmc.org/resources/57806/
+[19:57:42] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] creating table 'playerdata'
+[19:57:42] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `playerdata` (`uuid` VARCHAR NOT NULL , `scoreboard_on` BOOLEAN , PRIMARY KEY (`uuid`) ) 
+[19:57:42] [Server thread/INFO]: [RealScoreboard] Your config version is: 8
+[19:57:42] [Server thread/INFO]: [RealScoreboard] Your config file is updated to the latest version.
+[19:57:42] [Server thread/INFO]: [RealScoreboard] Finished loading RealScoreboard.
+[19:57:42] [Server thread/INFO]: [RealScoreboard] Server version: v1_16_R3 | Plugin Version: 11-4-2021 Build 1
+[19:57:42] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 11-4-2021 Build 1 -------------------
+[19:57:42] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[19:57:42] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[19:57:42] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:57:42] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:57:42] [Server thread/INFO]: Running delayed init tasks
+[19:57:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[19:57:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[19:57:43] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:57:43] [Server thread/INFO]: Done (16.747s)! For help, type "help"
+[19:57:43] [Server thread/INFO]: Timings Reset
+[19:57:43] [Craft Scheduler Thread - 3/INFO]: [HideStream] Running updater ..
+[19:57:43] [Craft Scheduler Thread - 14/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[19:57:43] [Craft Scheduler Thread - 14/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[19:57:43] [Craft Scheduler Thread - 14/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[19:57:43] [Craft Scheduler Thread - 14/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[19:57:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
+[19:57:43] [Craft Scheduler Thread - 20/INFO]: [RealScoreboard] There is a new update available!
+[19:57:43] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[19:57:44] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder anarchy_sum isn't initialized! Defaulting to global
+[19:57:44] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_anarchy_sum% has been loaded
+[19:57:44] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder survival_sum isn't initialized! Defaulting to global
+[19:57:44] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_survival_sum% has been loaded
+[19:57:44] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder prefix isn't initialized! Defaulting to global
+[19:57:44] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_prefix% has been loaded
+[19:57:44] [Server thread/WARN]: [PAPI] [Javascript-Expansion] ScriptEngine type for javascript placeholder new isn't initialized! Defaulting to global
+[19:57:44] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Data for placeholder new has been loaded
+[19:57:44] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_new% has been loaded
+[19:57:44] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 4 scripts loaded!
+[19:57:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[19:57:44] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.3.3 which is not a depend, softdepend or loadbefore of this plugin.
+[19:57:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[19:57:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[19:57:44] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[19:57:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[19:57:44] [Server thread/INFO]: 5 placeholder hooks successfully registered!
+[19:57:44] [Server thread/WARN]: [ViaVersion] There is a newer version available: 4.0.0, you're on: 3.2.1
+[19:57:44] [User Authenticator #1/INFO]: UUID of player Zytia is 4ba59776-eb4c-39f0-ac65-fbfee71ecf6c
+[19:57:44] [Craft Scheduler Thread - 3/INFO]: [HideStream] No update was found.
+[19:57:46] [Server thread/INFO]: Zytia[/25.84.122.64:61621] logged in with entity id 1 at ([world]12.905642268654331, 71.0, 34.686228070782676)
+[19:58:04] [Server thread/INFO]: CONSOLE issued server command: /kill zytia
+[19:58:04] [Server thread/INFO]: Zytia died
+[19:58:04] [Server thread/INFO]: Убили: Zytia.
+[19:58:10] [Craft Scheduler Thread - 8/INFO]: [AuthMe] The user Zytia has 3 accounts:
+[19:58:10] [Craft Scheduler Thread - 8/INFO]: [AuthMe] Zytia, test, test1.
+[19:58:10] [Craft Scheduler Thread - 8/INFO]: [AuthMe] Zytia logged in 25.84.122.64
+[19:58:35] [Server thread/INFO]: Zytia issued server command: /cart
+[19:58:35] [Server thread/INFO]: SQL Connect Error: Already connected
+[19:58:35] [Server thread/INFO]: SQL disconnected.
+[19:59:37] [Server thread/INFO]: Zytia issued server command: /help
+[19:59:58] [Server thread/INFO]: Zytia lost connection: Disconnected
+[19:59:58] [Server thread/INFO]: Zytia left the game
+[20:23:17] [User Authenticator #2/INFO]: UUID of player Zytia is 4ba59776-eb4c-39f0-ac65-fbfee71ecf6c
+[20:23:17] [Server thread/INFO]: Zytia[/25.84.122.64:60134] logged in with entity id 75 at ([world]14.193103063408502, 71.68680436780078, 34.699999988079085)
+[20:23:18] [Craft Scheduler Thread - 43/WARN]: [MysqlPlayerDataBridge] Database connection is idle or terminated. Reconnecting...
+[20:23:18] [Craft Scheduler Thread - 43/WARN]: [MysqlPlayerDataBridge] Reconnecting the GetData connection...
+[20:23:18] [Craft Scheduler Thread - 43/INFO]: [MysqlPlayerDataBridge] GetData connection reconnected!
+[20:23:18] [Craft Scheduler Thread - 39/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[20:23:18] [Craft Scheduler Thread - 20/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[20:23:18] [Craft Scheduler Thread - 20/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[20:23:18] [Craft Scheduler Thread - 39/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[20:23:30] [Server thread/INFO]: CONSOLE issued server command: /kill zytia
+[20:23:30] [Server thread/INFO]: Zytia died
+[20:23:30] [Server thread/INFO]: Убили: Zytia.
+[20:23:37] [Craft Scheduler Thread - 43/INFO]: [AuthMe] The user Zytia has 3 accounts:
+[20:23:37] [Craft Scheduler Thread - 43/INFO]: [AuthMe] Zytia, test, test1.
+[20:23:37] [Craft Scheduler Thread - 43/INFO]: [AuthMe] Zytia logged in 25.84.122.64
+[20:23:46] [Server thread/INFO]: Zytia lost connection: Disconnected
+[20:23:46] [Server thread/INFO]: Zytia left the game
+[21:43:57] [User Authenticator #3/INFO]: UUID of player Zytia is 4ba59776-eb4c-39f0-ac65-fbfee71ecf6c
+[21:43:57] [Server thread/INFO]: Zytia[/25.84.122.64:55522] logged in with entity id 84 at ([world]14.194032328619238, 72.3307762778065, 33.90630948206053)
+[21:43:58] [Craft Scheduler Thread - 111/WARN]: [MysqlPlayerDataBridge] Database connection is idle or terminated. Reconnecting...
+[21:43:58] [Craft Scheduler Thread - 111/WARN]: [MysqlPlayerDataBridge] Reconnecting the GetData connection...
+[21:43:58] [Craft Scheduler Thread - 111/INFO]: [MysqlPlayerDataBridge] GetData connection reconnected!
+[21:43:58] [Craft Scheduler Thread - 111/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[21:43:58] [Craft Scheduler Thread - 104/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[21:43:58] [Craft Scheduler Thread - 112/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[21:43:58] [Craft Scheduler Thread - 111/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[21:43:58] [Craft Scheduler Thread - 104/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[21:43:58] [Craft Scheduler Thread - 112/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[21:44:09] [Server thread/INFO]: CONSOLE issued server command: /kill zytia
+[21:44:09] [Server thread/INFO]: Zytia died
+[21:44:09] [Server thread/INFO]: Убили: Zytia.
+[21:44:15] [Craft Scheduler Thread - 101/INFO]: [AuthMe] The user Zytia has 3 accounts:
+[21:44:15] [Craft Scheduler Thread - 101/INFO]: [AuthMe] Zytia, test, test1.
+[21:44:15] [Craft Scheduler Thread - 101/INFO]: [AuthMe] Zytia logged in 25.84.122.64
+[21:44:23] [Server thread/INFO]: Zytia lost connection: Disconnected
+[21:44:23] [Server thread/INFO]: Zytia left the game
+[22:21:25] [User Authenticator #4/INFO]: UUID of player Zytia is 4ba59776-eb4c-39f0-ac65-fbfee71ecf6c
+[22:21:25] [Server thread/INFO]: Zytia[/25.84.122.64:56398] logged in with entity id 100 at ([world]12.804597015973505, 73.12947123454491, 33.29676036731841)
+[22:21:25] [Craft Scheduler Thread - 145/WARN]: [MysqlPlayerDataBridge] Database connection is idle or terminated. Reconnecting...
+[22:21:25] [Craft Scheduler Thread - 145/WARN]: [MysqlPlayerDataBridge] Reconnecting the GetData connection...
+[22:21:25] [Craft Scheduler Thread - 145/INFO]: [MysqlPlayerDataBridge] GetData connection reconnected!
+[22:21:25] [Craft Scheduler Thread - 138/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[22:21:25] [Craft Scheduler Thread - 135/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[22:21:25] [Craft Scheduler Thread - 140/WARN]: [MysqlPlayerDataBridge] Reconnecting the SendData connection...
+[22:21:25] [Craft Scheduler Thread - 135/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[22:21:25] [Craft Scheduler Thread - 140/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[22:21:25] [Craft Scheduler Thread - 138/INFO]: [MysqlPlayerDataBridge] SendData connection reconnected!
+[22:21:26] [Server thread/INFO]: CONSOLE issued server command: /kill zytia
+[22:21:26] [Server thread/INFO]: Zytia died
+[22:21:26] [Server thread/INFO]: Убили: Zytia.
+[22:21:31] [Craft Scheduler Thread - 140/INFO]: [AuthMe] The user Zytia has 3 accounts:
+[22:21:31] [Craft Scheduler Thread - 140/INFO]: [AuthMe] Zytia, test, test1.
+[22:21:31] [Craft Scheduler Thread - 140/INFO]: [AuthMe] Zytia logged in 25.84.122.64
+[22:21:41] [Server thread/INFO]: Zytia lost connection: Disconnected
+[22:21:41] [Server thread/INFO]: Zytia left the game
+[23:12:26] [Server thread/INFO]: [MysqlPlayerDataBridge] There are no players online!
+[23:12:26] [Server thread/INFO]: [MysqlPlayerDataBridge] Stopping the server...
+[23:12:27] [Server thread/INFO]: Stopping server
+[23:12:27] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
+[23:12:27] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[23:12:27] [Server thread/INFO]: [RealScoreboard] Disabling RealScoreboard v11-4-2021 Build 1
+[23:12:27] [Server thread/INFO]: [TAB] Disabling TAB v2.8.10
+[23:12:27] [Server thread/INFO]: [TAB] Disabled in 1ms
+[23:12:27] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-beta2-b2453
+[23:12:27] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[23:12:27] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2-b2453 disabled!
+[23:12:27] [Server thread/INFO]: [HolographicPlaceholders] Disabling HolographicPlaceholders v2.1.2 Stable
+[23:12:27] [Server thread/INFO]: [HPE] Disabled: MultiPlaceholders
+[23:12:27] [Server thread/INFO]: [HPE] Disabled: PlaceholderAPI
+[23:12:27] [Server thread/INFO]: [HPE] Disabled: BalTop
+[23:12:27] [Server thread/INFO]: [HPE] Disabled: ProtocolLib
+[23:12:27] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.3-Release
+[23:12:27] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
+[23:12:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[23:12:27] [Server thread/INFO]: [MysqlPlayerDataBridge] Disabling MysqlPlayerDataBridge v3.35.1
+[23:12:27] [Server thread/INFO]: [MysqlPlayerDataBridge] Closing database connection...
+[23:12:27] [Server thread/INFO]: [MysqlPlayerDataBridge] Data cleanup is disabled.
+[23:12:27] [Server thread/INFO]: [MysqlPlayerDataBridge] MysqlPlayerDataBridge is disabled!
+[23:12:27] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
+[23:12:27] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:12:27] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.2
+[23:12:27] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[23:12:27] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
+[23:12:27] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.7
+[23:12:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.3
+[23:12:27] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: luckperms
+[23:12:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:12:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:12:27] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:12:27] [Server thread/INFO]: [NetherCraft_Cart] Disabling NetherCraft_Cart v1.0
+[23:12:27] [Server thread/INFO]: [NetherCraft_Cart] NetherCraft Cart Disabled!
+[23:12:27] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.6.0
+[23:12:27] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
+[23:12:27] [Server thread/INFO]: [HideStream] Disabling HideStream v3.10
+[23:12:27] [Server thread/INFO]: [HideStream] Version 3.10 disabled.
+[23:12:27] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v3.1
+[23:12:27] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.1
+[23:12:27] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[23:12:27] [Server thread/INFO]: [MySQL] Disabling MySQL v3.4
+[23:12:27] [Server thread/INFO]: SQL Disconnect Error: No existing connection
+[23:12:27] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.9
+[23:12:27] [Server thread/INFO]: [CrazyAuctionsPlus] Disabling CrazyAuctionsPlus v1.1.4.3
+[23:12:27] [Server thread/INFO]: | Торговая площадка: All MySQL data has been saved.
+[23:12:27] [Server thread/INFO]: [PlaytimePlus] Disabling PlaytimePlus v2.2.1
+[23:12:27] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v0.6.0
+[23:12:27] [Server thread/INFO]: Advanced portals are being disabled!
+[23:12:27] [Server thread/INFO]: Saving players
+[23:12:27] [Server thread/INFO]: Saving worlds
+[23:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:12:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:12:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:12:27] [Server thread/INFO]: Flushing Chunk IO
+[23:12:27] [Server thread/INFO]: Closing Thread Pool
+[23:12:27] [Server thread/INFO]: Closing Server

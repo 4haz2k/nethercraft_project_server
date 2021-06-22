@@ -1,0 +1,26 @@
+data:
+  '%statistic_deaths%':
+    6085eeb7-20a9-4e01-b9c7-c6709552ac2a:
+      value: 0.0
+    4ba59776-eb4c-39f0-ac65-fbfee71ecf6c:
+      value: 5.0
+    444cf323-978c-3e83-9288-612345bfec67:
+      value: 0.0
+    4ce4a7ff-f9e7-32af-9c15-ad176dbecf5a:
+      value: 0.0
+  '%statistic_seconds_played%':
+    6085eeb7-20a9-4e01-b9c7-c6709552ac2a:
+      value: 0.0
+    4ba59776-eb4c-39f0-ac65-fbfee71ecf6c:
+      value: 49174.0
+    444cf323-978c-3e83-9288-612345bfec67:
+      value: 23.0
+    4ce4a7ff-f9e7-32af-9c15-ad176dbecf5a:
+      value: 99.0
+addon-data:
+  '%statistic_deaths%':
+    signs: []
+    heads: []
+  '%statistic_seconds_played%':
+    signs: []
+    heads: []

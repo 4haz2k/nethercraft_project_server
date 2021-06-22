@@ -1,4 +1,0 @@
-commands:
-  redirects:
-  - spawn,mv spawn
-  - hub,mv tp world_hub

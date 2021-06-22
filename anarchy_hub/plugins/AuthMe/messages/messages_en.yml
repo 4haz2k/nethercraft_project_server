@@ -1,0 +1,152 @@
+# Registration
+registration:
+    disabled: '&8| &7Регистрация в игре отключена!'
+    name_taken: '&8| &7Пользователь с таким именем уже есть!'
+    register_request: ' &e*&8__________________________________________________&r&e*&r%nl%%nl%         &7Добро пожаловать на &4&lNether&a&lCraft &4&lProject&7!%nl%&7                Спасибо за выбор нашего проекта!%nl%%nl%             &7Для регистрации используйте команду:%nl%               &e/register (Пароль) (Повтор пароля)%nl%%nl%  &7Если у Вас 2-х и более аккаунтов, удалите один из них.%nl% '
+    command_usage: '&8| &7Используйте: &e/register (Пароль) (Повтор Пароля)'
+    reg_only: ''
+    success: ''
+    kicked_admin_registered: ''
+
+# Password errors on registration
+password:
+    match_error: '&8| &7Пароль не подходит, перепроверьте правильность ввода!'
+    name_in_password: '&8| &7Вы не можете использовать своё имя в виде пароля. Придумайте другой пароль!'
+    unsafe_password: '&8| &7Пароль небезопасен, выберите другой пароль!'
+    forbidden_characters: '&8| &7Пароль содержит недопустимые символы, такие как: %valid_chars%nl%'
+    wrong_length: '&8| &7Ваш пароль слишком длинный или короткий! Выберите, пожалуйста, другой пароль!'
+
+# Login
+login:
+    command_usage: ''
+    wrong_password: '&8| &4Неверный пароль от аккаунта!'
+    success: ' &e*&8__________________________________________________&r&e*%nl%%nl%'
+    login_request: '&e*&8__________________________________________________&r&e*&r%nl%%nl%         &7Добро пожаловать на &4&lNether&a&lCraft &4&lProject&7!%nl%&7                Спасибо за выбор нашего проекта!%nl%%nl%             &7Для авторизации используйте команду:%nl%                              &e/login (Пароль)%nl%%nl%       &7Если Вы впервые на нашем проекте, смените ник.%nl% '
+    timeout_error: '&e◆ &7Вы не успели авторизоваться. Повторите попытку быстрее.'
+
+# Errors
+error:
+    denied_command: ''
+    denied_chat: ''
+    unregistered_user: '&8| &7Этот пользователь не зарегистрирован.'
+    not_logged_in: '&8| &7Вы не ещё авторизовались!'
+    no_permission: ''
+    unexpected_error: ''
+    max_registration: '&8| &7Вы превысили максимальное кол-во регистраций. Можно зарегистрировать только 2 аккаунта.'
+    logged_in: '&8| &7Вы уже вошли в систему.'
+    kick_for_vip: ''
+    kick_unresolved_hostname: '&8◆ &7Недопустимый ник. Ник должен содержать в себе только &4цифры&7, &4буквы &7или &4нижнее &7подчеркивание.'
+    tempban_max_logins: '&8◆ &7Вы были временно забанены за то, что заходили слишком много раз.'
+
+# AntiBot
+antibot:
+    kick_antibot: '&8| &7Режим защиты Антибот включен! Вы должны подождать несколько минут, прежде чем присоединиться к серверу.'
+    auto_enabled: '&8| &7Антибот включен из-за огромного количества подключений!'
+    auto_disabled: '&8◆ &7Антибот выключится через &9%m минут&7!'
+
+# Unregister
+unregister:
+    success: '&8| &7Аккаунт удалён.'
+    command_usage: '&8| &7Для смены пароля используйте команду: &e/unregister (Пароль)'
+
+# Other messages
+misc:
+    account_not_activated: ''
+    password_changed: '&8| &7Вы изменили свой пароль.'
+    logout: '&8| &7Вы вышли из аккаунта.'
+    reload: '&8| &7AuthMe конфиг перезагружен.'
+    usage_change_password: '&8| &7Для смены пароля используйте команду: &e/changepassword (Старый Пароль) (Новый Пароль)'
+    accounts_owned_self: '&8| &7У вас есть %count аккаунта: '
+    accounts_owned_other: ''
+
+# Session messages
+session:
+    valid_session: '&8| &7Вы авторизованы.'
+    invalid_session: '&8| &7Сессия закончилась. Авторизуйтесь заного.'
+
+# Error messages when joining
+on_join_validation:
+    same_ip_online: '&e◆ &7Игрок с таким IP уже находится в игре!'
+    same_nick_online: '&e◆ &7Игрок с таким именем уже играет на сервере!'
+    name_length: '&e◆ &7Ваше имя слишком короткое или слишком длинное!'
+    characters_in_name: '&e◆ &7Ваше имя содержит недопустимые символы, а именно: &9%valid_chars%nl%'
+    kick_full_server: '&e◆ &7Сервер полон. Попробуйте зайти чуть позже!'
+    country_banned: ''
+    not_owner_error: '&e◆ &7Этот аккаунт не ваш. Выберите другое имя!'
+    invalid_name_case: ''
+    quick_command: '&e◆ &7Вы использовали команду слишком быстро! Пожалуйста, присоединитесь к серверу снова и подождите немного, прежде чем использовать любую команду.'
+
+# Email
+email:
+    add_email_request: ''
+    usage_email_add: ''
+    usage_email_change: ''
+    new_email_invalid: ''
+    old_email_invalid: ''
+    invalid: ''
+    added: ''
+    add_not_allowed: ''
+    request_confirmation: ''
+    changed: ''
+    change_not_allowed: ''
+    email_show: ''
+    no_email_for_account: ''
+    already_used: ''
+    incomplete_settings: ''
+    send_failure: ''
+    change_password_expired: ''
+    email_cooldown_error: ''
+
+# Password recovery by email
+recovery:
+    forgot_password_hint: ''
+    command_usage: ''
+    email_sent: ''
+    code:
+        code_sent: ''
+        incorrect: ''
+        tries_exceeded: ''
+        correct: ''
+        change_password: ''
+
+# Captcha
+captcha:
+    usage_captcha: '&f&l &r%nl%&9&l Авторизация &8► &7Чтобы войти, вы должны решить код с картинки, пожалуйста, используйте команду: &8"&9/captcha %captcha_code&8"&7!%nl%&f &r'
+    wrong_captcha: '&f&l &r%nl%&9&l Авторизация &8► &7Неправильно введён код, используйте &8"&9/captcha %captcha_code&8"&7!%nl%&f &r'
+    valid_captcha: '&f&l &r%nl%&9&l Авторизация &8► &7Код введён верно!'
+    captcha_for_registration: '&f&l &r%nl%&9&l Авторизация &8► &7Чтобы зарегистрироваться, скачала Вы должны ввести код с картинки, воспользуйтесь командой: &8"&9/captcha %captcha_code&8"&7!%nl%&f &r'
+    register_captcha_valid: '&f&l &r%nl%&9&l Авторизация &8► &7Код введён верно! Теперь зарегистрируйтесь с помощью команды &8"&9/register&8"&7!%nl%&f &r'
+
+# Verification code
+verification:
+    code_required: ''
+    command_usage: ''
+    incorrect_code: ''
+    success: ''
+    already_verified: ''
+    code_expired: ''
+    email_needed: ''
+
+# Time units
+time:
+    second: 'секунда'
+    seconds: 'секунды'
+    minute: 'минута'
+    minutes: 'минуты'
+    hour: 'час'
+    hours: 'часы'
+    day: 'день'
+    days: 'дни'
+
+# Two-factor authentication
+two_factor:
+    code_created: ''
+    confirmation_required: ''
+    code_required: ''
+    already_enabled: ''
+    enable_error_no_code: ''
+    enable_success: ''
+    enable_error_wrong_code: ''
+    not_enabled_error: ''
+    removed_success: ''
+    invalid_code: ''

@@ -175,3 +175,566 @@ java.net.BindException: Address already in use: bind
 00:58:55 [INFO] Disabling plugins
 00:58:55 [INFO] Closing IO threads
 00:58:57 [INFO] Thank you and goodbye
+23:25:20 [INFO] Using standard Java JCE cipher.
+23:25:20 [INFO] Using standard Java compressor.
+23:25:20 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+23:25:20 [INFO] [BotFilter] Проверяю наличее обновлений
+23:35:35 [INFO] Using standard Java JCE cipher.
+23:35:35 [INFO] Using standard Java compressor.
+23:35:35 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+23:35:35 [INFO] [BotFilter] Проверяю наличее обновлений
+23:35:36 [INFO] §c[BotFilter] §aНайдена новая версия!
+23:35:36 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+23:35:36 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+23:35:39 [INFO] [BotFilter] Генерирую капчу [0/900]
+23:35:40 [INFO] [BotFilter] Генерирую капчу [111/900]
+23:35:41 [INFO] [BotFilter] Генерирую капчу [295/900]
+23:35:42 [INFO] [BotFilter] Генерирую капчу [476/900]
+23:35:43 [INFO] [BotFilter] Генерирую капчу [666/900]
+23:35:44 [INFO] [BotFilter] Генерирую капчу [887/900]
+23:35:45 [INFO] [BotFilter] Капча сгенерированна за 6 172 мс
+23:35:45 [INFO] [BotFilter] Подключаюсь к датабазе...
+23:35:46 [INFO] [BotFilter] Подключено (221 мс)
+23:35:46 [INFO] [BotFilter] Очищено 1 аккаунтов
+23:35:46 [INFO] [BotFilter] Белый список игроков успешно загружен (0)
+23:35:46 [INFO] Couldn't detect bungee version. Custom build?
+23:35:46 [WARNING] Forced host server pvp is not defined
+23:35:46 [INFO] Listening on /25.84.122.64:25565
+23:37:13 [INFO] [/25.84.122.64:54040] <-> InitialHandler has connected
+23:37:13 [INFO] [BotFilter] Maximum packet size: 2097152
+23:37:13 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+23:37:13 [INFO] [Zytia|25.84.122.64] <-> BotFilter has connected
+23:37:18 [INFO] [BotFilter] Игрок (Zytia|25.84.122.64) успешно прошёл проверку
+23:37:18 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+23:37:19 [SEVERE] [Zytia] <-> ServerConnector [hub_anarchy] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+23:37:19 [INFO] [Zytia] disconnected with: §fException Connecting:QuietException : Server is online mode!
+23:37:19 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:37:19 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has disconnected
+23:37:51 [INFO] [/25.84.122.64:54051] <-> InitialHandler has connected
+23:37:51 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+23:37:51 [SEVERE] [Zytia] <-> ServerConnector [hub_anarchy] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+23:37:51 [INFO] [Zytia] disconnected with: §fException Connecting:QuietException : Server is online mode!
+23:37:51 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:37:51 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has disconnected
+23:39:10 [INFO] [/25.84.122.64:54110] <-> InitialHandler has connected
+23:39:10 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+23:44:52 [INFO] §cКоманда не найдена :(
+23:44:57 [INFO] §cКоманда не найдена :(
+23:45:10 [INFO] §cКоманда не найдена :(
+23:45:40 [INFO] §cКоманда не найдена :(
+23:45:55 [INFO] §aBungeeCord by md_5 §7» §bBotFilter от vk.com/Leymooo_s §7» §fhttp://www.rubukkit.org/threads/137038/
+23:48:42 [INFO] [BotFilter] Проверяю наличее обновлений
+23:48:42 [INFO] §c[BotFilter] §aНайдена новая версия!
+23:48:42 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+23:48:42 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+23:48:42 [INFO] [BotFilter] Подключаюсь к датабазе...
+23:48:42 [INFO] [BotFilter] Подключено (1 мс)
+23:48:42 [INFO] [BotFilter] Очищено 0 аккаунтов
+23:48:42 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+23:48:42 [INFO] §aКоманда выполнена
+23:48:58 [INFO] §r--------------- §bBotFilter §cv3.8.4§r-----------------
+23:48:58 [INFO] §r> §lbotfilter reload §6- §aПерезагружить конфиг
+23:48:58 [INFO] §r> §lbotfilter stat §6- §aПоказать статистику
+23:48:58 [INFO] §r> §lbotfilter export §6- §aВыгрузить список игроков, которые прошли проверку
+23:48:58 [INFO] §r> §lbotfilter protection on/off §6- §aВключить или выключить ручной режим 'под атакой'
+23:48:58 [INFO] §r--------------- §bBotFilter §r-----------------
+23:49:12 [INFO] §r----------------- §bBotFilter §cv3.8.4 §r-----------------
+23:49:12 [INFO] §r> §lОбнаружена атака: §aНет
+23:49:12 [INFO] §r> §lБотов на проверке: 0
+23:49:12 [INFO] §r> §lПрошло проверку: 1
+23:49:12 [INFO] §r> §lСкачать BotFilter: http://www.rubukkit.org/threads/137038/
+23:49:38 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+23:49:38 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:49:38 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+23:52:46 [INFO] [/25.84.122.64:54900] <-> InitialHandler has connected
+23:52:46 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+23:54:30 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+23:54:30 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+23:55:15 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+23:55:15 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:55:15 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+23:55:24 [INFO] Closing listener [id: 0x939b5ac7, L:/25.84.122.64:25565]
+23:55:24 [INFO] Closing pending connections
+23:55:24 [INFO] Disconnecting 0 connections
+23:55:25 [INFO] Disabling plugins
+23:55:25 [INFO] Closing IO threads
+13:46:16 [INFO] Using standard Java JCE cipher.
+13:46:16 [INFO] Using standard Java compressor.
+13:46:16 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+13:46:16 [INFO] [BotFilter] Проверяю наличее обновлений
+13:46:16 [INFO] §c[BotFilter] §aНайдена новая версия!
+13:46:16 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+13:46:16 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+13:46:20 [INFO] [BotFilter] Генерирую капчу [0/900]
+13:46:21 [INFO] [BotFilter] Генерирую капчу [94/900]
+13:46:22 [INFO] [BotFilter] Генерирую капчу [306/900]
+13:46:23 [INFO] [BotFilter] Генерирую капчу [550/900]
+13:46:24 [INFO] [BotFilter] Генерирую капчу [817/900]
+13:46:25 [INFO] [BotFilter] Капча сгенерированна за 5 134 мс
+13:46:25 [INFO] [BotFilter] Подключаюсь к датабазе...
+13:46:26 [INFO] [BotFilter] Подключено (329 мс)
+13:46:26 [INFO] [BotFilter] Очищено 0 аккаунтов
+13:46:26 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+13:46:26 [INFO] Couldn't detect bungee version. Custom build?
+13:46:26 [WARNING] Forced host server pvp is not defined
+13:46:26 [INFO] Listening on /25.84.122.64:25565
+13:47:05 [INFO] [/25.84.122.64:62261] <-> InitialHandler has connected
+13:47:05 [INFO] [BotFilter] Maximum packet size: 2097152
+13:47:05 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+13:47:05 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+13:47:23 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+13:47:23 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+13:48:11 [INFO] [Zytia] -> UpstreamBridge has disconnected
+13:48:11 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+13:51:43 [INFO] [/25.84.122.64:64986] <-> InitialHandler has connected
+13:51:43 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+13:52:16 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+13:52:16 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+13:55:35 [INFO] [Zytia] -> UpstreamBridge has disconnected
+13:55:35 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+13:55:40 [INFO] [/25.84.122.64:56204] <-> InitialHandler has connected
+13:55:40 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+13:56:12 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+13:56:12 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+14:00:04 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:00:04 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+14:00:09 [INFO] [/25.84.122.64:55930] <-> InitialHandler has connected
+14:00:09 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+14:08:25 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+14:08:25 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:08:25 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+14:09:30 [INFO] [/25.84.122.64:59468] <-> InitialHandler has connected
+14:09:30 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+14:10:01 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+14:10:01 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+14:12:54 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:12:54 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+14:13:00 [INFO] [/25.84.122.64:57173] <-> InitialHandler has connected
+14:13:00 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+14:17:34 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+14:17:34 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+14:32:25 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+14:32:25 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:32:25 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+14:34:23 [INFO] Closing listener [id: 0x0de60105, L:/25.84.122.64:25565]
+14:34:23 [INFO] Closing pending connections
+14:34:23 [INFO] Disconnecting 0 connections
+14:34:24 [INFO] Disabling plugins
+14:34:24 [INFO] Closing IO threads
+14:34:26 [INFO] Thank you and goodbye
+14:34:30 [INFO] Using standard Java JCE cipher.
+14:34:30 [INFO] Using standard Java compressor.
+14:34:30 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+14:34:58 [INFO] [BotFilter] Проверяю наличее обновлений
+14:34:59 [INFO] §c[BotFilter] §aНайдена новая версия!
+14:34:59 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+14:34:59 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+14:35:02 [INFO] [BotFilter] Генерирую капчу [0/900]
+14:35:03 [INFO] [BotFilter] Генерирую капчу [141/900]
+14:35:04 [INFO] [BotFilter] Генерирую капчу [361/900]
+14:35:05 [INFO] [BotFilter] Генерирую капчу [629/900]
+14:35:06 [INFO] [BotFilter] Капча сгенерированна за 4 110 мс
+14:35:06 [INFO] [BotFilter] Подключаюсь к датабазе...
+14:35:06 [INFO] [BotFilter] Подключено (65 мс)
+14:35:06 [INFO] [BotFilter] Очищено 0 аккаунтов
+14:35:06 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+14:35:06 [INFO] Couldn't detect bungee version. Custom build?
+14:35:06 [WARNING] Forced host server pvp is not defined
+14:35:07 [INFO] Listening on /25.84.122.64:25565
+14:35:42 [INFO] [/25.84.122.64:58577] <-> InitialHandler has connected
+14:35:42 [INFO] [BotFilter] Maximum packet size: 2097152
+14:35:42 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+14:35:42 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+14:35:42 [INFO] [Zytia] disconnected with: §cВы были кикнуты при подключении к серверу hub_anarchy: §fIf you wish to use IP forwarding, please enable it in your BungeeCord config as well!
+14:35:42 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:35:42 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has disconnected
+14:36:23 [INFO] §cКоманда не найдена :(
+14:36:26 [INFO] Closing listener [id: 0x533b35e3, L:/25.84.122.64:25565]
+14:36:26 [INFO] Closing pending connections
+14:36:26 [INFO] Disconnecting 0 connections
+14:36:26 [INFO] Disabling plugins
+14:36:26 [INFO] Closing IO threads
+14:36:28 [INFO] Thank you and goodbye
+14:36:45 [INFO] Using standard Java JCE cipher.
+14:36:45 [INFO] Using standard Java compressor.
+14:36:45 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+14:36:46 [INFO] [BotFilter] Проверяю наличее обновлений
+14:36:46 [INFO] §c[BotFilter] §aНайдена новая версия!
+14:36:46 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+14:36:46 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+14:36:49 [INFO] [BotFilter] Генерирую капчу [0/900]
+14:36:50 [INFO] [BotFilter] Генерирую капчу [162/900]
+14:36:51 [INFO] [BotFilter] Генерирую капчу [410/900]
+14:36:52 [INFO] [BotFilter] Генерирую капчу [671/900]
+14:36:53 [INFO] [BotFilter] Капча сгенерированна за 4 077 мс
+14:36:54 [INFO] [BotFilter] Подключаюсь к датабазе...
+14:36:54 [INFO] [BotFilter] Подключено (66 мс)
+14:36:54 [INFO] [BotFilter] Очищено 0 аккаунтов
+14:36:54 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+14:36:54 [INFO] Couldn't detect bungee version. Custom build?
+14:36:54 [WARNING] Forced host server pvp is not defined
+14:36:54 [INFO] Listening on /25.84.122.64:25565
+14:37:16 [INFO] [/25.84.122.64:54735] <-> InitialHandler has connected
+14:37:16 [INFO] [BotFilter] Maximum packet size: 2097152
+14:37:16 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+14:37:17 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+14:37:55 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+14:37:58 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:24:18 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:24:18 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:24:18 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+15:28:55 [INFO] [/25.84.122.64:54938] <-> InitialHandler has connected
+15:28:55 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:29:16 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+15:29:16 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:29:43 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:29:43 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:29:43 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+15:35:24 [INFO] [/25.84.122.64:64921] <-> InitialHandler has connected
+15:35:24 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:36:00 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+15:36:00 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:36:35 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:36:35 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+15:36:41 [INFO] [/25.84.122.64:64938] <-> InitialHandler has connected
+15:36:41 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:37:51 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+15:37:51 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:38:32 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:38:32 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+15:38:37 [INFO] [/25.84.122.64:57449] <-> InitialHandler has connected
+15:38:37 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:38:56 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+15:38:57 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:39:24 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:39:24 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:39:24 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+15:46:25 [INFO] [/25.84.122.64:64251] <-> InitialHandler has connected
+15:46:25 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:47:30 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:47:30 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:47:30 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:48:30 [INFO] [/25.84.122.64:53566] <-> InitialHandler has connected
+15:48:30 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:48:59 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+15:48:59 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:49:29 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:49:29 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+15:49:34 [INFO] [/25.84.122.64:53589] <-> InitialHandler has connected
+15:49:34 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:56:44 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:56:44 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:56:44 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:56:50 [INFO] Closing listener [id: 0xc51dac09, L:/25.84.122.64:25565]
+15:56:50 [INFO] Closing pending connections
+15:56:50 [INFO] Disconnecting 0 connections
+15:56:50 [INFO] Disabling plugins
+15:56:50 [INFO] Closing IO threads
+15:56:52 [INFO] Thank you and goodbye
+22:28:30 [INFO] Using standard Java JCE cipher.
+22:28:30 [INFO] Using standard Java compressor.
+22:28:30 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+22:28:30 [INFO] [BotFilter] Проверяю наличее обновлений
+22:28:31 [INFO] §c[BotFilter] §aНайдена новая версия!
+22:28:31 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+22:28:31 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+22:28:35 [INFO] [BotFilter] Генерирую капчу [0/900]
+22:28:36 [INFO] [BotFilter] Генерирую капчу [10/900]
+22:28:37 [INFO] [BotFilter] Генерирую капчу [82/900]
+22:28:38 [INFO] [BotFilter] Генерирую капчу [162/900]
+22:28:39 [INFO] [BotFilter] Генерирую капчу [258/900]
+22:28:40 [INFO] [BotFilter] Генерирую капчу [391/900]
+22:28:41 [INFO] [BotFilter] Генерирую капчу [463/900]
+22:28:42 [INFO] [BotFilter] Генерирую капчу [582/900]
+22:28:44 [INFO] [BotFilter] Генерирую капчу [704/900]
+22:28:45 [INFO] [BotFilter] Капча сгенерированна за 9 739 мс
+22:28:45 [INFO] [BotFilter] Подключаюсь к датабазе...
+22:28:45 [INFO] [BotFilter] Подключено (330 мс)
+22:28:45 [INFO] [BotFilter] Очищено 0 аккаунтов
+22:28:45 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+22:28:46 [INFO] Couldn't detect bungee version. Custom build?
+22:28:46 [WARNING] Forced host server pvp is not defined
+22:28:46 [INFO] Listening on /25.84.122.64:25565
+22:29:21 [INFO] [/25.84.122.64:57305] <-> InitialHandler has connected
+22:29:21 [INFO] [BotFilter] Maximum packet size: 2097152
+22:29:21 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+22:29:21 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+22:31:56 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+22:31:57 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+22:34:08 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:34:08 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+22:34:15 [INFO] [/25.84.122.64:61714] <-> InitialHandler has connected
+22:34:15 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+22:39:40 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+22:39:40 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:39:40 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+22:40:19 [INFO] [/25.84.122.64:63362] <-> InitialHandler has connected
+22:40:19 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+22:41:58 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+22:41:58 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:41:58 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+22:42:30 [INFO] [/25.84.122.64:53133] <-> InitialHandler has connected
+22:42:30 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+23:22:22 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:22:22 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+23:22:30 [INFO] [/25.84.122.64:49412] <-> InitialHandler has pinged
+23:22:30 [INFO] [/25.84.122.64:49413] <-> InitialHandler has pinged
+23:25:15 [INFO] §cКоманда не найдена :(
+23:30:19 [INFO] [/25.84.122.64:58038] <-> InitialHandler has connected
+23:30:19 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+23:33:44 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+23:33:45 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+23:34:51 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:34:51 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+23:34:56 [INFO] [/25.84.122.64:62602] <-> InitialHandler has connected
+23:34:56 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+00:28:47 [INFO] [BotFilter] Очищено 0 аккаунтов
+01:35:50 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+01:35:50 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+01:39:48 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+01:39:48 [INFO] [Zytia] -> UpstreamBridge has disconnected
+01:39:48 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+01:39:59 [INFO] [/25.84.122.64:57307] <-> InitialHandler has connected
+01:39:59 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+01:40:12 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+01:40:12 [INFO] [Zytia] -> UpstreamBridge has disconnected
+01:40:12 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+01:40:41 [INFO] [/25.84.122.64:57346] <-> InitialHandler has connected
+01:40:41 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+02:20:19 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+02:20:19 [INFO] [Zytia] -> UpstreamBridge has disconnected
+02:20:19 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+02:23:23 [INFO] [/25.84.122.64:63895] <-> InitialHandler has connected
+02:23:23 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+02:24:02 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+02:24:02 [INFO] [Zytia] -> UpstreamBridge has disconnected
+02:24:02 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+02:26:45 [INFO] [/25.84.122.64:61191] <-> InitialHandler has connected
+02:26:45 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+02:28:19 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+02:28:19 [INFO] [Zytia] -> UpstreamBridge has disconnected
+02:28:19 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+02:28:30 [INFO] Closing listener [id: 0xa1b25790, L:/25.84.122.64:25565]
+02:28:30 [INFO] Closing pending connections
+02:28:30 [INFO] Disconnecting 0 connections
+02:28:30 [INFO] Disabling plugins
+02:28:30 [INFO] Closing IO threads
+14:26:16 [INFO] Using standard Java JCE cipher.
+14:26:16 [INFO] Using standard Java compressor.
+14:26:16 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+14:26:16 [INFO] [BotFilter] Проверяю наличее обновлений
+14:26:16 [INFO] §c[BotFilter] §aНайдена новая версия!
+14:26:16 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+14:26:16 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+14:26:20 [INFO] [BotFilter] Генерирую капчу [0/900]
+14:26:21 [INFO] [BotFilter] Генерирую капчу [105/900]
+14:26:22 [INFO] [BotFilter] Генерирую капчу [299/900]
+14:26:23 [INFO] [BotFilter] Генерирую капчу [583/900]
+14:26:24 [INFO] [BotFilter] Генерирую капчу [853/900]
+14:26:25 [INFO] [BotFilter] Капча сгенерированна за 5 081 мс
+14:26:25 [INFO] [BotFilter] Подключаюсь к датабазе...
+14:26:25 [INFO] [BotFilter] Подключено (121 мс)
+14:26:25 [INFO] [BotFilter] Очищено 0 аккаунтов
+14:26:25 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+14:26:25 [INFO] Couldn't detect bungee version. Custom build?
+14:26:25 [WARNING] Forced host server pvp is not defined
+14:26:26 [INFO] Listening on /25.84.122.64:25565
+14:30:21 [INFO] [/25.84.122.64:54456] <-> InitialHandler has connected
+14:30:21 [INFO] [BotFilter] Maximum packet size: 2097152
+14:30:21 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+14:30:21 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:58:37 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:58:37 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:58:37 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:59:02 [INFO] [/25.84.122.64:52159] <-> InitialHandler has connected
+15:59:02 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+16:04:26 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+16:04:26 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:04:26 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+16:11:09 [INFO] [/25.84.122.64:65210] <-> InitialHandler has connected
+16:11:09 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+16:26:26 [INFO] [BotFilter] Очищено 0 аккаунтов
+18:25:05 [INFO] [Zytia] -> UpstreamBridge has disconnected
+18:25:05 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+18:25:12 [INFO] [/25.84.122.64:51206] <-> InitialHandler has pinged
+18:25:13 [INFO] [/25.84.122.64:51207] <-> InitialHandler has pinged
+18:26:27 [INFO] [BotFilter] Очищено 0 аккаунтов
+18:30:56 [INFO] [/25.84.122.64:49449] <-> InitialHandler has connected
+18:30:56 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+19:06:00 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+19:06:00 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:06:00 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+19:06:03 [INFO] Closing listener [id: 0x9928c7b6, L:/25.84.122.64:25565]
+19:06:03 [INFO] Closing pending connections
+19:06:03 [INFO] Disconnecting 0 connections
+19:06:03 [INFO] Disabling plugins
+19:06:03 [INFO] Closing IO threads
+19:06:05 [INFO] Thank you and goodbye
+19:20:45 [INFO] Using standard Java JCE cipher.
+19:20:45 [INFO] Using standard Java compressor.
+19:20:45 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+19:20:45 [INFO] [BotFilter] Проверяю наличее обновлений
+19:20:46 [INFO] §c[BotFilter] §aНайдена новая версия!
+19:20:46 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+19:20:46 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+19:20:49 [INFO] [BotFilter] Генерирую капчу [0/900]
+19:20:50 [INFO] [BotFilter] Генерирую капчу [50/900]
+19:20:51 [INFO] [BotFilter] Генерирую капчу [161/900]
+19:20:52 [INFO] [BotFilter] Генерирую капчу [244/900]
+19:20:53 [INFO] [BotFilter] Генерирую капчу [356/900]
+19:20:55 [INFO] [BotFilter] Генерирую капчу [473/900]
+19:20:56 [INFO] [BotFilter] Генерирую капчу [577/900]
+19:20:57 [INFO] [BotFilter] Генерирую капчу [759/900]
+19:20:58 [INFO] [BotFilter] Капча сгенерированна за 8 702 мс
+19:20:58 [INFO] [BotFilter] Подключаюсь к датабазе...
+19:20:58 [INFO] [BotFilter] Подключено (242 мс)
+19:20:58 [INFO] [BotFilter] Очищено 0 аккаунтов
+19:20:58 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+19:20:59 [INFO] Couldn't detect bungee version. Custom build?
+19:20:59 [WARNING] Forced host server pvp is not defined
+19:21:00 [INFO] Listening on /25.84.122.64:25565
+11:16:25 [INFO] Using standard Java JCE cipher.
+11:16:25 [INFO] Using standard Java compressor.
+11:16:25 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+11:16:25 [INFO] [BotFilter] Проверяю наличее обновлений
+11:16:26 [INFO] §c[BotFilter] §aНайдена новая версия!
+11:16:26 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+11:16:26 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+11:16:29 [INFO] [BotFilter] Генерирую капчу [0/900]
+11:16:30 [INFO] [BotFilter] Генерирую капчу [135/900]
+11:16:31 [INFO] [BotFilter] Генерирую капчу [389/900]
+11:16:32 [INFO] [BotFilter] Генерирую капчу [682/900]
+11:16:33 [INFO] [BotFilter] Капча сгенерированна за 4 096 мс
+11:16:33 [INFO] [BotFilter] Подключаюсь к датабазе...
+11:16:33 [INFO] [BotFilter] Подключено (98 мс)
+11:16:33 [INFO] [BotFilter] Очищено 0 аккаунтов
+11:16:33 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+11:16:34 [INFO] Couldn't detect bungee version. Custom build?
+11:16:34 [WARNING] Forced host server pvp is not defined
+11:16:34 [INFO] Listening on /25.84.122.64:25565
+11:17:21 [INFO] [/25.84.122.64:59128] <-> InitialHandler has connected
+11:17:21 [INFO] [BotFilter] Maximum packet size: 2097152
+11:17:21 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+11:17:21 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+12:19:47 [INFO] [Zytia] -> UpstreamBridge has disconnected
+12:19:47 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+12:19:53 [INFO] [/25.84.122.64:57419] <-> InitialHandler has pinged
+12:19:53 [INFO] [/25.84.122.64:57418] <-> InitialHandler has pinged
+12:21:23 [INFO] [/25.84.122.64:57485] <-> InitialHandler has connected
+12:21:23 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+13:16:34 [INFO] [BotFilter] Очищено 0 аккаунтов
+14:35:45 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+14:35:46 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+14:36:10 [INFO] [Zytia] -> UpstreamBridge has disconnected
+14:36:10 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+14:36:16 [INFO] [/25.84.122.64:63674] <-> InitialHandler has connected
+14:36:16 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+15:16:35 [INFO] [BotFilter] Очищено 0 аккаунтов
+15:53:54 [INFO] [Zytia] disconnected with: §cServer is restarting please come back in 20 seconds.
+15:53:54 [INFO] [Zytia] -> UpstreamBridge has disconnected
+15:53:54 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+15:55:19 [INFO] [/25.84.122.64:55462] <-> InitialHandler has connected
+15:55:19 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+16:05:42 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+16:05:43 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+16:06:09 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:06:09 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+16:06:14 [INFO] [/25.84.122.64:50169] <-> InitialHandler has connected
+16:06:14 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+16:06:29 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+16:06:29 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+16:06:32 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:06:32 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+16:06:40 [INFO] [/25.84.122.64:50190] <-> InitialHandler has connected
+16:06:40 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+16:16:07 [INFO] Closing listener [id: 0x47798f26, L:/25.84.122.64:25565]
+16:16:07 [INFO] Closing pending connections
+16:16:07 [INFO] Disconnecting 1 connections
+16:16:07 [INFO] [Zytia] disconnected with: §aСервер перезагружается....
+16:16:07 [INFO] [Zytia] -> UpstreamBridge has disconnected
+16:16:07 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+16:16:07 [INFO] Disabling plugins
+16:16:07 [INFO] Closing IO threads
+16:16:09 [INFO] Thank you and goodbye
+18:21:29 [INFO] Using standard Java JCE cipher.
+18:21:29 [INFO] Using standard Java compressor.
+18:21:29 [WARNING] Включаю BungeCord BotFilter 1.8.x-1.16.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+18:21:29 [INFO] [BotFilter] Проверяю наличее обновлений
+18:21:30 [INFO] §c[BotFilter] §aНайдена новая версия!
+18:21:30 [INFO] §c[BotFilter] §aПожалуйста обновитесь!
+18:21:30 [INFO] §c[BotFilter] §ahttp://rubukkit.org/threads/137038
+18:21:33 [INFO] [BotFilter] Генерирую капчу [0/900]
+18:21:34 [INFO] [BotFilter] Генерирую капчу [0/900]
+18:21:35 [INFO] [BotFilter] Генерирую капчу [70/900]
+18:21:36 [INFO] [BotFilter] Генерирую капчу [207/900]
+18:21:38 [INFO] [BotFilter] Генерирую капчу [336/900]
+18:21:39 [INFO] [BotFilter] Генерирую капчу [455/900]
+18:21:40 [INFO] [BotFilter] Генерирую капчу [678/900]
+18:21:41 [INFO] [BotFilter] Генерирую капчу [882/900]
+18:21:42 [INFO] [BotFilter] Капча сгенерированна за 8 541 мс
+18:21:42 [INFO] [BotFilter] Подключаюсь к датабазе...
+18:21:43 [INFO] [BotFilter] Подключено (505 мс)
+18:21:43 [INFO] [BotFilter] Очищено 0 аккаунтов
+18:21:43 [INFO] [BotFilter] Белый список игроков успешно загружен (1)
+18:21:44 [INFO] Couldn't detect bungee version. Custom build?
+18:21:44 [WARNING] Forced host server pvp is not defined
+18:21:46 [INFO] Listening on /25.84.122.64:25565
+18:22:34 [INFO] [/25.84.122.64:51015] <-> InitialHandler has connected
+18:22:34 [INFO] [BotFilter] Maximum packet size: 2097152
+18:22:34 [INFO] [BotFilter] Maximum packet size while checking: 2097152
+18:22:34 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+18:22:46 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+18:22:46 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+18:55:08 [INFO] [/25.84.122.64:53517] <-> InitialHandler has connected
+18:55:08 [INFO] [Test|25.84.122.64] <-> BotFilter has connected
+18:55:13 [INFO] [BotFilter] Игрок (Test|25.84.122.64) успешно прошёл проверку
+18:55:13 [INFO] [Test] <-> ServerConnector [hub_anarchy] has connected
+18:55:43 [INFO] [Test] -> UpstreamBridge has disconnected
+18:55:43 [INFO] [Test] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+18:56:12 [INFO] [/25.84.122.64:53697] <-> InitialHandler has connected
+18:56:12 [INFO] [Test1|25.84.122.64] <-> BotFilter has connected
+18:56:18 [INFO] [BotFilter] Игрок (Test1|25.84.122.64) успешно прошёл проверку
+18:56:18 [INFO] [Test1] <-> ServerConnector [hub_anarchy] has connected
+18:58:04 [INFO] [Test1] <-> ServerConnector [survival_anarchy] has connected
+18:58:05 [INFO] [Test1] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+19:00:15 [INFO] [Test1] -> UpstreamBridge has disconnected
+19:00:15 [INFO] [Test1] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+19:56:11 [INFO] [Zytia] disconnected with: §cСервер перезапускается! Перезагрузка занимает в среднем 1.5 минуты.
+19:56:11 [INFO] [Zytia] -> UpstreamBridge has disconnected
+19:56:11 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+19:56:22 [INFO] [/25.84.122.64:63668] <-> InitialHandler has pinged
+19:56:22 [INFO] [/25.84.122.64:63669] <-> InitialHandler has pinged
+19:57:28 [INFO] [/25.84.122.64:61620] <-> InitialHandler has connected
+19:57:28 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+19:59:57 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+19:59:58 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+20:21:45 [INFO] [BotFilter] Очищено 0 аккаунтов
+20:22:57 [INFO] [Zytia] disconnected with: §cСервер перезапускается! Перезагрузка занимает в среднем 1.5 минуты.
+20:22:57 [INFO] [Zytia] -> UpstreamBridge has disconnected
+20:22:57 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+20:23:16 [INFO] [/25.84.122.64:60133] <-> InitialHandler has connected
+20:23:16 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+20:23:45 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+20:23:46 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+21:43:20 [INFO] [Zytia] disconnected with: §cСервер перезапускается! Перезагрузка занимает в среднем 1.5 минуты.
+21:43:20 [INFO] [Zytia] -> UpstreamBridge has disconnected
+21:43:20 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+21:43:57 [INFO] [/25.84.122.64:55521] <-> InitialHandler has connected
+21:43:57 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+21:44:22 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+21:44:23 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+22:21:08 [INFO] [Zytia] disconnected with: §cСервер перезапускается! Перезагрузка занимает в среднем 1.5 минуты.
+22:21:08 [INFO] [Zytia] -> UpstreamBridge has disconnected
+22:21:08 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+22:21:24 [INFO] [/25.84.122.64:56397] <-> InitialHandler has connected
+22:21:24 [INFO] [Zytia] <-> ServerConnector [hub_anarchy] has connected
+22:21:40 [INFO] [Zytia] <-> ServerConnector [survival_anarchy] has connected
+22:21:41 [INFO] [Zytia] <-> DownstreamBridge <-> [hub_anarchy] has disconnected
+22:21:46 [INFO] [BotFilter] Очищено 0 аккаунтов
+23:11:50 [INFO] [Zytia] -> UpstreamBridge has disconnected
+23:11:50 [INFO] [Zytia] <-> DownstreamBridge <-> [survival_anarchy] has disconnected
+23:12:28 [INFO] Closing listener [id: 0x29c37fa5, L:/25.84.122.64:25565]
+23:12:28 [INFO] Closing pending connections
+23:12:28 [INFO] Disconnecting 0 connections
+23:12:29 [INFO] Disabling plugins
+23:12:29 [INFO] Closing IO threads

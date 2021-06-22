@@ -1,0 +1,16 @@
+users:
+  user-1:
+    userName: Test1
+    userId: 4ce4a7ff-f9e7-32af-9c15-ad176dbecf5a
+    showMessage: true
+    language: russian
+  user-2:
+    userName: Zytia
+    userId: 4ba59776-eb4c-39f0-ac65-fbfee71ecf6c
+    showMessage: true
+    language: russian
+  user-3:
+    userName: Test
+    userId: 444cf323-978c-3e83-9288-612345bfec67
+    showMessage: true
+    language: russian
