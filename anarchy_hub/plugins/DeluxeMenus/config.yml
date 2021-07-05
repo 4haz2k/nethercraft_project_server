@@ -4,13 +4,9 @@
 # https://github.com/help-chat/DeluxeMenus/wiki
 
 debug: false
-check_updates: true
+check_updates: false
 gui_menus:
-  basics_menu:
-    file: basics_menu.yml
   advanced_menu:
     file: advanced_menu.yml
-  requirements_menu:
-    file: requirements_menu.yml
   help_menu:
     file: help_menu.yml

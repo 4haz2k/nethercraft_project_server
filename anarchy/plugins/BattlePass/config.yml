@@ -1,0 +1,58 @@
+# 
+# Used to track the current week that should be released.
+# Also can be used if you want the BattlePass to be released in the future.
+battlePassAliases:
+- sp
+- seasonpass
+seasonStart:
+  year: 2019
+  month: 7
+  day: 11
+amountOfWeeks: 8
+expToTierUp: 1000
+isMaintenance: false
+fallbackMenu: true
+database:
+  enableAutosaveMessage: false
+  autosaveInterval: 8000
+  useSSL: false
+  poolSettings:
+    maximumPoolSize: 10
+    minimumIdle: 10
+    maximumLifetime: 10000
+    connectionTimeout: 5000
+  mysql:
+    enabled: true
+    prefix: anarchybattlepass_
+    database: newnethercraft
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+progressBar:
+  completedColour: '&a'
+  toCompleteColour: '&c'
+  symbol: '|'
+rewardSettings:
+  clickableRewards: false
+  claimPlaceholder:
+    claimable: '&aClick to claim this reward.'
+    alreadyClaimed: '&cYou have already claimed this reward.'
+    notClaimable: '&cYou can not claim this reward yet.'
+missionSettings:
+  queuedMissions: false
+  noPreviousWeeksMissions: false
+  progressMessagesAt: 25%, 50%, 75%, 100%
+  completeChallengeTitle:
+    title: '&a&lMission Complete'
+    subtitle: '&7You completed the &a&n%mission_name%&7 mission'
+  incompleteVariable: '&7Mission Progress &f%progress%&8/&f%required_progress%'
+  completeVariable: '&aMission Complete'
+  playerKillMissionIpCheck: true
+  missionGlowOnComplete: true
+  dailyMissions:
+    enabled: true
+    amount: 10
+    timeZone: America/New_York
+    hourOfDay: 20
+    resetMessage: '&7New &bdaily missions&7 are now available!'

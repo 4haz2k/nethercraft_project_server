@@ -14,3 +14,13 @@ users:
     userId: 444cf323-978c-3e83-9288-612345bfec67
     showMessage: true
     language: russian
+  user-4:
+    userName: WhiteOG
+    userId: 2d9bdc17-fadd-3be8-8a04-200866504ffe
+    showMessage: true
+    language: russian
+  user-5:
+    userName: ExoManic
+    userId: b5e20ef4-e04f-3988-9cbd-890969bf6aa4
+    showMessage: true
+    language: russian

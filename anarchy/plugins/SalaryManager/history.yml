@@ -299,3 +299,35 @@
     payment-amount: 100.0
     payment-reason: GROUP
     group: satana
+'1624466328473': {}
+'1624472912646': {}
+'1624476512645': {}
+'1624622196178':
+  2d9bdc17-fadd-3be8-8a04-200866504ffe:
+    player-name: WhiteOG
+    payment-amount: 75.0
+    payment-reason: GROUP
+    group: laraye
+  b5e20ef4-e04f-3988-9cbd-890969bf6aa4:
+    player-name: ExoManic
+    payment-amount: 100.0
+    payment-reason: GROUP
+    group: satana
+'1624625822568':
+  b5e20ef4-e04f-3988-9cbd-890969bf6aa4:
+    player-name: ExoManic
+    payment-amount: 100.0
+    payment-reason: GROUP
+    group: satana
+  2d9bdc17-fadd-3be8-8a04-200866504ffe:
+    player-name: WhiteOG
+    payment-amount: 75.0
+    payment-reason: GROUP
+    group: laraye
+  4ba59776-eb4c-39f0-ac65-fbfee71ecf6c:
+    player-name: Zytia
+    payment-amount: 20.0
+    payment-reason: GROUP
+    group: default
+'1624629422569': {}
+'1624633022568': {}

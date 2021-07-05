@@ -1,0 +1,21 @@
+lastAccountName: ExoManic
+timestamps:
+  login: 1624620182918
+  logout: 1624626459756
+  lastteleport: 1624624053775
+ipAddress: 25.63.182.29
+money: '1095.120000000000000000000000000005'
+logoutlocation:
+  world: world
+  x: 1378.8790490079896
+  y: 11.0
+  z: -241.4133244256955
+  yaw: 167.5581
+  pitch: 8.699723
+lastlocation:
+  world: world
+  x: 1109.699999988079
+  y: 81.0
+  z: 1080.5150743471906
+  yaw: 243.41693
+  pitch: 9.150024

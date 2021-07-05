@@ -1,0 +1,93 @@
+#Основная менюшка сервера
+open_command: donate
+
+size: 45
+
+menu_title: '&8Донатик'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &8| &7Вы не можете использовать эту команду!'
+
+items:
+  '1':
+    material: EMERALD
+    data: 1
+    slot: 30
+    display_name: "&6Для чего нужен донат?"
+    lore:
+      - ""
+      - "&7Для того, чтобы проект жил и развивался, ему нужны деньги &6:с"
+      - "&7К сожалению, для всего в этом мире нужны деньги."
+      - "&7Деньги идут на:"
+      - "&7- оплату хостинга"
+      - "&7- зарплату сотрудникам"
+      - "&7- разработку плагинов и режимов."
+      - "&7На это всё уходит много средств."
+      - "&7Чтобы донат был не зря, мы поощряем игроков различными функциями."
+      - "&7Мы безумны благодарны за поддержку проекта."
+      - ""
+      - "&6• &7Нажмите, чтобы получить ссылку на сайт в чате"
+      - ""
+    left_click_commands:
+      - '[message] &8| &7Наш сайт - &6NetherCraft.Fun'
+      - '[close]'
+  '2':
+    material: BOOK
+    data: 1
+    slot: 32
+    display_name: "&6Покупка привилегии"
+    lore:
+      - ""
+      - "&7Если Вас устраивает любая привилегия,"
+      - "&7То Вы можете перейти на сайт и приобрести ее"
+      - ""
+      - "&7Наш сайт - &6NetherCraft.Fun"
+      - ""
+      - "&6• &7Нажмите, чтобы получить ссылку на сайт в чате"
+      - ""
+    left_click_commands:
+      - '[message] &8| &7Сайт для покупки привилегии - &6NetherCraft.Fun'
+      - '[close]'
+  '3':
+    material: BARRIER
+    data: 1
+    slot: 31
+    display_name: "&4Закрыть меню"
+    left_click_commands:
+      - '[close]'
+  '4':
+    material: lime_concrete
+    data: 1
+    slot: 11
+    display_name: "&aДиббук"
+    enchantments:
+      - luck;1
+    hide_enchantments: true
+    left_click_commands:
+      - '[close]'
+  '5':
+    material: yellow_concrete
+    data: 1
+    slot: 13
+    display_name: "&6Ларая"
+    enchantments:
+      - luck;1
+    hide_enchantments: true
+    left_click_commands:
+      - '[close]'
+  '6':
+    material: red_concrete
+    data: 1
+    slot: 15
+    display_name: "&4Сатана"
+    enchantments:
+      - luck;1
+    hide_enchantments: true
+    left_click_commands:
+      - '[close]'
+sweet: true

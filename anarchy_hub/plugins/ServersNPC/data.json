@@ -2,27 +2,32 @@
   {
     "id": 2,
     "hasGlow": false,
-    "hasToggleName": false,
     "hasLookAt": false,
     "hasMirror": false,
-    "isReversePath": false,
     "hasToggleHolo": true,
-    "save": false,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDIwMTgyNjcyOCwKICAicHJvZmlsZUlkIiA6ICIwNjlhNzlmNDQ0ZTk0NzI2YTViZWZjYTkwZTM4YWFmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTIwMDlhNDkyNWI1OGYwMmM3N2RhZGMzZWNlZjA3ZWE0Yzc0NzJmNjRlMGZkYzMyY2U1NTIyNDg5MzYyNjgwIgogICAgfQogIH0KfQ\u003d\u003d",
-    "signature": "X+g3ve8v3drALyzLQfM3yZLWqi+7akt6j1BqDDgbOE0yrmhTKwXd6HpSrA8RgPz/gIJEBA6+kmfRLRKNeWd7thFMheBL6D1H2cBicpTvfo30mAS90xbGx5NiyOX+1MM93rLu/tBERWrX34aeBiSEOvRlYliY820Z9x1ep8MhMqyAgvoCrfNbL0qRolHiTcrnUvuiNh5sw3eMB7JriYvY3yTDMeza3Z+YO9SysUlcxvvt+8K9t2yw8js6JbxmVIetCagkfvtt25Pidn9PsD5sm+ucZRwySGF7XUE0ConRKZguMY7exwMHI+9MWe4OKUnnfUpSq/qvktpOuPzjw/aIejVkNCaSlKicuVIdjTD0fWDm6v30zZpzZirbLcD00/nLnF3/8wb2ER5jft1lMyZ0V5bTTF7tUjAU/UmF029Cw4ZhnQtNhiNK4KTF7Kr0ccZjidHPUGqTTFMwISjSFxLhLWRPcgJhgfBk7AdYSBnrUgTh4GTpnatM0Mujlv2C7XxWtJRtg9X62wL6sajwso23oGL/l3hcyAS/cwSGHB6Z+lBdKJnQU8t0FGkAPZg5sxy4/L2cbHqpIphXyc95FO95QUfE8xjHd40o7ENbCqS8vLc0Mp3Raw7+W6KAsJtG9v9Vwb+vcMyGmsaloCShcX9fYQKCA3S+J0+cmp9Mo7rnveo\u003d",
-    "lines": "\u00264(В-разработке):\u00262\u0026lТорговец",
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDIwMTgyNjcyOCwKICAicHJvZmlsZUlkIiA6ICIwNjlhNzlmNDQ0ZTk0NzI2YTViZWZjYTkwZTM4YWFmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RjaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTIwMDlhNDkyNWI1OGYwMmM3N2RhZGMzZWNlZjA3ZWE0Yzc0NzJmNjRlMGZkYzMyY2U1NTIyNDg5MzYyNjgwIgogICAgfQogIH0KfQ==",
+    "signature": "X+g3ve8v3drALyzLQfM3yZLWqi+7akt6j1BqDDgbOE0yrmhTKwXd6HpSrA8RgPz/gIJEBA6+kmfRLRKNeWd7thFMheBL6D1H2cBicpTvfo30mAS90xbGx5NiyOX+1MM93rLu/tBERWrX34aeBiSEOvRlYliY820Z9x1ep8MhMqyAgvoCrfNbL0qRolHiTcrnUvuiNh5sw3eMB7JriYvY3yTDMeza3Z+YO9SysUlcxvvt+8K9t2yw8js6JbxmVIetCagkfvtt25Pidn9PsD5sm+ucZRwySGF7XUE0ConRKZguMY7exwMHI+9MWe4OKUnnfUpSq/qvktpOuPzjw/aIejVkNCaSlKicuVIdjTD0fWDm6v30zZpzZirbLcD00/nLnF3/8wb2ER5jft1lMyZ0V5bTTF7tUjAU/UmF029Cw4ZhnQtNhiNK4KTF7Kr0ccZjidHPUGqTTFMwISjSFxLhLWRPcgJhgfBk7AdYSBnrUgTh4GTpnatM0Mujlv2C7XxWtJRtg9X62wL6sajwso23oGL/l3hcyAS/cwSGHB6Z+lBdKJnQU8t0FGkAPZg5sxy4/L2cbHqpIphXyc95FO95QUfE8xjHd40o7ENbCqS8vLc0Mp3Raw7+W6KAsJtG9v9Vwb+vcMyGmsaloCShcX9fYQKCA3S+J0+cmp9Mo7rnveo=",
     "glowName": "WHITE",
     "location": {
       "world": "world",
-      "x": -13.5,
+      "x": -14.5,
       "y": 71.0,
       "z": 16.5,
-      "yaw": -90.50256,
-      "pitch": -1.3237832
+      "yaw": -90.05268,
+      "pitch": 0.14995885
     },
     "npcType": "VILLAGER",
-    "actions": [],
-    "npcEquipments": {},
-    "customizationMap": {}
+    "hologramLines": [
+      "&4(В-разработке)",
+      "&2&lТорговец"
+    ],
+    "clickActions": [],
+    "npcEquip": {},
+    "customizationMap": {
+      "setProfession": [
+        "FARMER"
+      ]
+    }
   }
 ]

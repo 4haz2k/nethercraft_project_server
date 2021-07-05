@@ -16,7 +16,7 @@ English:
     Not-A-Valid-Number: '{prefix}&7%arg% не число.'
     Got-Item-Back: '{prefix}&7Предмет возвращен.'
     Got-All-Item-Back: '{prefix}&7Предметы возвращены.'
-    Cancelled-Item-On-Sale: '{prefix}&7Вы сняли предмет с продажи. Не забудьте забрать его с торговой площадки /ah'
+    Cancelled-Item-On-Sale: '{prefix}&7Вы сняли предмет с продажи. Не забудьте забрать его с торговой площадки /ca'
     Cancelled-Item-On-Buy: '{prefix}&cYou have canceled an &r%item% &con the auction list, return your &a$%reward% &c.'
     Cancelled-Item-On-Bid: '{prefix}&cYou have canceled an &r%item% &con the auction list, return your items with /Ca Mail.'
     Item-Has-Expired: '{prefix}&7Срок размещения Вашего предмета %item% истек.'
@@ -59,11 +59,11 @@ English:
     Buying-Disabled: '{prefix}&7Покупка отключена.'
     Bidding-Disabled: '{prefix}&7Аукцион отключен.'
     World-Disabled: ''
-    CrazyAuctions-Help: '{prefix}&c/ah help'
-    CrazyAuctions-View: '{prefix}&c/ah view <игрок>'
-    CrazyAuctions-Sell: '{prefix}&c/ah sell <цена> [кол-во предметов]'
-    CrazyAuctions-Bid: '{prefix}&c/ah bid <цена> [кол-во предметов]'
-    CrazyAuctions-Buy: '{prefix}&c/ah buy <цена> [кол-во предметов] [название предмета]'
+    CrazyAuctions-Help: '{prefix}&c/ca help'
+    CrazyAuctions-View: '{prefix}&c/ca view <игрок>'
+    CrazyAuctions-Sell: '{prefix}&c/ca sell <цена> [кол-во предметов]'
+    CrazyAuctions-Bid: '{prefix}&c/ca bid <цена> [кол-во предметов]'
+    CrazyAuctions-Buy: '{prefix}&c/ca buy <цена> [кол-во предметов] [название предмета]'
     CrazyAuctions-Main: ''
     Date-Settings:
         Second: сек.
@@ -74,9 +74,9 @@ English:
     Date-Format: 'dd/MM/yyyy HH:mm:ss'
     Help-Menu:
         - '&8| &eТорговая площадка &4NetherCraft'
-        - '&8| &7/ah - Открыть торговую площадку'
-        - '&8| &7/ah sell (цена) - Продать предмет.'
-        - '&8| &7/ah help - Помощь по торговой площадке.'
+        - '&8| &7/ca - Открыть торговую площадку'
+        - '&8| &7/ca sell (цена) - Продать предмет.'
+        - '&8| &7/ca help - Помощь по торговой площадке.'
     Admin-Menu:
         - '&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
         - ' &3/Ca Admin Backup &c- &aBack up all data of the plug-in to a local directory (including the database).'

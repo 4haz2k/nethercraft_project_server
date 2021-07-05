@@ -2,7 +2,7 @@
 # https://dev.bukkit.org/projects/hidestream/pages/config-explanation 
 
 Enabled: true
-CheckForUpdates: true
+CheckForUpdates: false
 NoCommandPermissionMsg: '&cYou do not have permission to do that!'
 PerPlayerToggle:
   Enable: false

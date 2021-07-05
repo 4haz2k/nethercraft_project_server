@@ -1,0 +1,442 @@
+# BattlePass information
+#
+# Missions can be found here: https://github.com/Hyfe-JavaDebug/Battle-Pass/wiki/Mission
+# Check that link for information on variable use as well
+#
+# The %progressbar% placeholder can be configured in the config.yml file
+
+weeks:
+  '1': # Week number
+    '1': # Mission number
+      type: break
+      variable: stone
+      name: Miner
+      requiredProgress: 10
+      expWorth: 100
+      exclusive: premium # Only allows users with the premium pass to complete the mission.
+      item:
+        item: stone_pickaxe:0
+        name: '&bBreak 10 Stone Blocks'
+        lore:
+          - '&7Break 10 stone blocks'
+          - '&7to complete this mission.'
+          - '&7&oExclusive to premium users'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '2':
+      type: chat
+      variable: Hello World
+      name: Welcoming
+      requiredProgress: 1
+      expWorth: 100
+      exclusive: free # Only allows users without the premium pass to complete the mission.
+      item:
+        item: book:0
+        name: '&bSay ''Hello World'''
+        lore:
+          - '&7Say ''hello world'''
+          - '&7to complete this mission.'
+          - '&7&oExclusive to free users'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '3':
+      type: consume
+      variable: enchanted_golden_apple:0
+      name: A God
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: enchanted_golden_apple:0
+        name: '&bEat 5 God Apples'
+        lore:
+          - '&7Eat 5 god apples'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '4':
+      type: crafting
+      variable: diamond_block:0
+      name: Rich
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: crafting_table:0
+        name: '&bCraft a Diamond Block'
+        lore:
+          - '&7Craft a diamond block'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '5':
+      type: enchanting
+      variable: iron_sword:0
+      name: Enchanter
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: enchanted_book:0
+        name: '&bEnchant an Iron Sword'
+        lore:
+          - '&7Enchant an iron sword'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '6':
+      type: exp
+      variable: none
+      name: Experienced
+      requiredProgress: 500
+      expWorth: 100
+      item:
+        item: experience_bottle:0
+        name: '&bCollect 500 Experience'
+        lore:
+          - '&7Collect 500 experience'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '7':
+      type: fishing
+      variable: none
+      name: Fisher
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: fishing_rod:0
+        name: '&bCatch 5 Things'
+        lore:
+          - '&7Catch 5 things'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+  '2':
+    '1':
+      type: mobkilling
+      variable: zombie
+      name: Zombie Slayer
+      requiredProgress: 3
+      expWorth: 100
+      item:
+        item: wood_sword:0
+        name: '&bKill 3 Zombies'
+        lore:
+          - '&7Kill 3 zombies'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '2':
+      type: place
+      variable: gold_block:0
+      name: Flexin'
+      requiredProgress: 10
+      expWorth: 100
+      item:
+        item: gold_block:0
+        name: '&bPlace 10 Gold Blocks'
+        lore:
+          - '&7Place 10 gold blocks'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '3':
+      type: playerkilling
+      variable: none
+      name: Murderer
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: redstone:0
+        name: '&bKill a Player'
+        lore:
+          - '&7Kill a player'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '4':
+      type: shear
+      variable: none
+      name: Wool Man
+      requiredProgress: 10
+      expWorth: 100
+      item:
+        item: white_wool:0
+        name: '&bShear 10 Sheep'
+        lore:
+          - '&7Shear 10 sheep'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '5':
+      type: smelting
+      variable: gold_ingot
+      name: Smelter
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: gold_ore:0
+        name: '&bSmelt 5 Gold Ores'
+        lore:
+          - '&7Smelt 5 gold ores'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '6':
+      type: mythicmobs
+      variable: skeletalknight
+      name: Creature Slayer
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: iron_sword:0
+        name: '&bSlay a Skeletal Knight'
+        lore:
+          - '&7Slay a skeletal knight'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '7':
+      type: citizens
+      variable: test_npc
+      name: Social
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: paper:0
+        name: '&bClick an NPC'
+        lore:
+          - '&7Click an npc'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '8':
+      type: taming
+      variable: wolf
+      name: Tamer
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: monster_egg:91
+        name: '&bTame 5 Wolves'
+        lore:
+          - '&7Tame 5 wolves to'
+          - '&7complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '9':
+      type: milking
+      variable: none
+      name: Milker
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: milk_bucket:0
+        name: '&bMilk 5 Cows'
+        lore:
+          - '&7Milk 5 cows'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '10':
+      type: damage
+      variable: none
+      name: Hitman
+      requiredProgress: 200
+      expWorth: 100
+      item:
+        item: redstone:0
+        name: '&bDeal 200 Damage to Players'
+        lore:
+          - '&7Deal 200 damage to players'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '11':
+      type: walking
+      variable: none
+      name: Adventurer
+      requiredProgress: 300
+      expWorth: 100
+      item:
+        item: leather_boots:0
+        name: '&bWalk 300 Meters'
+        lore:
+          - '&7Walk 300 meters'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '12':
+      type: command
+      variable: none
+      name: Voter
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: paper:0
+        name: '&bVote 5 Times'
+        lore:
+          - '&7Vote 5 times'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '13':
+      type: propractice_kill
+      variable: none
+      name: Pro OOFer
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: golden_sword:0
+        name: '&bKill 5 Players'
+        lore:
+          - '&7Kill 5 players'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '14':
+      type: propractice_play
+      variable: none
+      name: Hardcore Gamer
+      requiredProgress: 5
+      expWorth: 100
+      item:
+        item: ender_pearl:0
+        name: '&bPlay 5 Matches'
+        lore:
+          - '&7Play 5 matches'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+  '3':
+    '1':
+      type: askyblock_create
+      variable: none
+      name: Starter
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: grass_block:0
+        name: '&bCreate an Island'
+        lore:
+          - '&7Create an island to'
+          - '&7complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '2':
+      type: cratesplus_open
+      variable: example-crate
+      name: 'Try Your Luck'
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: tripwire_hook:0
+        name: '&bOpen an Example-Crate'
+        lore:
+          - '&7Open an example-crate'
+          - '&7to complete this mission.'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+    '3':
+      type: playercommand
+      variable: '/hello'
+      name: 'Greeter'
+      requiredProgress: 1
+      expWorth: 100
+      item:
+        item: command_block:0
+        name: '&bExecute /hello'
+        lore:
+          - '&7Execute the command /hello in the'
+          - '&7over world to complete this mission'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.
+      world-whitelist:
+        - 'world'
+    '4':
+      type: riding
+      variable: horse
+      name: 'Cowboy'
+      requiredProgress: 100
+      expWorth: 100
+      item:
+        item: saddle:0
+        name: '&bRise a Horse 100 Meters'
+        lore:
+          - '&7Ride a horse 100 meters'
+          - '&7to complete this mission'
+          - ''
+          - '&b Information'
+          - '&f&l* &7Exp Value &f100'
+          #- '&f&l* %status%'
+          - '&f&l* &7Progress: %progressbar%' # You may prefer to use the %status% placeholder instead of these symbols.

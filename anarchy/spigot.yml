@@ -33,12 +33,16 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  unknown-command: '&4| &7Неизвестная команда!'
+  whitelist: '&2NetherCraft: &4На сервере ведутся тех. работы! Следите за новостями
+    в группе ВК!'
+  server-full: '&2NetherCraft: &4Сервер переполнен, попробуйте зайти позднее!'
+  outdated-client: '&2NetherCraft: &4Ваша версия игры устарела, пожалуйста, используйте:
+    {0}'
+  outdated-server: '&2NetherCraft: &4Сервер работает на версии: {0}. Пожалуйста, войдите
+    с этой версии.'
+  restart: '&2NetherCraft: &4Перезапуск сервера! Перезапуск занимает в среднем 1.5
+    минуты!'
 advancements:
   disable-saving: false
   disabled:

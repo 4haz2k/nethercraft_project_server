@@ -1,3 +1,0 @@
-#Игнорировать плагины на отключение или включение пример >
-#[Essentials, EssentialsSpawn, AnarchyPlugins]
-ignored-plugins: [AnarchyPlugins, Essentials]

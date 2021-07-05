@@ -1,0 +1,105 @@
+title: BattlePass | Tier %first_tier% - %last_tier%
+rows: 5
+sound: anvil_use
+items:
+  nextPage:
+    slot: 6
+    row: 5
+    item: arrow:0
+    name: '&bNext Page &7(Click)'
+    lore:
+      - ''
+      - '&7&o(( Click to go to the next page ))'
+  previousPage:
+    slot: 4
+    row: 5
+    item: arrow:0
+    name: '&bPrevious Page &7(Click)'
+    lore:
+      - ''
+      - '&7&o(( Click to go to the previous page ))'
+  border:
+    item: air:0
+    name: ''
+    lore:
+      - ''
+  filler:
+    item: air:0
+    name: ''
+    lore:
+      - ''
+itemRows:
+  freeRewards:
+    enabled: true
+    row: 1
+    locked:
+      item: furnace_minecart:0
+      name: '&bTier %tier%'
+      lore:
+        - ''
+        - '&7Rewards:'
+        - '%lore%'
+        - ''
+        - '&cLocked'
+    unlocked:
+      item: furnace_minecart:0;glow
+      name: '&bTier %tier%'
+      lore:
+        - ''
+        - '&7Rewards:'
+        - '%lore%'
+        - ''
+        - '&aUnlocked'
+  premiumRewards:
+    row: 3
+    isFree:
+      item: minecart:0
+      name: '&cTier %tier%'
+      lore:
+        - ''
+        - '&7Rewards'
+        - '%lore%'
+        - ''
+        - '&cPurchase the Battle Pass to'
+        - '&cbe able to earn these rewards'
+    isPremium:
+      locked:
+        item: chest_minecart:0
+        name: '&bTier %tier%'
+        lore:
+          - ''
+          - '&7Rewards'
+          - '%lore%'
+          - ''
+          - '&cLocked'
+      unlocked:
+        item: chest_minecart:0;glow
+        name: '&bTier %tier%'
+        lore:
+          - ''
+          - '&7Rewards'
+          - '%lore%'
+          - ''
+          - '&aUnlocked'
+  progressBar:
+    enabled: true
+    row: 2
+    locked:
+      item: black_stained_glass_pane:0
+      name: '&cTier %tier% &cLocked'
+      lore:
+        - ''
+    unlocked:
+      item: lime_stained_glass_pane:0
+      name: '&cTier %tier% &aUnlocked'
+      lore:
+        - ''
+customItems:
+  '1':
+    slot: 5
+    row: 5
+    item: book:0
+    name: '&bHow do the rewards work?'
+    lore:
+      - ''
+      - '&7Very informative information'

@@ -1,0 +1,36 @@
+Debug: false
+Config:
+  Prefix: '&0| &r'
+  Reloaded: '&7The config has been &areloaded&f.'
+  Use-Placeholders-In-Scoreboard-Titles: false
+  RealScoreboard-Disabled-By-Default: false
+  Messages:
+    Scoreboard-Toggle:
+      'ON': '&aВы включили меню.'
+      'OFF': '&cВы выключили меню.'
+  Animations:
+    Title-Delay: 20
+    Loop-Delay: 20
+  Scoreboard-Refresh: 10
+  Disabled-Worlds:
+    - testWorld
+    - ExampleWorld2
+  Bypass-Worlds:
+    - skywarsLobby
+  Scoreboard:
+    world:
+      Switch-Timer: 100
+      Boards:
+        Board1:
+          Title:
+            - '&4&lNether&a&lCraft &4&lProject'
+          Lines:
+            - '%blank%'
+            - ' &fНик: &6%playername%'
+            - ' &fПривилегия: %javascript_prefix%'
+            - '%blank%'
+            - ' &fСервер: &6Хаб'
+            - ' &fОнлайн: &6%bungee_total%'
+            - '%blank%'
+            - ' &fСайт: &6NetherCraft.Fun'
+Version: 8

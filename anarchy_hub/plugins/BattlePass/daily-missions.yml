@@ -1,0 +1,337 @@
+missions:
+  '1':
+    type: break
+    variable: stone
+    name: Daily - Miner
+    requiredProgress: 10
+    expWorth: 100
+    item:
+      item: stone_pickaxe:0
+      name: '&bBreak 10 Stone Blocks'
+      lore:
+        - '&7Break 10 stone blocks'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '2':
+    type: chat
+    variable: Hello World
+    name: Daily - Welcoming
+    requiredProgress: 1
+    expWorth: 100
+    item:
+      item: book:0
+      name: '&bSay ''Hello World'''
+      lore:
+        - '&7Say ''hello world'''
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '3':
+    type: consume
+    variable: enchanted_golden_apple:0
+    name: Daily - A God
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: enchanted_golden_apple:0
+      name: '&bEat 5 God Apples'
+      lore:
+        - '&7Eat 5 god apples'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '4':
+    type: crafting
+    variable: diamond_block:0
+    name: Daily - Rich
+    requiredProgress: 1
+    expWorth: 100
+    item:
+      item: crafting_table:0
+      name: '&bCraft a Diamond Block'
+      lore:
+        - '&7Craft a diamond block'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '5':
+    type: enchanting
+    variable: iron_sword:0
+    name: Daily - Enchanter
+    requiredProgress: 1
+    expWorth: 100
+    item:
+      item: enchanted_book:0
+      name: '&bEnchant an Iron Sword'
+      lore:
+        - '&7Enchant an iron sword'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '6':
+    type: exp
+    variable: none
+    name: Daily - Experienced
+    requiredProgress: 500
+    expWorth: 100
+    item:
+      item: experience_bottle:0
+      name: '&bCollect 500 Experience'
+      lore:
+        - '&7Collect 500 experience'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '7':
+    type: fishing
+    variable: none
+    name: Daily - Fisher
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: fishing_rod:0
+      name: '&bcatch 5 Things'
+      lore:
+        - '&7Catch 5 things'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '8':
+    type: mobkilling
+    variable: zombie
+    name: Daily - Zombie Slayer
+    requiredProgress: 3
+    expWorth: 100
+    item:
+      item: wood_sword:0
+      name: '&bKill 3 Zombies'
+      lore:
+        - '&7Kill 3 zombies'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '9':
+    type: place
+    variable: gold_block:0
+    name: Daily - Flexin'
+    requiredProgress: 10
+    expWorth: 100
+    item:
+      item: gold_block:0
+      name: '&bPlace 10 Gold Blocks'
+      lore:
+        - '&7Place 10 gold blocks'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '10':
+    type: playerkilling
+    variable: none
+    name: Daily - Murderer
+    requiredProgress: 1
+    expWorth: 100
+    item:
+      item: redstone:0
+      name: '&bKill a Player'
+      lore:
+        - '&7Kill a player'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '11':
+    type: shear
+    variable: none
+    name: Daily - Wool Man
+    requiredProgress: 10
+    expWorth: 100
+    item:
+      item: white_wool:0
+      name: '&bShear 10 Sheep'
+      lore:
+        - '&7Shear 10 sheep'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '12':
+    type: smelting
+    variable: gold_ingot
+    name: Daily - Smelter
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: gold_ore:0
+      name: '&bSmelt 5 Gold Ores'
+      lore:
+        - '&7Smelt 5 gold ores'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '13':
+    type: mythicmobs
+    variable: skeletalknight
+    name: Daily - Creature Slayer
+    requiredProgress: 1
+    expWorth: 100
+    item:
+      item: iron_sword:0
+      name: '&bSlay a Skeletal Knight'
+      lore:
+        - '&7Slay a skeletal knight'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '14':
+    type: citizens
+    variable: test_npc
+    name: Daily - Social
+    requiredProgress: 1
+    expWorth: 100
+    item:
+      item: paper:0
+      name: '&bClick an NPC'
+      lore:
+        - '&7Click an npc'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '15':
+    type: taming
+    variable: wolf
+    name: Tamer
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: monster_egg:91
+      name: '&bTame 5 Wolves'
+      lore:
+        - '&7Tame 5 wolves to'
+        - '&7complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '16':
+    type: milking
+    variable: none
+    name: Daily - Milker
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: milk_bucket:0
+      name: '&bMilk 5 Cows'
+      lore:
+        - '&7Milk 5 cows'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '17':
+    type: damage
+    variable: none
+    name: Daily - Hitman
+    requiredProgress: 200
+    expWorth: 100
+    item:
+      item: redstone:0
+      name: '&bDeal 200 Damage to Players'
+      lore:
+        - '&7Deal 200 damage to players'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '18':
+    type: walking
+    variable: none
+    name: Daily - Adventurer
+    requiredProgress: 300
+    expWorth: 100
+    item:
+      item: leather_boots:0
+      name: '&bWalk 300 Meters'
+      lore:
+        - '&7Walk 300 meters'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '19':
+    type: command
+    variable: none
+    name: Daily - Voter
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: paper:0
+      name: '&bVote 5 Times'
+      lore:
+        - '&7Vote 5 times'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '20':
+    type: propractice_kill
+    variable: none
+    name: Daily - Pro OOFer
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: golden_sword:0
+      name: '&bKill 5 Players'
+      lore:
+        - '&7Kill 5 players'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'
+  '21':
+    type: propractice_play
+    variable: none
+    name: Daily - Hardcore Gamer
+    requiredProgress: 5
+    expWorth: 100
+    item:
+      item: ender_pearl:0
+      name: '&bPlay 5 Matches'
+      lore:
+        - '&7Play 5 matches'
+        - '&7to complete this mission.'
+        - ''
+        - '&b Information'
+        - '&f&l* &7Exp Value &f100'
+        - '&f&l* %status%'

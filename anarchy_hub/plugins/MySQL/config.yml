@@ -1,7 +1,7 @@
 host: 'localhost'
 user: 'root'
 password: 'root'
-database: 'nethercraft'
+database: 'newnethercraft'
 port: '3306'
 driver: mysql
 use_SSL: false

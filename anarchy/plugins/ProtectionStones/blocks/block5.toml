@@ -218,11 +218,11 @@ prevent_silk_touch = false
 cost_to_place = 0.0
 
 # Allow protect block item to be smelt in furnaces
-allow_smelt_item = false
+allow_smelt_item = true
 
 # Allows the protection block to be used in crafting recipes
 # You may want it set to false to prevent players decomposing its elements
-allow_use_in_crafting = false
+allow_use_in_crafting = true
 
 [player]
 # Whether or not to allow breaking the protection block with a shift-right click

@@ -1,7 +1,7 @@
 DataSource:
     # What type of database do you want to use?
     # Valid values: SQLITE, MYSQL, POSTGRESQL
-    backend: SQLITE
+    backend: MYSQL
     # Enable the database caching system, should be disabled on bungeecord environments
     # or when a website integration is being used.
     caching: true
@@ -16,13 +16,13 @@ DataSource:
     # Set this option to false at your own risk if and only if you know what you're doing
     mySQLCheckServerCertificate: true
     # Username to connect to the MySQL database
-    mySQLUsername: u1304741_default
+    mySQLUsername: root
     # Password to connect to the MySQL database
-    mySQLPassword: t2bwcTY!
+    mySQLPassword: root
     # Driver Name of the MySQL database
     mySQLDriverClassName: com.mysql.jdbc.Driver
     # Database Name, use with converters or as SQLITE database name
-    mySQLDatabase: u1304741_default
+    mySQLDatabase: newnethercraft
     # Table of the database
     mySQLTablename: authme
     # Column of IDs to sort data
@@ -69,7 +69,7 @@ DataSource:
     poolSize: 10
     # The maximum lifetime of a connection in the pool, default = 1800 seconds
     # You should set this at least 30 seconds less than mysql server wait_timeout
-    maxLifetime: 150
+    maxLifetime: 28800
 ExternalBoardOptions:
     # Column for storing players groups
     mySQLColumnGroup: ''
@@ -103,10 +103,10 @@ settings:
         # The next time the player joins the server, if his IP
         # is the same as last time and the timeout hasn't
         # expired, he will not need to authenticate.
-        enabled: false
+        enabled: true
         # After how many minutes should a session expire?
         # A player's session ends after the timeout or if his IP has changed
-        timeout: 10
+        timeout: 3
     # Message language, available languages:
     # https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md
     messagesLanguage: en
@@ -155,7 +155,7 @@ settings:
             # authentication. The quit location of the player will be overwritten.
             # This is different from "teleportUnAuthedToSpawn" that teleport player
             # to the spawnpoint on join.
-            enabled: false
+            enabled: true
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
             worlds: 

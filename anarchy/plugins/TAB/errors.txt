@@ -1,1 +1,5 @@
 15.06.2021 - 21:49:18 - [TAB v2.8.10] yellow number only accepts numeric values! (Attempted to use "?")
+03.07.2021 - 11:59:02 - [TAB v2.8.10] Failed to download PlaceholderAPI expansions. PlaceholderAPI version: 2.10.9
+03.07.2021 - 11:59:02 - java.lang.NoClassDefFoundError: me/clip/placeholderapi/PlaceholderAPI
+03.07.2021 - 11:59:02 -        at me.neznamy.tab.platforms.bukkit.features.ExpansionDownloader$1$1.run(ExpansionDownloader.java:52)
+03.07.2021 - 11:59:02 -        at java.base/java.lang.Thread.run(Thread.java:834)

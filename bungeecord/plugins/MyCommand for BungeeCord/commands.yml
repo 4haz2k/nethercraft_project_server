@@ -1,0 +1,16 @@
+#MyCommand for BungeeCord, allows you to create TEXT and basics RUN_COMMAND commands. RUN_AS_PROXY act like runcommand but every command get's executed from the console (proxy).
+#Other command type : BROADCAST_TEXT, RAW_TEXT , BROADCAST_RAW_TEXT , TITLE , BROADCAST_TITLE , ADD_PERMISSION, CHANGE_SERVER
+#All fields usable : command , type , text , runcmd , permission-required , permission-node , permission-error , error-message , allowed_servers , broadcast_message_permission_node
+#runcmd special placeholder supported : $delay$ , $text$ , $broadcasttext$ , $multiargs , $arg1 , $arg2 ... $arg9
+#Available PlaceHolders : $player , $ping , $server_name , $server_motd , $uuid , $language , $online , $randomnumber%10% or $randomnumber%5<to>10%
+#Colorcode &1 to &f or $random_color
+hub_tp:
+  command: /hub
+  type: CHANGE_SERVER
+  server_name: hub
+  permission-required: false
+anarchyhub_tp:
+  command: /lobby
+  type: CHANGE_SERVER
+  server_name: anarchyhub
+  permission-required: false

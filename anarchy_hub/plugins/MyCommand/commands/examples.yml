@@ -1,0 +1,10 @@
+# Teleport to another server inside the same network using the following command type (BungeeCord required)
+'hub_tp':
+  command: /hub
+  type: BUNGEE_TP
+  server_name: hub
+
+'anarchyhub_tp':
+  command: /lobby
+    type: BUNGEE_TP
+    server_name: anarchyhub

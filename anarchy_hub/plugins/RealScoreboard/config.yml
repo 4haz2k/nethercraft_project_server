@@ -28,31 +28,17 @@ Config:
             - '%blank%'
             - ' &fНик: &6%playername%'
             - ' &fПривилегия: %javascript_prefix%'
+            - ' &2Сезонный пропуск: &6/sp'
             - '%blank%'
             - ' &fДеньги: &6%money%&a$'
+            - ' &fНаиграно: &6%nethercraft_timehours% часов'
             - '%blank%'
-            - ' &fСервер: &6Анархия 1'
+            - ' &fСервер: &6Лобби: Анархия'
             - ' &fОнлайн: &6%javascript_anarchy_sum%'
             - '%blank%'
             - ' &fСайт: &6NetherCraft.Fun'
             - '%blank%'
         Board2:
-          Title:
-            - '&4&lNether&a&lCraft &4&lProject'
-          Lines:
-            - '%blank%'
-            - ' &fУбито: &a%statistic_player_kills% &fигроков'
-            - ' &fСмертей: &4%statistic_deaths%'
-            - '%blank%'
-            - ' &fНаиграно: &6%nethercraft_timehours% часов'
-            - ' &fПрыжков: &6%statistic_jump%'
-            - '%blank%'
-            - ' &fСервер: &6Анархия 1'
-            - ' &fОнлайн: &6%javascript_anarchy_sum%'
-            - '%blank%'
-            - ' &fСайт: &6NetherCraft.Fun'
-            - '%blank%'
-        Board3:
           Title:
             - '&4&lNether&a&lCraft &4&lProject'
           Lines:

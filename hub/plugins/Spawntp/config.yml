@@ -1,0 +1,5 @@
+options:
+  onWorldChange: true
+  spawnCommand: false
+Worlds:
+  hub: hub , 23.51598259842744 , 66.0 , -0.4890212098004535 , 9.354204E-5 , -0.04295496

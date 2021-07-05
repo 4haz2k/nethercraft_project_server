@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "hasGlow": false,
+    "hasToggleName": false,
+    "hasLookAt": true,
+    "hasMirror": true,
+    "isReversePath": false,
+    "hasToggleHolo": true,
+    "save": false,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxODc2NDMzNDkxNSwKICAicHJvZmlsZUlkIiA6ICJmODRjNmE3OTBhNGU0NWUwODc5YmNkNDllYmQ0YzRlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZXJvYnJpbmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ1OGFjNTc4ZDhkNDZiMDljNjFlNjUwOGNkOTFhNDI3NjA2ODI0MzQ0MjM0ZThlOGViMDgyY2FjMjhiNWI0MCIKICAgIH0KICB9Cn0\u003d",
+    "signature": "Duihxy6vi7CfidX2UhBihyVcYKX0Z91wRHrFW6DQj8zu3jgTOFqqryrDNB/MGsu/vdnfds4HtMJKOGt4el3/2BKz+WUCEN1+JwLIlCsGhVYZyivoFcZ5StXbY4vGzs3vqMiPTH/h/oCnMQWgkVl3fFCogrxzo4hEIjTSVyEA1phK5kG6EqkCPsi4WNYWUzAQt3hH+HxfqsN0tB6KoL2DIKAmICcND/EMDkq2r5PCydUWtxQf7+OJL7NrmYPGrOO1uOqkLC7ooFLUE9Hnv7nloa6/VV3Tmte8WHfN0Ugfd/K/Pl9V16VCmIktyIjE/iQ/aQiQsoAdOvsMOABMDMfM164afELhcqF4NZueMk2rdOvq1zVR9X6YSaloDZr4p1UuGrXRGgYYjji+4YEtLBzPZvAZlUutbGdKjIUWL6KIXiZkK4HOLGNbFiQk1A62vAxHMai3RhbSYaZ4Wd3wa1h+MfagZYRcCh3UB/19zUaWFxvLNlICHmj+aJaczKdFaOXoRMTWD+Z9zEGhCFDVgGM02FMwQ0OSNicmf89jJ4l6US1CJq58V2r7C8H1lTy0ZDwANOxuL8EuLHpcntanNjAZzaZhaaVDoauiZZY/c4ktMdO84/ZjCaQxpr5cNnvRrhwsxXVh3YSK90sYfJC+KZG4ClOL4NPfTPIC43gVbHroASk\u003d",
+    "lines": "\u0026e•-\u0026rНажмите,-чтобы-войти-\u0026e•:\u0026f\u0026lИгроков-\u0026e\u0026l%javascript_survival_sum%:\u0026a\u0026lВыживание",
+    "glowName": "WHITE",
+    "location": {
+      "world": "hub",
+      "x": 19.5,
+      "y": 67.0,
+      "z": 13.5,
+      "yaw": -178.7201,
+      "pitch": 3.2999601
+    },
+    "npcType": "PLAYER",
+    "actions": [
+      "SERVER:survivalhub"
+    ],
+    "npcEquipments": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hasGlow": false,
+    "hasToggleName": false,
+    "hasLookAt": true,
+    "hasMirror": false,
+    "isReversePath": false,
+    "hasToggleHolo": true,
+    "save": false,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxODc2Mjc3NjYwNSwKICAicHJvZmlsZUlkIiA6ICI2MDg1ZWViNzIwYTk0ZTAxYjljN2M2NzA5NTUyYWMyYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaeXRpYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMmNjZTA1ZGQzY2MyMDA4YjhmNzYyMjg5NzdiZGFkODYzZmRmNTAzNGYzZThlYmE5ZTI3YWI2MDM5M2RiZTA3IgogICAgfQogIH0KfQ\u003d\u003d",
+    "signature": "PDZFad0w+3vMaYRliTWv8OhsFS7fVDg0UlMwYIhvkFEbQ7oWWu8Z6wdx83r+gZhfIf5zMjGdBn090U7MtGn3yXxlWSjltq5d7DQyf8cLwK56z78YbNXMzjYJ4Y409Ld3eW56WVwcworNvvPnh9qYOBWD0Uz+z7IsCdihlwSuMNzQrNVaLrsFWE/aMfk4UvXmQ0HrWx2r43hex507I0Ryw8rFZCeCrTO5Qm97vnqYKZtndnyn0IVC89U6b42k5nlnaL0za67Zq7id3F4haBIPujbwnGvFBz7oX5xmYQJ4CrznaVFp4Y5OOkG3IwX9xwfPU3p0CcopsuODOWLOHjA5ZIR3hJKCMDG2jaYPPVRyaYIjXc4M4hlPhPWoSfhR1VRZEuSVPn4YHlHD4cMM+QxfQtEG0t+YGNqg/TpZ1F+IlmyL5ApFOOqAjKcYx8mMMUltQ1ICgjk6KRx02iNKiCwRetaQ4ZmXngPz/Qmd3i6AIC+r+u1xYCewpX4FPZ8Ew6LjAatJa/k/mCId7xUNUmU5UcTRblyvyY5UZx9cB+BBUxJduSZFsyh0554sOeP00phnECPfLz2yjEmAhoFQxIcbQtR5d3AKmUxpVh+LruyQoqM6QGhQt+20YrC5T8fyBIeAr11WlwqU++l7jcYWiDJ3eA+qReG+zClkTXU7T2rHkUU\u003d",
+    "lines": "\u0026e•-\u0026rНажмите,-чтобы-войти-\u0026e•:\u0026f\u0026lИгроков-\u0026e\u0026l%javascript_anarchy_sum%:\u0026c\u0026lАнархия",
+    "glowName": "WHITE",
+    "location": {
+      "world": "hub",
+      "x": 27.5,
+      "y": 67.0,
+      "z": 13.5,
+      "yaw": -180.57635,
+      "pitch": -2.4007282
+    },
+    "npcType": "PLAYER",
+    "actions": [
+      "SERVER:anarchyhub"
+    ],
+    "npcEquipments": {},
+    "customizationMap": {}
+  }
+]

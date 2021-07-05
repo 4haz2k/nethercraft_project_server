@@ -1,6 +1,7 @@
+prevent_proxy_connections: false
 listeners:
-- query_port: 25570
-  motd: '&1Another Bungee server'
+- query_port: 25575
+  motd: '&e-&6*&e-&6*&e-&6*&e-&6*&e-    &4&lNetherCraft &2&lProject    &e-&6*&e-&6*&e-&6*&e-&6*&e-'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -8,10 +9,10 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
-  - hub_anarchy
+  - hub
   bind_local_address: true
   host: 25.84.122.64:25565
-  max_players: 1
+  max_players: 1337
   tab_size: 60
   force_default_server: false
 remote_ping_cache: -1
@@ -29,7 +30,6 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: 0fd4d778-93a8-4bf7-af9a-ff764607ce6a
 player_limit: -1
 ip_forward: true
 groups:
@@ -38,17 +38,21 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 0fd4d778-93a8-4bf7-af9a-ff764607ce6a
 online_mode: false
 forge_support: false
 disabled_commands:
 - disabledcommandhere
 servers:
-  survival_anarchy:
-    motd: survival_anarchy
-    address: 25.84.122.64:25576
+  hub:
+    motd: NetherCraft_Hub
+    address: 25.84.122.64:25566
     restricted: false
-  hub_anarchy:
+  anarchyserver1:
+    motd: anarchyserver1
+    address: 25.84.122.64:25569
+    restricted: false
+  anarchyhub:
     motd: NetherCraft_Hub_Anarchy
-    address: 25.84.122.64:25511
+    address: 25.84.122.64:25572
     restricted: false

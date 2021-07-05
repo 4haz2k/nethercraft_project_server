@@ -1,0 +1,102 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+header:
+- ''
+- '                           &4&lNether&2&lСraft &4&lProject                        '
+- ''
+- ' Общий онлайн: &e&l%bungee_total% &7| &fОнлайн хаба: &e&l%bungee_hub%'
+- ''
+- '&7-----------------------------------'
+footer:
+- '&7-----------------------------------'
+- ''
+- '&fНаш сайт: &ewww.NetherCraft.Fun'
+- '&fНаша группа ВК: &evk.com/nethercraft_project'
+- '&fНаш дискорд: &ediscord.gg/C9eEMHam6N'
+- ''
+yellow-number-in-tablist: ''
+group-sorting-priority-list:
+- admin
+- moderator
+- satana
+- laraye
+- dibbyk
+- default
+Groups:
+  default:
+    tabprefix: '&7Смертный &e| &7'
+  dibbyk:
+    tabprefix: '&2Диббук &e| &2'
+  laraye:
+    tabprefix: '&6Ларая &e| &6'
+  satana:
+    tabprefix: '&4Сатана &e| &4'
+  moderator:
+    tabprefix: '&4Модератор &e| &4'
+  admin:
+    tabprefix: '&4Администратор &e| &4'
+  _OTHER_:
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+Users: null
+classic-vanilla-belowname:
+  enabled: true
+  number: '%health%'
+  text: Здоровье
+enable-collision: true
+revert-collision-rule-in-worlds:
+- revertedworld
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  modify-npc-names: false
+per-world-settings:
+placeholders:
+  afk-yes: ''
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss]'
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+rank-aliases:
+
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld
+  yellow-number:
+  - disabledworld
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%vault_prefix%': 1000
+    '%player_health%': 200
+    '%player_ping%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+sort-players-by-permissions: false
+use-primary-group: true
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+fix-pet-names: false
+per-world-playerlist:
+  enabled: false

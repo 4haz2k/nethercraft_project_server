@@ -1,0 +1,72 @@
+title: BattlePass
+rows: 2
+sound: anvil_use
+
+items:
+  player:
+    slot: 5
+    row: 1
+    premium:
+      item: anvil:0
+      name: '&bSeason 1 Battle Pass'
+      lore:
+        - '&7Premium Battle Pass'
+        - ''
+        - '&7Week &f%week%'
+        - ''
+        - '&b Statistics'
+        - '&f&l* &7Tier &f%tier%'
+        - '&f&l* &7EXP &f%exp%&8/&f%required_exp%'
+    free:
+      item: anvil:0
+      name: '&bSeason 1 Battle Pass'
+      lore:
+        - '&7Free Battle Pass'
+        - ''
+        - '&7Week &f%week%'
+        - ''
+        - '&b Statistics'
+        - '&f&l* &7Tier &f%tier%'
+        - '&f&l* &7EXP &f%exp%&8/&f%required_exp%'
+  rewards:
+    slot: 3
+    row: 1
+    item: chest_minecart:0
+    name: '&bRewards &7(Click)'
+    lore:
+      - ''
+      - '&7&o(( Cool Message ))'
+  missions:
+    slot: 7
+    row: 1
+    item: enchanted_book:0
+    name: '&bMissions &7(Click)'
+    lore:
+      - ''
+      - '&7&o(( Cool Message ))'
+  border:
+    item: air:0
+    name: ''
+    lore:
+      - ''
+  filler:
+    item: air:0
+    name: ''
+    lore:
+      - ''
+customItems:
+  '1':
+    slot: 5
+    row: 2
+    item: book:0
+    name: '&bWhat is the Battle Pass?'
+    lore:
+      - ''
+      - '&7Level up your &bBattle Pass&7 by'
+      - '&7completing challenging missions.'
+      - ''
+      - '&7Be an active player, and in'
+      - '&7return receive amazing rewards.'
+      - ''
+      - '&7You can purchase the premium'
+      - '&bBattle Pass&7 over at our store.'

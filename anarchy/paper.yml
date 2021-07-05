@@ -70,8 +70,7 @@ timings:
   history-length: 3600
   server-name: Unknown Server
 messages:
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
+  no-permission: '&4| &7Вы не можете выполнить эту команду!'
   kick:
     connection-throttle: Connection throttled! Please wait before reconnecting.
     flying-player: Flying is not enabled on this server

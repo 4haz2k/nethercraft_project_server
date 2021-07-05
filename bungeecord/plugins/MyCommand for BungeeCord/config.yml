@@ -1,0 +1,16 @@
+#MyCommand Bungee. Use this plugin to allow users to run bungee commands from server-side Mycommand. Plus, you can create text and runcmd commands, like the server-side MyCommand but with limitation.
+
+PERMISSION_ERROR_MESSAGE: "&cInsufficient permissions"
+
+#The chat listener allow's non-registered commands (register: false) to work. Those type of command make you able to override other plugin commands.
+ENABLE_CHAT_LISTENER: true
+
+#This feature need the chat listener active
+BLOCK_ALL_BUNGEE_COMMANDS_ON_SPECIFIC_SERVER:
+  ENABLE: false
+  ERROR_MESSAGE: "&cSorry, but you can't do that."
+  SERVER_LIST:
+  - ffa
+  ALLOWED_COMMANDS:
+  - /server
+  - /glist
